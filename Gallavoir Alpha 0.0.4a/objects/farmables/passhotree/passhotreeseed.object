@@ -1,0 +1,56 @@
+{
+  "objectName" : "passhotreeseed",
+  "rarity" : "Common",
+  "category" : "farmable",
+  "description" : "A tree with berries that float in water.",
+  "shortdescription" : "Passho Tree Seed",
+  "objectType" : "farmable",
+  "printable" : false,
+  "price" : 600,
+
+  "apexDescription" : "The bitterness reminds me of home...",
+  "avianDescription" : "Dry, yet bitter. A good fruit to peck at.",
+  "floranDescription" : "Floran not like thessse. Very dry.",
+  "glitchDescription" : "Caution. The oxygen content of these berries may lead to premature chasis rust.",
+  "humanDescription" : "Bleh! Anything tastier around?",
+  "hylotlDescription" : "Seems to be of some help to those who cannot breathe underwater like us Hylotl.",
+  "gallavoirDescription" : "The Passho berry tree. Common sight in settlements near water.",
+
+  "inventoryIcon" : "passhotreeseedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "passhotreeseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaces" : [ [-1, 0], [-1, 1], [-1, 2], [-1, 3], [-1, 4], [0, 0], [0, 1], [0, 2], [0, 3], [0, 4], [1, 0], [1, 1], [1, 2], [1, 3], [1, 4] ],
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  "stages" : [
+    {
+      "duration" : [490, 630]
+    },
+    {
+      "duration" : [350, 450]
+    },
+    {
+      "duration" : [280, 360]
+    },
+    {
+      "duration" : [210, 270]
+    },
+    {
+      "duration" : [175, 225]
+    },
+    {
+      "duration" : [175, 225]
+    },
+    {
+      "harvestPool" : "passhotreeHarvest",
+      "resetToStage" : 3
+    }
+  ]
+}

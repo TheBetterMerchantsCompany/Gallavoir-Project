@@ -1,0 +1,32 @@
+{
+  "objectName" : "flaggallavoir",
+  "rarity" : "Common",
+
+  "category" : "crafting",
+  "price" : 100,
+
+  "description" : "The Gallavoir flag. Resistance is futile/, Big Ape!",
+  "shortdescription" : "Gallavoir Flag",
+  "race" : "gallavoir",
+
+  "apexDescription" : "A Gallavoir flag. Perhaps an encampment is nearby?",
+  "avianDescription" : "I've not seen this flag before.",
+  "floranDescription" : "Floran is at peace with flag.",
+  "glitchDescription" : "Statement. The simplistic flag of the Gallavoir.",
+  "humanDescription" : "What kind of flag is this?",
+  "hylotlDescription" : "A simple flag, much our own. It has a strong aura.",
+  "gallavoirDescription" : "The symbol of my people and their struggle against the Apex.",
+
+  "inventoryIcon" : "flaggallavoiricon.png",
+  "orientations" : [
+    {
+      "dualImage" : "flaggallavoir.png:<color>.<frame>",
+      "imagePosition" : [-16, 0],
+      "frames" : 6,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

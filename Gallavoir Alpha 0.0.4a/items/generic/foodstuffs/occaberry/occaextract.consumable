@@ -1,0 +1,16 @@
+{
+  "itemName" : "occaextract",
+  "rarity" : "Common",
+  "inventoryIcon" : "occaextract.png",
+  "description" : "A concentrate of the Occa berry, which makes you quite resistant to flames.",
+  "shortdescription" : "Concentrated Occa Extract",
+  "handPosition" : [8, 0],
+  "effects" : [ [
+      {
+        "effect" : "occafireresist",
+        "duration" : 300
+      }
+    ] ],
+  "emote" : "",
+  "emitters" : [ "stimuse" ]
+}

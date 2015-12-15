@@ -1,0 +1,24 @@
+{
+  "materialId" : 19921,
+  "materialName" : "gplastic",
+  "particleColor" : [112, 72, 39, 255],
+  "itemDrop" : "gplastic",
+  "description" : "Green plastic. Durable, yet light.",
+  "shortdescription" : "Green Plastic Block",
+  "glitchDescription" : "Observation. Hydrocarbons synthesized into solid form.",
+  "floranDescription" : "The green makesss Floran hungry.",
+  "gallavoirdescription" : "The green of this plastic is derived from the chlorophyll from the plants used in it.",
+  "footstepSound" : "/sfx/blocks/footstep_dirt.wav",
+  "health" : 2,
+  "category": "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "gplastic.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : false,
+    "zLevel" : 0
+  }
+}

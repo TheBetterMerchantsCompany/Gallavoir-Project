@@ -1,0 +1,22 @@
+{
+  "itemName" : "payapaberrym",
+  "rarity" : "Common",
+  "inventoryIcon" : "payapaberrym.png",
+  "description" : "The gigantic fruit of the Payapa tree.",
+  "shortdescription" : "Payapa Berry",
+  "handPosition" : [0, -2],
+  "effects" : [ [
+    {
+        "effect" : "foodheal50",
+        "duration" : 30
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 60
+    }
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "learnBlueprintsOnPickup" : [ "payapatreeseed" ]
+}

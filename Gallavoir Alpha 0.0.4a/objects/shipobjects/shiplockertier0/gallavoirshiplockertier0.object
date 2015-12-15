@@ -1,0 +1,51 @@
+{
+  "objectName" : "gallavoirshiplockertier0",
+  "printable" : false,
+  "rarity" : "Common",
+  "objectType" : "noisy",
+  "category" : "decorative",
+  "description" : "You can't store some stuff, can you?",
+  "shortdescription" : "Broken Gallavoir Shiplocker",
+  "race" : "gallavoir",
+  
+  "lightColor" : [102, 61, 61],
+
+  "apexDescription" : "A strange, broken storage locker.",
+  "avianDescription" : "For storing lots of useful items. It looks broken.",
+  "floranDescription" : "Ssssstorage doesssn't work...",
+  "glitchDescription" : "Intrigued. A strange, broken storage locker...",
+  "humanDescription" : "A broken storage hatch.",
+  "hylotlDescription" : "Broken storage.",
+  "gallavoirDescription" : "Crap! It's locked. I'd better figure out how to fix it...",
+  
+  "particleEmitter" : {
+    "emissionRate" : 1,
+    "pixelOrigin" : [164, 27],
+
+    "particle" : {
+      "type" : "textured",
+      "image" : "/objects/ship/emid.png",
+      "size" : 1,
+      "color" : [255, 255, 255, 255],
+      "fade" : 0.0,
+      "initialVelocity" : [0.0, 0],
+      "finalVelocity" : [0.0, 0],
+      "approach" : [0, 0],
+      "timeToLive" : 0.5,
+      "layer" : "front",
+      "fullbright" : true
+    }
+  },
+  "inventoryIcon" : "gallavoirshiplockertier0icon.png",
+  "orientations" : [
+    {
+      "image" : "gallavoirshiplockertier0.png:<color>.<frame>",
+      "imagePosition" : [-16, -8],
+      "frames" : 8,
+      "animationCycle" : 1,
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+    "sounds" : [ "/sfx/interface/ship_error1.wav" ]
+}

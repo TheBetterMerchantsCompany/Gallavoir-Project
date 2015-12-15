@@ -1,0 +1,64 @@
+{
+  "objectName" : "psicrystaltorch",
+  
+  "rarity" : "Common",
+  "category" : "light",
+  "price" : 200,
+
+  "description" : "A crystal levitates above its frame, emitting a bright purple light.",
+  "shortdescription" : "Psi-Crystal Torch",
+  "race" : "gallavoir",
+
+  "apexDescription" : "The crystal is floating in place. It appears to be generating the light.",
+  "avianDescription" : "Where more permanent light is required, the Avians use crystals in place of torches. They last many thousands of years.",
+  "floranDescription" : "Eeerrie glow. Colour of blood.",
+  "glitchDescription" : "Wonder. This crystal appears to float, generating its own gravitational field. It also produces its own light.",
+  "humanDescription" : "The crystal glows but is entirely cold to the touch.",
+  "hylotlDescription" : "Such beautiful technology. How did the Avians learn to harness it?",
+
+  "statusEffects" : [ ],
+
+  "lightColor" : [169, 108, 184],
+
+  "flickerPeriod" : 0.5,
+  "flickerMinIntensity" : 1.0,
+  "flickerMaxIntensity" : 1.10,
+  "flickerPeriodVariance" : 0,
+  "flickerIntensityVariance" : 0,
+
+  "inventoryIcon" : "psicrystaltorchicon.png",
+  "orientations" : [
+    {
+      "image" : "psicrystaltorch.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      
+      "direction" : "left",
+      "flipImages" : true,
+      "animationPosition" : [0, 0],
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "anchors" : [ "background" ]
+    },
+    {
+      "image" : "psicrystaltorch.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      
+      "direction" : "right",
+      "animationPosition" : [0, 0],
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "animation" : "psicrystaltorch.animation",
+  "animationParts" : {
+    "bg" : "psicrystaltorch.png",
+    "fg" : "psicrystaltorchlit.png"
+  },
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "inboundNodes" : [ [0, 0] ]
+}

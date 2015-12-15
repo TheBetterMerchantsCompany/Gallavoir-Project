@@ -1,0 +1,9 @@
+{
+  "name" : "occafireresist",
+  "effectConfig" : {},
+  "defaultDuration" : 10.0,
+
+  "scripts" : [
+    "occafireresist.lua"
+  ]
+}

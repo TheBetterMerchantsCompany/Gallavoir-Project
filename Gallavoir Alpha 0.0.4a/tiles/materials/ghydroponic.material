@@ -1,0 +1,26 @@
+{
+  "materialId" : 19925,
+  "materialName" : "ghydroponic",
+  "particleColor" : [112, 72, 39, 255],
+  "itemDrop" : "ghydroponic",
+  "description" : "A Hydroponic Block. I think I can till this",
+  "shortdescription" : "Hydroponic Block",
+  "glitchDescription" : "Statement. Hydroponics. Best used as a soil replacement.",
+  "floranDescription" : "Hard metal can grow cropsss?",
+  "gallavoirdescription" : "A perfect example of reclaimed technology - soil-less crops.",
+  "footstepSound" : "/sfx/blocks/footstep_dirt.wav",
+  "tillableMod" : 31,
+  "soil" : true,
+  "health" : 2.3,
+  "category": "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "ghydroponic.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : false,
+    "zLevel" : 0
+  }
+}

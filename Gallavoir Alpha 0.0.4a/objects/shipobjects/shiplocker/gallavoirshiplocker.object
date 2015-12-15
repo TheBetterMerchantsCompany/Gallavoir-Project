@@ -1,0 +1,39 @@
+{
+  "objectName" : "gallavoirshiplocker",
+  "printable" : false,
+  "rarity" : "Common",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+
+  "category" : "storage",
+  "description" : "Store some stuff, why don't you?",
+  "shortdescription" : "Shiplocker",
+  "race" : "gallavoir",
+  "lightColor" : [102, 61, 61],
+
+  "apexDescription" : "A strange storage locker.",
+  "avianDescription" : "For storing lots of useful items.",
+  "floranDescription" : "Ssssstorage.",
+  "glitchDescription" : "Intrigued. A strange storage locker.",
+  "humanDescription" : "Is that a storage hatch?",
+  "hylotlDescription" : "Storage.",
+  "gallavoirDescription" : "At least it's no longer on the fritz.",
+
+  "inventoryIcon" : "gallavoirshiplockericon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "gallavoirshiplocker.png:<color>.<frame>", "fullbright" : true }, { "image" : "gallavoirshiplockerlit.png:<color>.<frame>" } ],
+      "imagePosition" : [-16, -8],
+      "frames" : 8,
+      "animationCycle" : 1.0,
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+  "openSounds" : [ "/sfx/objects/chest_small_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/chest_small_close.wav" ],
+  "slotCount" : 64,
+  "uiConfig" : "/interface/chests/chest%slots%.config",
+  "frameCooldown" : 11,
+  "autoCloseCooldown" : 3600
+}

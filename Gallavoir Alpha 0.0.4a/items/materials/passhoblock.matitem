@@ -1,0 +1,12 @@
+{
+  "itemName" : "passhoblock",
+  "rarity" : "Common",
+  "inventoryIcon" : "passhoblock.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "A bag of lightweight Passho berries, typically used for construction.",
+  "shortdescription" : "Bag of Passho Berries",
+  "glitchDescription" : "Statement. These fruits are extremely boyant.",
+  "floranDescription" : "Floran is confussed. Who build with fruitsss?",
+  "gallavoirDescription" : "Water-tolerant and bouyant Passho fruits are a common floating device, and decent building material.",
+  "materialId" : 19920
+}

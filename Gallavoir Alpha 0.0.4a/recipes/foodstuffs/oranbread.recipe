@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "oranberrym", "count" : 1 },
+    { "item" : "wheat", "count" : 2 }
+  ],
+  "output" : { "item" : "oranbread", "count" : 1 },
+  "groups" : [ "kitchen", "consumables", "foodhealing" ]
+}

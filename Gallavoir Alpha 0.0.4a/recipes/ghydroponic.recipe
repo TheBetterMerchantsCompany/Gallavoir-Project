@@ -1,0 +1,5 @@
+{
+	"input" : [],
+	"output" : { "item" : "ghydroponic", "count" : 1 },
+	"groups" : [ "plain", "all", "materials" ]
+}

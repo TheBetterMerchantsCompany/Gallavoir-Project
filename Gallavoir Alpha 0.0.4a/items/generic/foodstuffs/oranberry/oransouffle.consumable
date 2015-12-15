@@ -1,0 +1,25 @@
+{
+  "itemName" : "oransouffle",
+  "rarity" : "Common",
+  "inventoryIcon" : "oransouffle.png",
+  "description" : "A fluffy souffle, topped with an Oran berry.",
+  "shortdescription" : "Oran Souffle",
+  "handPosition" : [0, 6],
+  "effects" : [ [
+    {
+        "effect" : "runboost25",
+        "duration" : 30
+    },
+    {
+        "effect" : "foodheal120",
+        "duration" : 60
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 120
+    }
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

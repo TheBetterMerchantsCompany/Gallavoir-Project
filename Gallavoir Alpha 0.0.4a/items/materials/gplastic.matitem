@@ -1,0 +1,12 @@
+{
+  "itemName" : "gplastic",
+  "rarity" : "Common",
+  "inventoryIcon" : "gplastic.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Green plastic. Durable, yet light.",
+  "shortdescription" : "Green Plastic Block",
+  "glitchDescription" : "Observation. Hydrocarbons synthesized into solid form.",
+  "floranDescription" : "The green makesss Floran hungry.",
+  "gallavoirdescription" : "The green of this plastic is derived from the chlorophyll from the plants used in it.",
+  "materialId" : 19921
+}

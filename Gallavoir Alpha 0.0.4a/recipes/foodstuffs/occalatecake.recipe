@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "occalate", "count" : 1 },
+    { "item" : "wheat", "count" : 1 },
+    { "item" : "sugar", "count" : 3 },
+    { "item" : "milk", "count" : 1 },
+    { "item" : "egg", "count" : 2 }
+	],
+  "output" : { "item" : "occalatecake", "count" : 1 },
+  "groups" : [ "kitchen", "consumables", "foodhealing", "foodmobility" ]
+}

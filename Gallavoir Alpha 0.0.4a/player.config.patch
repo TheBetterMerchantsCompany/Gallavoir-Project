@@ -1,0 +1,8 @@
+[
+{ "op" : "add", "path" : "/species/-",
+"value" : "gallavoir" 
+},
+{"op": "add", "path": "/statusControllerSettings/stats/occaFireArmor",
+"value": { "baseValue" : 1.0 }
+}
+]

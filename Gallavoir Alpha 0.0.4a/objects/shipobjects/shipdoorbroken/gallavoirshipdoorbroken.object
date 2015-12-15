@@ -1,0 +1,32 @@
+{
+  "objectName" : "gallavoirshipdoorBroken",
+  "printable" : false,
+  "rarity" : "Common",
+  "objectType" : "noisy",
+  "category" : "decorative",
+  "description" : "A door. Possibly suitable for a spaceship.",
+  "shortdescription" : "Broken Gallavoir Ship Door",
+  "race" : "gallavoir",
+
+  "apexDescription" : "We use these doors on our ships.",
+  "avianDescription" : "A door.",
+  "floranDescription" : "Door!",
+  "glitchDescription" : "Statement. A door.",
+  "humanDescription" : "Cool door.",
+  "hylotlDescription" : "A basic door.",
+  "gallavoirDescription" : "A broken ship door. A sad sight indeed...",
+  
+  "inventoryIcon" : "gallavoirshipdoorbrokenicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "gallavoirshipdoorBroken.png:default",
+      "imagePosition" : [-20, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ],
+      "collision" : "solid",
+      "collisionSpaces" : [ [-1, 0], [0, 0], [-1, 1], [0, 1], [-1, 2], [0, 2], [-1, 3], [0, 3], [-1, 4], [0, 4] ]
+    }
+  ],
+  "sounds" : [ "/sfx/interface/ship_error1.wav" ]
+}

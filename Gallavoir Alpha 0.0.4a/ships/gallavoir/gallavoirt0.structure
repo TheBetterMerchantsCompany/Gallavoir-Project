@@ -1,0 +1,23 @@
+{
+  "config" : {
+    "shipUpgrades" : {
+      "capabilities" : [],
+      "maxFuel" : 1000
+    }
+  },
+
+  "backgroundOverlays" : [
+    {
+      "image" : "gallavoirt1ship.png",
+      "position" : [0, 0],
+      "fullbright" : true
+    },
+    {
+      "image" : "gallavoirt1lit.png",
+      "position" : [0, 0]
+    }
+  ],
+
+  "blockKey" : "blockKey.config:blockKey",
+  "blockImage" : "gallavoirt0blocks.png"
+}

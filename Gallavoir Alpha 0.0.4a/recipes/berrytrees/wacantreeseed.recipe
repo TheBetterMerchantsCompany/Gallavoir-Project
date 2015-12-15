@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "wacanberrym", "count" : 1 }
+  ],
+  "output" : { "item" : "wacantreeseed", "count" : 1 },
+  "groups" : [ "plain" ]
+}

@@ -1,0 +1,22 @@
+{
+  "itemName" : "oranbread",
+  "rarity" : "Common",
+  "inventoryIcon" : "oranbread.png",
+  "description" : "Fluffy bread, made with an Oran berry.",
+  "shortdescription" : "Oran Bread",
+  "handPosition" : [0, 6],
+  "effects" : [ [
+    {
+        "effect" : "foodheal20",
+        "duration" : 60
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 105
+    }
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "learnBlueprintsOnPickup" : [ "oransouffle" ]
+}

@@ -1,0 +1,47 @@
+{
+  "objectName" : "gallavoirshipdoor",
+  "rarity" : "Common",
+
+  "category" : "door",
+  "price" : 625,
+  "description" : "A door. Possibly suitable for a spaceship.",
+  "shortdescription" : "Gallavoir Ship Door",
+  "race" : "avian",
+
+  "apexDescription" : "We use these doors on our ships.",
+  "avianDescription" : "A door.",
+  "floranDescription" : "Door!",
+  "glitchDescription" : "Statement. A door.",
+  "humanDescription" : "Cool door.",
+  "hylotlDescription" : "A basic door.",
+  "gallavoirDescription" : "The sleek form of the door from a Gallavoir ship.",
+  
+  "inventoryIcon" : "gallavoirshipdooricon.png",
+  "orientations" : [
+    {
+      "dualImage" : "gallavoirshipdoor.png:default",
+      "imagePosition" : [-20, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/door/door.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "open" : [ "/sfx/objects/apexcooldoor_open.wav" ],
+      "close" : [ "/sfx/objects/apexcooldoor_close.wav" ]
+    }
+  },
+  "animationParts" : {
+    "door" : "gallavoirshipdoor.png"
+  },
+  "animationPosition" : [-20, 0],
+
+  "inboundNodes" : [ [-1, 4] ],
+  "outboundNodes" : [ [0, 0] ]
+}

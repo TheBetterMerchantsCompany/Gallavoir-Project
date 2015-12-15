@@ -1,0 +1,41 @@
+{
+  "objectName" : "gallavoirfuelhatchbroken",
+  "printable" : false,
+  "rarity" : "Common",
+  "objectType" : "container",
+  "description" : "Would accept many kinds of fuel if it wasn't broken. Foreign design.",
+  "shortdescription" : "Broken Fuel Hatch",
+  "race" : "gallavoir",
+  "lightColor" : [102, 61, 61],
+
+  "apexDescription" : "Converts fuel into freedom.",
+  "avianDescription" : "Let's load it up and take to the stars!",
+  "floranDescription" : "Let'ss get going!",
+  "glitchDescription" : "Excited. Once filled, we may visit another planet.",
+  "humanDescription" : "A fuel panel. We can fill this up and explore.",
+  "hylotlDescription" : "Fuel is the lifeblood of exploration.",
+  "gallavoirDescription" : "A fuel port common in ships of any Gallavoir fleet. This one is broken, though.",
+
+  "inventoryIcon" : "gallavoirfuelhatchbrokenicon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "gallavoirfuelhatchbroken.png:<color>.<frame>", "fullbright" : true }, { "image" : "gallavoirfuelhatchbrokenlit.png:<color>.<frame>" } ],
+
+      "imagePosition" : [-8, -16],
+      "frames" : 1,
+      "animationCycle" : 0.7,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "hasWindowIcon" : false,
+  "recipeGroup" : "fuel",
+  "slotCount" : 6,
+  "uiConfig" : "/interface/fuel/fuel.config",
+  "autoCloseCooldown" : 3600,
+  "frameCooldown" : 5,
+  
+  "triggerKeys" : [ "newfuelhatch" ]
+}

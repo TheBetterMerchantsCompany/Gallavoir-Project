@@ -1,0 +1,33 @@
+{
+  "itemName" : "orantrufflespicy",
+  "rarity" : "Common",
+  "inventoryIcon" : "orantrufflespicy.png",
+  "description" : "Chocolate that will melt your mouth.",
+  "shortdescription" : "Spicy Oran Truffle",
+  "handPosition" : [0, 6],
+  "effects" : [ [
+    {
+        "effect" : "runboost",
+        "duration" : 30
+    },
+	{
+        "effect" : "jumpboost25",
+        "duration" : 30
+    },
+	{
+        "effect" : "burning",
+        "duration" : 30
+    },
+	{
+        "effect" : "foodheal70",
+        "duration" : 60
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 90
+    }
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

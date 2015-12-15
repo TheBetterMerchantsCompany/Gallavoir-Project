@@ -1,0 +1,6 @@
+[
+	{ "op" : "add"
+	,"path" : "/speciesShips/gallavoir"
+	,"value" : [ "/ships/gallavoir/gallavoirt0.structure", "/ships/gallavoir/gallavoirt1.structure", "/ships/gallavoir/gallavoirt2.structure", "/ships/gallavoir/gallavoirt3.structure", "/ships/gallavoir/gallavoirt4.structure", "/ships/gallavoir/gallavoirt5.structure", "/ships/gallavoir/gallavoirt6.structure", "/ships/gallavoir/gallavoirt7.structure", "/ships/gallavoir/gallavoirt8.structure" ]
+	}
+]

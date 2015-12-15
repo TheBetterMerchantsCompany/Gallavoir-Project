@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "occabeans", "count" : 10 }
+  ],
+  "output" : { "item" : "occaextract", "count" : 1 },
+  "groups" : [ "kitchen", "consumables", "foodhealing" ]
+}

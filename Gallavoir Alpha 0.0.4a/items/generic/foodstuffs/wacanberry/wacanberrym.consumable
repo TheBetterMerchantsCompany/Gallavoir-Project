@@ -1,0 +1,22 @@
+{
+  "itemName" : "wacanberrym",
+  "rarity" : "Common",
+  "inventoryIcon" : "wacanberrym.png",
+  "description" : "The shocking fruit of the Wacan tree.",
+  "shortdescription" : "Wacan Berry",
+  "handPosition" : [0, -2],
+  "effects" : [ [
+    {
+        "effect" : "foodheal50",
+        "duration" : 30
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 60
+    }
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "learnBlueprintsOnPickup" : [ "wacantreeseed" ]
+}

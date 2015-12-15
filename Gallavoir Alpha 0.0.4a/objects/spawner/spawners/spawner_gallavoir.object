@@ -1,0 +1,55 @@
+{
+  "objectName" : "spawnergallavoir",
+  "rarity" : "Common",
+  "objectType" : "wire",
+  "description" : "Spawn your very own gallavoir villager!",
+  "shortdescription" : "gallavoir Spawner",
+  "race" : "human",
+  "printable" : false,
+  "category" : "spawner",
+  "price" : 300,
+
+  "apexDescription" : "This will let me summon one of my people.",
+  "avianDescription" : "Hey, a gallavoir spawner!",
+  "floranDescription" : "gallavoir sssspawner!",
+  "glitchDescription" : "Observation. gallavoir spawner",
+  "humanDescription" : "A living gallavoir? Creepy!",
+  "hylotlDescription" : "Dummies are dummies.",
+
+  "inventoryIcon" : "defaulticon.png",
+  "orientations" : [
+    {
+      "image" : "spawner_gallavoir.png",
+      "imagePosition" : [-8, -8],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/spawner/spawners/spawner.lua" ],
+  "scriptDelta" : 1,
+  //6000,
+
+  "animation" : "/objects/spawner/spawners/gallavoir.animation",
+
+  "animationParts" : {
+    "switch" : "spawner_gallavoir.png"
+  },
+  "animationPosition" : [-8, -8],
+
+  "inboundNodes" : [ ],
+  "outboundNodes" : [ ],
+
+  "spawner" : {
+    "searchRadius" : 32.0,
+    "npcSpeciesOptions" : [ "gallavoir" ],
+    "npcTypeOptions" : [ "humanvillager" ],
+    "npcParameterOptions" : [
+      {
+        "dropPools" : [ ]
+      }
+    ]
+  }
+
+}

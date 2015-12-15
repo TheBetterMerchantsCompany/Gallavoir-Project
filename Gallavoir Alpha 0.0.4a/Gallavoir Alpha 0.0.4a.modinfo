@@ -1,0 +1,14 @@
+{
+	"name" : "Gallavoir",
+	"path" : ".",
+	"version" : "Beta v. Glad Giraffe",
+	"requires" : [],
+	"includes" : [],
+	"metadata" : {
+		"displayName" : "Gallavoir Alpha",
+		"author" : "Mackinz",
+		"version" : "Alpha 0.0.4a",
+		"description" : "Play as a Gardevoir and Gallade-inspired character!",
+		"thanks" : "laz2727 for being amazing, SixtySeventy for arting, Dragonith for the AI, and you for playing."
+	}
+}

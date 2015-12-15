@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "steelbar", "count" : 20 },
+    { "item" : "money", "count" : 750 }
+  ],
+  "output" : {
+    "item" : "spawnergallavoir",
+    "count" : 1
+  },
+  "groups" : [ "mod" ]
+}

@@ -1,0 +1,42 @@
+{
+  "objectName" : "gallavoirtechstation",
+  "printable" : false,
+  "rarity" : "Common",
+
+  "interactAction" : "OpenAiInterface",
+
+  "category" : "decorative",
+  "lightColor" : [102, 61, 61],
+  "lightPosition" : [-1, 0],
+
+  "description" : "This tech station allows me to communicate with R.A.L.T.S. and enable tech!",
+  "shortdescription" : "Tech Station",
+  "race" : "avian",
+
+  "apexDescription" : "A tech station. I can enable tech and talk to the ship AI through this.",
+  "avianDescription" : "I can use this station to enable tech and talk to this ships AI.",
+  "floranDescription" : "Floran use thisss for magiccc and talk to sshhip AI!",
+  "glitchDescription" : "Informative. This tech station allows me to choose tech and communicate with its AI.",
+  "humanDescription" : "A tech station. Allows me to communicate with an AI and enable tech!",
+  "hylotlDescription" : "This tech station enables tech and allows me to communicate with an AI.",
+  "gallavoirDescription" : "A Gallavoir Tech Station. With it, I can maintain my tech and nanosuits while talking with R.A.L.T.S.",
+  
+  "inventoryIcon" : "gallavoirtechstationicon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "gallavoirtechstation.png:<color>.<frame>", "fullbright" : true }, { "image" : "gallavoirtechstationlit.png:<color>.<frame>" } ],
+      "imagePosition" : [-16, -8],
+      "frames" : 8,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+  "scripts" : [
+    "/objects/spawner/shipPetSpawner.lua"
+  ],
+  "scriptDelta" : 20,
+  "shipPetType" : "petbunny",
+  "spawnOffset" : [12, -1]
+}

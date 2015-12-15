@@ -1,0 +1,56 @@
+{
+  "objectName" : "orantreeseed",
+  "rarity" : "Common",
+  "category" : "farmable",
+  "description" : "A tree that produces berries of mixed flavours.",
+  "shortdescription" : "Oran Tree Seed",
+  "objectType" : "farmable",
+  "printable" : false,
+  "price" : 600,
+
+  "apexDescription" : "A strange tree that grows a decadent berry.",
+  "avianDescription" : "A true gift from the gods.",
+  "floranDescription" : "Floran make exception for thessse fruitsss.",
+  "glitchDescription" : "Curiousity. This tree produces berries with strong healing capabilities.",
+  "humanDescription" : "The berries from this thing make me want to go relax in a hot spa!",
+  "hylotlDescription" : "A strange tree whose fruit even sate our refined palette.",
+  "gallavoirDescription" : "A common Oran berry tree.",
+
+  "inventoryIcon" : "orantreeseedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "orantreeseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaces" : [ [-3, 5], [-2, 1], [-2, 2], [-2, 3], [-2, 4], [-2, 5], [-2, 6], [-1, 1], [-1, 2], [-1, 3], [-1, 4], [-1, 5], [-1, 6], [-1, 6.5], [0, 0], [0, 1], [0, 2], [0, 3], [0, 4], [0, 5], [0, 6], [0, 7], [1, 0], [1, 1], [1, 2], [1, 3], [1, 4], [1, 5], [1, 6], [1, 7], [2, 1], [2, 2], [2, 3], [2, 4], [2, 5], [2, 6], [2, 7], [3, 2], [3, 3], [3, 4], [3, 5], [3, 6], [4, 2] ],
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  "stages" : [
+    {
+      "duration" : [210, 350]
+    },
+    {
+      "duration" : [150, 250]
+    },
+    {
+      "duration" : [120, 200]
+    },
+    {
+      "duration" : [90, 150]
+    },
+    {
+      "duration" : [75, 125]
+    },
+    {
+      "duration" : [75, 125]
+    },
+    {
+      "harvestPool" : "orantreeHarvest",
+      "resetToStage" : 3
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "itemName" : "ghydroponic",
+  "rarity" : "Common",
+  "inventoryIcon" : "ghydroponic.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "What looks like solid metal actually contains an abundance of fluid and nutrients.",
+  "shortdescription" : "Hydroponic Tech",
+  "glitchDescription" : "Statement. Hydroponics. Best used as a soil replacement.",
+  "floranDescription" : "Hard metal can grow cropsss?",
+  "gallavoirDescription" : "A perfect example of reclaimed Apex technology - soil-less crops.",
+  "materialId" : 19925
+}

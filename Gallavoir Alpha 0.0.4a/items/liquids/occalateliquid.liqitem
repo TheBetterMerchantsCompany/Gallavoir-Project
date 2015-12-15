@@ -1,0 +1,11 @@
+{
+  "itemName" : "occalateliquid",
+  "rarity" : "Common",
+  "inventoryIcon" : "occalateliquidicon.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "shortdescription" : "Occalate Brew",
+  "description" : "Brewed Occa Beans. Can't drink it like this.",
+
+  "liquid" : "liquidoccalate",
+  "learnBlueprintsOnPickup" : [ "occalatehot" ]
+}

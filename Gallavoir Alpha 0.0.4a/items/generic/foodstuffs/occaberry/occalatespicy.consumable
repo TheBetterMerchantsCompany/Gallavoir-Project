@@ -1,0 +1,26 @@
+{
+  "itemName" : "occalatespicy",
+  "rarity" : "Common",
+  "inventoryIcon" : "occalatespicy.png",
+  "description" : "It took a crazy person to add unrefined Occa Beans to Occalate. It'll burn your mouth while you run around!",
+  "shortdescription" : "Spicy Occalate",
+  "handPosition" : [8, -4],
+  "effects" : [ [
+    {
+        "effect" : "runboost",
+        "duration" : 30
+    },
+	{
+        "effect" : "jumpboost25",
+        "duration" : 30
+    },
+	{
+        "effect" : "burning",
+        "duration" : 30
+    },	
+    {
+        "effect" : "wellfed",
+        "duration" : 60
+    }
+  ] ]
+}

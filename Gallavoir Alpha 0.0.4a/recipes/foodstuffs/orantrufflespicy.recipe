@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "orantruffle", "count" : 1 },
+    { "item" : "occabeans", "count" : 1 }
+  ],
+  "output" : { "item" : "orantrufflespicy", "count" : 1 },
+  "groups" : [ "kitchen", "consumables", "foodhealing", "foodmobility" ]
+}

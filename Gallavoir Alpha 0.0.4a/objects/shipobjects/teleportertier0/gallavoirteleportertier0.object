@@ -1,0 +1,33 @@
+{
+  "objectName" : "gallavoirteleportertier0",
+  "printable" : false,
+  "rarity" : "Common",
+  "objectType" : "noisy",
+  "category" : "decorative",
+  "description" : "Trusty teleporter, what would I do without you? Of a foreign design.",
+  "shortdescription" : "Teleporter",
+  "race" : "gallavoir",
+
+  "apexDescription" : "Teleporting feels like riding a rollercoaster at the speed of light.",
+  "avianDescription" : "Teleporting feels like flying. It's off.",
+  "floranDescription" : "Floran feel confusssed during teleport.",
+  "glitchDescription" : "Educate. I set myself to sleep during the teleport process.",
+  "humanDescription" : "Teleporting is a huge rush.",
+  "hylotlDescription" : "Teleporting feels like diving into the ocean from a mountain top.",
+  "gallavoirDescription" : "Teleporting is an enjoyable, natural-feeling experience for us... but this teleporter is non-functional at this time. I should see to fixing it.",
+
+  "inventoryIcon" : "gallavoirteleportertier0icon.png",
+  "orientations" : [
+    {
+      "image" : "gallavoirteleportertier0.png:<color>",
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "solid"
+    }
+  ],
+  "sounds" : [ "/sfx/interface/ship_error1.wav" ]
+}

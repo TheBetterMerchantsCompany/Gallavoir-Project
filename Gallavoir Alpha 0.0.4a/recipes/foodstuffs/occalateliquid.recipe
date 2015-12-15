@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "occabeans", "count" : 2 },
+    { "item" : "sugar", "count" : 1 },
+    { "item" : "liquidwater", "count" : 1 }
+  ],
+  "output" : { "item" : "occalateliquid", "count" : 1 },
+  "groups" : [ "kitchen", "consumables", "foodhealing" ]
+}

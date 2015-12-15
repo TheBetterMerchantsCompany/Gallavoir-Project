@@ -1,0 +1,185 @@
+{
+  "kind" : "gallavoir",
+  "nameGen" : [ "/species/gallavoirnamegen.config:names", "/species/gallavoirnamegen.config:names" ],
+  "ouchNoises" : [ "/sfx/humanoid/humanhurt_male1.wav", "/sfx/humanoid/humanhurt_female1.wav" ],
+  "gruntNoises" : [ [ "/sfx/humanoid/humangrunt1.wav", "/sfx/humanoid/humangrunt2.wav" ], [ "/sfx/humanoid/humangrunt1.wav", "/sfx/humanoid/humangrunt2.wav" ] ],
+  "charGenTextLabels" : [ "SKIN COLOR", "HAIR STYLE", "TOP", "BOTTOM", "FIN&EYE COLOR", "DARK COLOR", "TOP COLOR", "BOTTOM COLOR", "GALLAVOIR", "PERSONALITY" ],
+  "skull" : "/humanoid/GALLAVOIR/dead.png",
+  "defaultBlueprints" : {
+    "tier1" : [
+      { "item" : "apextier1hammer" },
+      { "item" : "apextier1shortsword" },
+      { "item" : "apextier1broadsword" },
+      { "item" : "apextier1spear" },
+      { "item" : "apextier1axe" },
+      { "item" : "apextier1dagger" },
+      { "item" : "apextier1head" },
+      { "item" : "apextier1chest" },
+      { "item" : "apextier1pants" },
+      { "item" : "apexcommanderjacket" },
+      { "item" : "apexcommanderpants" },
+      { "item" : "apexnavyjacket" },
+      { "item" : "apexnavypants" },
+      { "item" : "apexofficerjacket" },
+      { "item" : "apexofficerpants" },
+      { "item" : "apexspecialistjacket" },
+      { "item" : "apexspecialistpants" },
+	  { "item" : "kimonochest" },
+      { "item" : "kimonolegs" },
+      { "item" : "monkchest" },
+      { "item" : "monklegs" },
+      { "item" : "traditionalchest" },
+      { "item" : "traditionallegs" },
+      { "item" : "traineechest" },
+      { "item" : "traineelegs" },
+
+	  { "item" : "gallavoirstarter" },
+      { "item" : "flaggallavoir" },
+	  { "item" : "ghydroponic" },
+      
+      { "item" : "apextier2hammer" },
+      { "item" : "apextier2shortsword" },
+      { "item" : "apextier2broadsword" },
+      { "item" : "apextier2spear" },
+      { "item" : "apextier2axe" },
+      { "item" : "apextier2dagger" },
+      { "item" : "apextier2head" },
+      { "item" : "apextier2chest" },
+      { "item" : "apextier2pants" },
+      
+      { "item" : "apextier3head" },
+      { "item" : "apextier3chest" },
+      { "item" : "apextier3pants" },
+      { "item" : "apextier3hammer" },
+      { "item" : "apextier3shortsword" },
+      { "item" : "apextier3broadsword" },
+      { "item" : "apextier3spear" },
+      { "item" : "apextier3axe" },
+      { "item" : "apextier3dagger" },
+      
+      { "item" : "apextier4head" },
+      { "item" : "apextier4chest" },
+      { "item" : "apextier4pants" },
+      { "item" : "apextier4hammer" },
+      { "item" : "apextier4shortsword" },
+      { "item" : "apextier4broadsword" },
+      { "item" : "apextier4spear" },
+      { "item" : "apextier4axe" },
+      { "item" : "apextier4dagger" },
+      
+      { "item" : "apextier5head" },
+      { "item" : "apextier5chest" },
+      { "item" : "apextier5pants" },
+      { "item" : "apextier5dagger" },
+      
+      { "item" : "apextier6head" },
+      { "item" : "apextier6chest" },
+      { "item" : "apextier6pants" },
+      { "item" : "apextier6dagger" },
+      
+      { "item" : "apextier7head" },
+      { "item" : "apextier7chest" },
+      { "item" : "apextier7pants" },
+      
+      { "item" : "apextier8head" },
+      { "item" : "apextier8chest" },
+      { "item" : "apextier8pants" },
+      { "item" : "apextier8hammer" },
+      { "item" : "apextier8shortsword" },
+      { "item" : "apextier8broadsword" },
+      { "item" : "apextier8spear" },
+      { "item" : "apextier8axe" },
+      { "item" : "apextier8dagger" },
+      
+      { "item" : "apextier9head" },
+      { "item" : "apextier9chest" },
+      { "item" : "apextier9pants" },
+      
+      { "item" : "apextier10head" },
+      { "item" : "apextier10chest" },
+      { "item" : "apextier10pants" },
+      { "item" : "apextier10hammer" },
+      { "item" : "apextier10shortsword" },
+      { "item" : "apextier10broadsword" },
+      { "item" : "apextier10spear" },
+      { "item" : "apextier10axe" },
+      { "item" : "apextier10dagger" }
+    ]
+  },
+  "altOptionAsUndyColor" : true,
+  "headOptionAsHairColor" : true,
+  "altOptionAsHairColor" : true,
+  "hairColorAsBodySubColor" : true,
+  "genders" : [
+    {
+      "name" : "male",
+      "image" : "/interface/title/male.png",
+      "characterImage" : "/interface/title/gallavoirmale.png",
+      "hair" : [ "gallade", "gallade2", "gardevoir", "gardevoir2", "megagardevoir", "kirlia", "kirlianohorn", "absol", "bee", "bharatanatyam", "big", "bigears", "bighairears", "emo", "nun1", "nun2", "ponyback", "ponyfront", "prayer1", "puff", "ralts", "raltsnohorn", "raltssharp", "raltssharpnohorn", "raqssharqi", "saiyan", "serperior1", "serperior2", "smallhorn", "male1", "male7", "male10", "male11", "male15", "male17", "male21", "male23", "male24", "male27", "male28", "male29", "male30", "male33", "male34", "male36", "male37", "male38", "male39", "male41", "male43", "male44", "male46", "male47", "male48", "male49", "male50", "male51", "male52", "male54", "male55", "male56", "male57", "male58", "male59", "male60", "male61", "male62", "fem1", "fem3", "fem4", "fem5", "fem7", "fem9", "fem10", "fem11", "fem12", "fem13", "fem14", "fem15", "fem17", "fem18", "fem19", "fem21", "fem22", "fem23", "fem24", "fem25", "fem26", "fem27", "fem31", "fem32", "fem33", "fem35", "fem36", "fem38", "fem40", "fem42", "fem44", "fem46", "fem47", "fem48", "fem51", "fem52", "fem53", "fem54" ],
+      "shirt" : [ "emptychest", "gallavoirstarter1chest", "gallavoirstarter2chest", "gallavoirstarter3chest", "gallavoirstarter4chest", "kimonochest", "monkchest", "traineechest", "traditionalchest", "apexcommanderjacket", "apexnavyjacket", "apexofficerjacket", "apexspecialistjacket" ],
+      "pants" : [ "emptylegs", "gallavoirstarter1legs", "gallavoirstarter2legs", "gallavoirstarter3legs", "gallavoirstarter4legs", "kimonolegs", "monklegs", "traineelegs", "traditionallegs", "apexcommanderpants", "apexnavypants", "apexofficerpants", "apexspecialistpants" ],
+      "facialHairGroup" : "",
+      "facialHair" : [ ],
+      "facialMaskGroup" : "",
+      "facialMask" : [ ]
+    },
+    {
+      "name" : "female",
+      "image" : "/interface/title/female.png",
+      "characterImage" : "/interface/title/gallavoirfemale.png",
+      "hair" : [ "gallade", "gallade2", "gardevoir", "gardevoir2", "megagardevoir", "kirlia", "kirlianohorn", "absol", "bee", "bharatanatyam", "big", "bigears", "bighairears", "emo", "nun1", "nun2", "ponyback", "ponyfront", "prayer1", "puff", "ralts", "raltsnohorn", "raltssharp", "raltssharpnohorn", "raqssharqi", "saiyan", "serperior1", "serperior2", "smallhorn", "male1", "male7", "male10", "male11", "male15", "male17", "male21", "male23", "male24", "male27", "male28", "male29", "male30", "male33", "male34", "male36", "male37", "male38", "male39", "male41", "male43", "male44", "male46", "male47", "male48", "male49", "male50", "male51", "male52", "male54", "male55", "male56", "male57", "male58", "male59", "male60", "male61", "male62", "fem1", "fem3", "fem4", "fem5", "fem7", "fem9", "fem10", "fem11", "fem12", "fem13", "fem14", "fem15", "fem17", "fem18", "fem19", "fem21", "fem22", "fem23", "fem24", "fem25", "fem26", "fem27", "fem31", "fem32", "fem33", "fem35", "fem36", "fem38", "fem40", "fem42", "fem44", "fem46", "fem47", "fem48", "fem51", "fem52", "fem53", "fem54" ],
+      "shirt" : [ "emptychest", "gallavoirstarter1chest", "gallavoirstarter2chest", "gallavoirstarter3chest", "gallavoirstarter4chest", "kimonochest", "monkchest", "traineechest", "traditionalchest", "apexcommanderjacket", "apexnavyjacket", "apexofficerjacket", "apexspecialistjacket" ],
+      "pants" : [ "emptylegs", "gallavoirstarter1legs", "gallavoirstarter2legs", "gallavoirstarter3legs", "gallavoirstarter4legs", "kimonolegs", "monklegs", "traineelegs", "traditionallegs", "apexcommanderpants", "apexnavypants", "apexofficerpants", "apexspecialistpants" ],
+      "facialHairGroup" : "",
+      "facialHair" : [ ],
+      "facialMaskGroup" : "",
+      "facialMask" : [ ]
+    }
+  ],
+  "bodyColor" : [
+    { "ffe2c5" : "ffe9d3", "ffc181" : "FFFFFF", "d39c6c" : "D4D4D4", "c7815b" : "A8A8A8" }, //White
+    { "ffe2c5" : "ffe9d3", "ffc181" : "C8C8C8", "d39c6c" : "A6A6A6", "c7815b" : "888888" }, //LightGrey
+    { "ffe2c5" : "ffe9d3", "ffc181" : "939393", "d39c6c" : "787878", "c7815b" : "656565" }, //Grey
+    { "ffe2c5" : "ffe9d3", "ffc181" : "5C5C5C", "d39c6c" : "424242", "c7815b" : "333333" } //DarkGrey
+  ],
+  "undyColor" : [
+    { "dc1f00" : "E07181", "be1b00" : "D85E6B", "951500" : "C84F5F" }, //GardevoirPink
+    { "dc1f00" : "CF7588", "be1b00" : "BB516D", "951500" : "974359" }, //GalladePink
+	{ "dc1f00" : "F6B859", "be1b00" : "DE873A", "951500" : "C6561B" }, //RaqsSharquiOrange
+	{ "dc1f00" : "6DC2FD", "be1b00" : "65A9EC", "951500" : "1C69A8" }, //BharatanatyamBlue
+    { "dc1f00" : "DFD371", "be1b00" : "D8CF5F", "951500" : "C7BB4F" }, //Golden
+    { "dc1f00" : "74E071", "be1b00" : "5ED85F", "951500" : "51C84F" }, //Green
+    { "dc1f00" : "71E0D0", "be1b00" : "5ED8CB", "951500" : "4FC8B8" }, //LightBlue
+    { "dc1f00" : "7195E0", "be1b00" : "5E81D8", "951500" : "4F75C8" }, //Blue
+    { "dc1f00" : "A271E0", "be1b00" : "985ED8", "951500" : "864FC8" }, //Purple
+    { "dc1f00" : "CC71E0", "be1b00" : "C75ED8", "951500" : "B44FC8" }, //Magenta
+    { "dc1f00" : "B9828A", "be1b00" : "AD7077", "951500" : "9E626A" }, //DullPink
+    { "dc1f00" : "B9B382", "be1b00" : "ADA871", "951500" : "9D9762" }, //DullGold
+    { "dc1f00" : "84B982", "be1b00" : "70AD71", "951500" : "639E62" }, //DullGreen
+    { "dc1f00" : "82B9B1", "be1b00" : "70ADA6", "951500" : "629E96" }, //DullLightBlue
+    { "dc1f00" : "8294B9", "be1b00" : "7082AD", "951500" : "62759E" }, //DullBlue
+    { "dc1f00" : "9A82B9", "be1b00" : "8D70AD", "951500" : "7D629E" }, //DullPurple
+    { "dc1f00" : "AF82B9", "be1b00" : "A470AD", "951500" : "94629E" }, //DullMagenta
+    { "dc1f00" : "949494", "be1b00" : "838383", "951500" : "757575" } //Grey
+  ],
+  "hairColor" : [
+    { "E8DAB8" : "D2E6C8", "d9c189" : "96C985", "a38d59" : "699852", "735e3a" : "608451" }, //GardevoirGreen
+    { "E8DAB8" : "81BCB6", "d9c189" : "6BB582", "a38d59" : "4F9D60", "735e3a" : "487D4C" }, //GalladeGreen
+    { "E8DAB8" : "E7F7CA", "d9c189" : "D3F29F", "a38d59" : "82BF70", "735e3a" : "3B9343" }, //RaqsSharquiGreen
+    { "E8DAB8" : "DDA76E", "d9c189" : "C56931", "a38d59" : "9E4329", "735e3a" : "812822" }, //BharatanatyamOrange
+    { "E8DAB8" : "9EDACD", "d9c189" : "5EC2AB", "a38d59" : "319778", "735e3a" : "34816D" }, //Teal
+    { "E8DAB8" : "A9B1E6", "d9c189" : "707DD5", "a38d59" : "4157A9", "735e3a" : "424F8E" }, //Blue
+    { "E8DAB8" : "D3A5E2", "d9c189" : "B669CF", "a38d59" : "833CA5", "735e3a" : "75408B" }, //Purple
+    { "E8DAB8" : "E3A6BF", "d9c189" : "D06A95", "a38d59" : "A33B71", "735e3a" : "8B3F63" }, //Pink
+    { "E8DAB8" : "DFB7A3", "d9c189" : "CA8765", "a38d59" : "A05238", "735e3a" : "86513B" }, //Orange
+    { "E8DAB8" : "D9C89C", "d9c189" : "C0A45A", "a38d59" : "96712E", "735e3a" : "806734" }, //Yellow
+    { "E8DAB8" : "BAD0B2", "d9c189" : "8CB17F", "a38d59" : "638652", "735e3a" : "59744E" }, //DullGreen
+    { "E8DAB8" : "B2D0C9", "d9c189" : "7FB1A5", "a38d59" : "538676", "735e3a" : "4E746A" }, //DullTeal
+    { "E8DAB8" : "B8BCD6", "d9c189" : "888FBA", "a38d59" : "5B668F", "735e3a" : "555B7A" }, //DullBlue
+    { "E8DAB8" : "CDB6D4", "d9c189" : "AB85B7", "a38d59" : "7C598D", "735e3a" : "6E5479" }, //DullPurple
+    { "E8DAB8" : "D4B6C3", "d9c189" : "B8859B", "a38d59" : "8C5873", "735e3a" : "795365" }, //DullPink
+    { "E8DAB8" : "D3BFB5", "d9c189" : "B59483", "a38d59" : "8A6457", "735e3a" : "765C51" }, //DullOrange
+    { "E8DAB8" : "D0C7B1", "d9c189" : "B0A27D", "a38d59" : "857352", "735e3a" : "73674E" }, //DullYellow
+    { "E8DAB8" : "C7C7C7", "d9c189" : "A1A1A1", "a38d59" : "767676", "735e3a" : "686868" } //Grey
+  ]
+}

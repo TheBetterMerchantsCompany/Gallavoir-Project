@@ -1,0 +1,5 @@
+[
+	{ "op" : "add"
+	,"path" : "/initialcodex/gallavoir"
+	,"value" : [ "controls", "gallavoirprologue", "gallavoirorigins", "gallavoirescape", "survivalguide" ] }
+]

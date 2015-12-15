@@ -1,0 +1,8 @@
+{
+  "itemName" : "occaberrym",
+  "rarity" : "Common",
+  "inventoryIcon" : "occaberrym.png",
+  "description" : "The pod-like fruit of the Occa Tree. Not edible.",
+  "shortdescription" : "Occa Berry",
+  "learnBlueprintsOnPickup" : [ "occabeans", "occatreeseed" ]
+}

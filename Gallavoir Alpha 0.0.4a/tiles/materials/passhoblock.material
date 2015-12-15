@@ -1,0 +1,24 @@
+{
+  "materialId" : 19920,
+  "materialName" : "passhoblock",
+  "particleColor" : [111, 94, 74, 255],
+  "itemDrop" : "passhoblock",
+  "description" : "A bag of lightweight Passho berries, typically used for construction.",
+  "shortdescription" : "Bag of Passho Berries",
+  "glitchDescription" : "Statement. These fruits are extremely boyant.",
+  "floranDescription" : "Floran is confussed. Who build with fruitsss?",
+
+  "footstepSound" : "/sfx/blocks/footstep_rock.wav",
+  "health" : 2,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "passhonetblock.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : false,
+    "zLevel" : 0
+  }
+}
