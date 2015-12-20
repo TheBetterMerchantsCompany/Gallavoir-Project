@@ -1,8 +1,8 @@
 [
 { "op": "add", "path": "/gallavoirStarterTreasure", "value": 
 	[ [0, 
-	  { "fill" : [ {
-		"pool" : "starterTreasure" }, 
+	  { "fill" : [ 
+		{ "pool" : "starterTreasure" }, 
 		{ "item" : [ "gallavoirstarter", 1]},
 		{ "item" : [ "gallavoirstarter", 1]},
 		{ "item" : [ "oranberrym", 3]}

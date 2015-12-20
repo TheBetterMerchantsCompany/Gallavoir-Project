@@ -1,0 +1,17 @@
+{
+  "itemName" : "empathitelight1",
+  "price" : 100,
+  "inventoryIcon" : "empathitelight1icon.png",
+  "rarity" : "Uncommon",
+  "maxStack" : 1,
+  "description" : "A flashlight made from Empathite!",
+  "shortdescription" : "Flashlight",
+  "largeImage" : "empathitelight1large.png",
+  "tooltipKind" : "tool",
+  "image" : "empathitelight1.png",
+  "handPosition" : [-2, 0],
+  "lightPosition" : [4, 0],
+  "lightColor" : [194, 153, 204],
+  "beamLevel" : 7,
+  "beamAmbience" : 0.1
+}

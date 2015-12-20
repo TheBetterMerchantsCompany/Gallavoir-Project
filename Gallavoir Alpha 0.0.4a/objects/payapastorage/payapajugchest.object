@@ -1,0 +1,40 @@
+{
+  "objectName" : "payapajugchest",
+  "colonyTags" : ["gallavoir","gallavoirvillage","storage"],
+  "rarity" : "Common",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+
+  "category" : "storage",
+  "price" : 50,
+  "description" : "A dried Payapa berry, repurposed as storage.",
+  "shortdescription" : "Payapa Storage Jug",
+  "race" : "gallavoir",
+
+  "apexDescription" : "...is that a fruit being used as storage?",
+  "avianDescription" : "This seems like a very useful plant if it can be used to hold other things.",
+  "floranDescription" : "Biiig fruit isss usssed as chessst?",
+  "glitchDescription" : "Curious. A large fruit that has been repurposed as storage.",
+  "humanDescription" : "A small, weird chest! I wonder if there is anything inside.",
+  "hylotlDescription" : "Natural beauty used to store things.",
+  "novakidDescription" : "Weird lookin' plant. Weirder use.",
+  "gallavoirDescription" : "The typical use of a dried Payapa berry is storage.",
+
+  "inventoryIcon" : "payapajugchesticon.png",
+  "orientations" : [
+    {
+      "dualImage" : "payapajugchest.png:<color>.<key>",
+      "imagePosition" : [-4, 0],
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/chest_small_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/chest_small_close.ogg" ],
+  "slotCount" : 3,
+  "uiConfig" : "/interface/chests/chest%slots%.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

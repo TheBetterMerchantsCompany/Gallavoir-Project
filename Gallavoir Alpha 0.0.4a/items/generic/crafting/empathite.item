@@ -1,0 +1,9 @@
+{
+  "itemName" : "empathite",
+  "price" : 80,
+  "rarity" : "Rare",
+  "inventoryIcon" : "empathite.png",
+  "description" : "A fully formed empathite crystal. There is considerably more power within.",
+  "shortdescription" : "Empathite Crystal",
+  "learnBlueprintsOnPickup" : []
+}

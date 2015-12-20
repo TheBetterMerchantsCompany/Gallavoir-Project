@@ -1,0 +1,66 @@
+{
+  "objectName" : "empathitetorch",
+  "colonyTags" : ["gallavoir","gallavoirvillage","light"],
+  "rarity" : "Common",
+  "description" : "A translucent crystal is attatched to a titanium base, emitting a bright purple light.",
+  "shortdescription" : "Empathite Crystal Torch",
+  "race" : "gallavoir",
+
+  "apexDescription" : "This crystal is quite unlike anything Avian. Where does it originate?",
+  "avianDescription" : "My species has harnessed red crystals for lighting. Purple crystals are unknown to me.",
+  "floranDescription" : "Sssoothing glow. Calm colour.",
+  "glitchDescription" : "Curious. The crystal radiates more than light energy. My sensors are detecting strange, non-ionzing radiation.",
+  "humanDescription" : "The crystal glows but is entirely cold to the touch.",
+  "hylotlDescription" : "It is a crystal similar to, yet completely unlike, Avian technology. Captivating.",
+  "novakidDescription" : "This floating shiny rock is glowin' just a like a torch.",
+  "gallavoirDescription" : "An empathite crystal glows softly, lighting up the world around it.",
+  
+  "category" : "light",
+  "price" : 200,
+  "lightColor" : [203, 130, 221],
+
+  "flickerPeriod" : 0.5,
+  "flickerMinIntensity" : 1.0,
+  "flickerMaxIntensity" : 1.10,
+  "flickerPeriodVariance" : 0,
+  "flickerIntensityVariance" : 0,
+
+  "inventoryIcon" : "empathitetorchicon.png",
+  "orientations" : [
+    {
+      "image" : "empathitetorch.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.3,
+      "flipImages" : true,
+      "direction" : "left",
+      "lightPosition" : [0, 0],
+      "animationPosition" : [0, 0],
+      "spaces" : [ [0, 0], [0, 1] ],
+      "anchors" : [ "background" ]
+    },
+    {
+      "image" : "empathitetorch.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.3,
+      "flipImages" : true,
+      "direction" : "right",
+      "lightPosition" : [0, 0],
+      "animationPosition" : [0, 0],
+      "spaces" : [ [0, 0], [0, 1] ],
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "animation" : "/objects/wired/light/lighttogglebgfullbright.animation",
+  "animationParts" : {
+    "bg" : "empathitetorch.png",
+    "fg" : "empathitetorchlit.png"
+  },
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "inboundNodes" : [ [0, 0] ]
+}

@@ -1,0 +1,22 @@
+{
+  "itemName" : "yacheberrym",
+  "rarity" : "Common",
+  "inventoryIcon" : "yacheberrym.png",
+  "description" : "The shocking fruit of the Yache tree.",
+  "shortdescription" : "yache Berry",
+  "handPosition" : [0, -2],
+  "effects" : [ [
+    {
+        "effect" : "foodheal50",
+        "duration" : 30
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 60
+    }
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "learnBlueprintsOnPickup" : [ "yachetreeseed" ]
+}
