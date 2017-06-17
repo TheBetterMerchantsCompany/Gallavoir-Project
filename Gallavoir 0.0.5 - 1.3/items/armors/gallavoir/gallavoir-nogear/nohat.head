@@ -1,0 +1,14 @@
+{
+  "itemName" : "gnohat",
+  "inventoryIcon" : "icons.png:head",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "Feel the breeze on your hair!",
+  "shortdescription" : "No Hat",
+  "tooltipKind" : "armor",
+
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
+  "mask" : "mask.png"
+}

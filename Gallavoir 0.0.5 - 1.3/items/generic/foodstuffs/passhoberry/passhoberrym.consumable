@@ -1,0 +1,22 @@
+{
+  "itemName" : "passhoberrym",
+  "rarity" : "Common",
+  "inventoryIcon" : "passhoberrym.png",
+  "description" : "The bouyant fruit of the Passho tree.",
+  "shortdescription" : "Passho Berry",
+  "handPosition" : [0, -2],
+  "effects" : [ [
+    {
+        "effect" : "foodheal50",
+        "duration" : 30
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 60
+    }
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "learnBlueprintsOnPickup" : [ "passhotreeseed" ]
+}

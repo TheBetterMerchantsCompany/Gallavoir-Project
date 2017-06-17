@@ -1,0 +1,22 @@
+{
+  "itemName" : "gnogear",
+  "inventoryIcon" : "icons.png:chest",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "Be one with your inner self.",
+  "shortdescription" : "No Gear",
+  "tooltipKind" : "armor",
+
+  "maleFrames" : {
+    "body" : "chestm.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+
+  "femaleFrames" : {
+    "body" : "chestf.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "itemName" : "occalatehot",
+  "rarity" : "Uncommon",
+  "inventoryIcon" : "occalatehot.png",
+  "description" : "Deliciously warm Occalate. Sure to refresh, even in the coldest reaches of the universe.",
+  "shortdescription" : "Hot Occalate",
+  "effects" : [ [
+    {
+        "effect" : "frostslow",
+        "duration" : 30
+    },
+    {
+        "effect" : "biomecoldImmunity",
+        "duration" : 30
+    },
+    {
+        "effect" : "occafireresist",
+        "duration" : 60
+    },
+    {
+        "effect" : "foodheal120",
+        "duration" : 45
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 60
+    }
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

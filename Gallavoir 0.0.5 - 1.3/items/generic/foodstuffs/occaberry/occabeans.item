@@ -1,0 +1,8 @@
+{
+  "itemName" : "occabeans",
+  "rarity" : "Common",
+  "inventoryIcon" : "occabeans.png",
+  "description" : "The beans from an Occa berry pod. Very spicy.",
+  "shortdescription" : "Occa Beans",
+  "learnBlueprintsOnPickup" : [ "occalate", "occalatecake", "occaextract", "occalateliquid" ]
+}

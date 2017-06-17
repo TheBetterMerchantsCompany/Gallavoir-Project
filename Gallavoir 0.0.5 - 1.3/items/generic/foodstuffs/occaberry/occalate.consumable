@@ -1,0 +1,23 @@
+{
+  "itemName" : "occalate",
+  "rarity" : "Common",
+  "inventoryIcon" : "occalate.png",
+  "description" : "It took unrefined genius to refine spicy Occa beans into this soothing treat.",
+  "shortdescription" : "Occalate",
+  "handPosition" : [8, -4],
+  "effects" : [ [
+    {
+        "effect" : "runboost25",
+        "duration" : 30
+    },
+    {
+        "effect" : "occafireresist",
+        "duration" : 30
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 60
+    }
+  ] ],
+  "learnBlueprintsOnPickup" : [ "occalatespicy" ]
+}

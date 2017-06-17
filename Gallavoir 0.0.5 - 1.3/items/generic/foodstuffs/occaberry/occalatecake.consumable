@@ -1,0 +1,28 @@
+{
+  "itemName" : "occalatecake",
+  "rarity" : "Uncommon",
+  "inventoryIcon" : "occalatecake.png",
+  "description" : "A delightful slice of Occalate Cake.",
+  "shortdescription" : "Occalate Cake",
+  "effects" : [ [
+    {
+        "effect" : "runboost25",
+        "duration" : 60
+    },
+    {
+        "effect" : "foodheal170",
+        "duration" : 60
+    },
+    {
+        "effect" : "occafireresist",
+        "duration" : 60
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 120
+    }
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "itemName" : "empathitesmall",
+  "price" : 30,
+  "rarity" : "Uncommon",
+  "inventoryIcon" : "empathitesmall.png",
+  "description" : "Shards of empathite. A faint energy can be felt from them.",
+  "shortdescription" : "Empathite Shards",
+  "learnBlueprintsOnPickup" : []
+}

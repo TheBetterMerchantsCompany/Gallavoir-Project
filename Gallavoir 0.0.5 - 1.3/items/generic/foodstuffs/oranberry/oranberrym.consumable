@@ -1,0 +1,22 @@
+{
+  "itemName" : "oranberrym",
+  "rarity" : "Common",
+  "inventoryIcon" : "oranberrym.png",
+  "description" : "The healthy fruit of the Oran Tree.",
+  "shortdescription" : "Oran Berry",
+  "handPosition" : [0, -2],
+  "effects" : [ [
+    {
+        "effect" : "foodheal95",
+        "duration" : 30
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 60
+    }
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "learnBlueprintsOnPickup" : [ "orantruffle", "oranbread", "orantreeseed" ]
+}
