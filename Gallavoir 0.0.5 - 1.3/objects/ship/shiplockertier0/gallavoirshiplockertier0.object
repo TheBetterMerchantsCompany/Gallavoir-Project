@@ -1,0 +1,38 @@
+{
+  "objectName" : "gallavoirshiplockertier0",
+  "colonyTags" : ["gallavoir","storage"],
+  "printable" : false,
+  "rarity" : "Common",
+
+  "category" : "decorative",
+  "description" : "You can't store some stuff, can you?",
+  "shortdescription" : "Broken Gallavoir Shiplocker",
+  "race" : "gallavoir",
+  
+  "lightColor" : [102, 61, 61],
+
+  "apexDescription" : "A strange, broken storage locker.",
+  "avianDescription" : "For storing lots of useful items. It looks broken.",
+  "floranDescription" : "Ssssstorage doesssn't work...",
+  "glitchDescription" : "Intrigued. A strange, broken storage locker...",
+  "humanDescription" : "A broken storage hatch.",
+  "hylotlDescription" : "Broken storage.",
+  "gallavoirDescription" : "Crap! It's locked. I'd better figure out how to fix it...",
+
+  "inventoryIcon" : "gallavoirshiplockertier0icon.png",
+  "orientations" : [
+    {
+      "image" : "gallavoirshiplockertier0.png:<color>.<frame>",
+      "imagePosition" : [-16, -8],
+      "frames" : 8,
+      "animationCycle" : 1,
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+  "animation" : "/objects/noisy/noisy.animation",
+  "scripts" : [
+    "/objects/noisy/noisy.lua"
+  ],
+    "sounds" : [ "/sfx/interface/clickon_error.ogg" ]
+}

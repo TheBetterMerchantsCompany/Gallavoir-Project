@@ -1,0 +1,48 @@
+{
+  "objectName" : "flaggallavoir",
+  "colonyTags" : ["gallavoir"],
+  "printable" : false,
+  "rarity" : "Common",
+  "objectType" : "teleporter",
+  "category" : "teleportMarker",
+  "price" : 70,
+  "radioMessagesOnPickup" : [ "pickupflag" ],
+  
+  "description" : "The Gallavoir flag. Resistance is futile/, Big Ape! Use ^green;[E]^white; to bookmark a teleportation location.",
+  "shortdescription" : "Gallavoir Flag",
+  "race" : "gallavoir",
+
+  "apexDescription" : "A Gallavoir flag. Perhaps an encampment is nearby?",
+  "avianDescription" : "I've not seen this flag before.",
+  "floranDescription" : "Floran is at peace with flag.",
+  "glitchDescription" : "Statement. The simplistic flag of the Gallavoir.",
+  "humanDescription" : "What kind of flag is this?",
+  "hylotlDescription" : "A simple flag, much our own. It has a strong aura.",
+  "gallavoirDescription" : "The symbol of my people and their struggle against the Apex.",
+
+  "interactAction" : "OpenTeleportDialog",
+  "interactData" : "/interface/warping/destinationonly.config",
+  "inventoryIcon" : "flaggallavoiricon.png",
+  "orientations" : [
+    {
+      "image" : "flaggallavoir.png:<color>.<frame>",
+      "flipImages" : true,
+      "direction" : "left",
+      "imagePosition" : [-17, 0],
+      "frames" : 6,
+      "animationCycle" : 1.0,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "flaggallavoir.png:<color>.<frame>",
+      "direction" : "right",
+      "imagePosition" : [1, 0],
+      "frames" : 6,
+      "animationCycle" : 1.0,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+ "soundEffect" : "/sfx/objects/flag_flap_loop.ogg"
+}
