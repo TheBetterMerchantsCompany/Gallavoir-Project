@@ -1,0 +1,10 @@
+[{
+		"op" : "add",
+		"path" : "/species/gallavoir",
+		"value" : {
+			"aiFrames" : "gallavoirAI.png",
+			"portraitFrames" : "portraits/gallavoirportrait.png",
+			"staticFrames" : "staticgallavoir.png"	
+		}
+	}
+]
