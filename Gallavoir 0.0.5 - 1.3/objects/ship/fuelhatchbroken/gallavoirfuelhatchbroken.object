@@ -1,8 +1,9 @@
 {
   "objectName" : "gallavoirfuelhatchbroken",
+  "colonyTags" : ["gallavoir"],
   "printable" : false,
   "rarity" : "Common",
-  "objectType" : "container",
+
   "description" : "Would accept many kinds of fuel if it wasn't broken. Foreign design.",
   "shortdescription" : "Broken Fuel Hatch",
   "race" : "gallavoir",
@@ -32,6 +33,7 @@
   
   "soundEffect" : "/sfx/objects/tv_static.ogg",
   "soundEffectRangeMultiplier" : 0.5,
+
   "animation" : "/objects/noisy/noisy.animation",
   "scripts" : [
     "/objects/noisy/noisy.lua"
