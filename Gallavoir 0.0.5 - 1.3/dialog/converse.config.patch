@@ -1,0 +1,137 @@
+[
+  {
+    "op": "add",
+    "path": "/converse/gallavoir",
+    "value": {
+      "generic": [
+        "Where are you from?",
+        "I am running so late today.",
+        "Oh no... I lost my knitting needles.",
+        "I hope you feel welcome here, it is nice to have guests.",
+        "Let us dance. I shall sing a tune.",
+        "I would like a sparring partner, I have not practised my fighting skills in a while.",
+        "I have always respected the Protectorate, I think it is a noble organisation.",
+        "You look like you have been though some things lately.",
+        "I am looking forward to a change in the weather.",
+        "Nice outfit you have there.",
+        "What is it like being a Protector?",
+        "I started singing at work and everyone joined in. It was like living in a musical.",
+        "Do you ever find that seeing a bright, open sky improves you mood?",
+        "Want to spar with me later?",
+        "I have been learning the ocarina. 'Tis been difficult.",
+        "I have been learning the organ. 'Tis been difficult.",
+        "I have been learning the harp. I hope you are not here to shake my hand.",
+        "I have been learning the guitar. I hope you are not here to shake my hand.",
+        "I have been learning the flute. It is so relaxing.",
+        "I have been learning the piano. It is so relaxing.",
+        "I have nothing to do today.",
+        "I am going to a fancy party tomorrow and I have no idea what to wear!",
+        "Do you think we could maybe be friends?",
+        "If there is good weather tomorrow, I am going to pack a picnic!",
+        "Give me a second, I am playing mental chess.",
+        "What do you want to talk about?",
+        "Sorry, I need some time to myself.",
+        "I hope it is sunny tomorrow.",
+        "Tonight we are hosting a book club. You should come!",
+        "Want to make a new friend?",
+        "I am so tired, I really need to sleep.",
+        "I really cannot talk now.",
+        "Ah! ...Oh sorry, you surprised me.",
+        "Hope you are having a nice enough day.",
+        "We do not fight to win or conquer. We fight to protect."
+      ],
+      "default": [
+        "Hope you had a good day."
+      ],
+      "human": [
+        "I have seen nothing of human culture, it saddens me that I might now never have the chance.",
+        "Earth's destruction must lay heavy on your heart.",
+        "I have read several books by human authors, all very impressive. You are an eloquent race.",
+        "I was so sorry to hear your planet was destroyed.",
+        "I am so sorry about your homeworld.",
+        "I wish I had seen Earth. I am sorry it is gone.",
+        "I really wish I had fingers like these."
+      ],
+      "apex": [
+        "I hope one day the Apex are reigned over by peace instead of Big Ape.",
+        "You are so furry.",
+        "You have a delightful accent.",
+        "Are you a member of the Resistance?",
+        "It is great to see you, my liberated friend.",
+        "Your freedom fills me with joy, friend.",
+        "You left the Apex so young? How did you get out?",
+        "Keep up the good fight.",
+        "I really wish I had fingers like these."
+      ],
+      "avian": [
+        "Ah yes, the majority of your kind worships Kluex, is he a benevolent deity?",
+        "Settle yourself down, feathered one.",
+        "Your feathers look soft and comfortable. I would like a hug.",
+        "Hello Avian.",
+        "I dreamed of being able to fly, as a child.",
+        "Good day to you, Avian friend.",
+        "Do you like to cook? I am a fan of Avian cuisine, but I never get it round here.",
+        "I admit it, I am jealous of your feathers.",
+        "Have you ever heard a Gallavoir sing? It really is quite entertaining.",
+        "What do the Avians do for fun?"
+      ],
+      "floran": [
+        "You remind me of a forest I once visited; serene and beautiful, but with danger within.",
+        "It is interesting and encouraging to meet a Floran that is pursuing peace.",
+        "You are civil. That is a relief.",
+        "There is beauty to be found in all living things.",
+        "Well, nice to meet you.",
+        "You make me think of forests, and light through leaves.",
+        "You smell like flowers and fresh air.",
+        "Achoo!",
+        "A non-violent Floran. Can it be true? I have not heard of that before.",
+        "You are a cute creature, I like Florans a lot.",
+        "Do you always look so murderous?",
+        "We have tales of people like you."
+      ],
+      "glitch": [
+        "Your eyes are as bright as young stars.",
+        "What a wonderful treat to meet a Glitch.",
+        "I have heard dark tales of recent events.",
+        "You Glitch are fascinating individuals.",
+        "How do you people eat?",
+        "The Glitch are just amazing, so intricate and fascinating.",
+        "We have tales of people like you."
+      ],
+      "hylotl": [
+        "Peace to you.",
+        "I really like Hylotl art, I wish I could paint like the masters.",
+        "Are Hylotl libraries open to everyone?",
+        "I paint a little, but I do not expect it is very good compared to what you are used to.",
+        "You smell briney. I like it though - I grew up by the sea.",
+        "Could you teach me to swim?",
+        "It makes sense that a peaceful Hylotl would join the peaceful Protectorate.",
+        "Nice to meet you, Hylotl.",
+        "The Hylotl dedication to pacifism is quite impressive."
+      ],
+      "novakid": [
+        "It is good to cast a little light in a dark universe.",
+        "What does the world look like, when you cast your own light?",
+        "You are like the stars above. Were you born like this?",
+        "What are you? I have never seen your kind before.",
+        "Have a peaceful day, glowing one!",
+        "Your light is calming.",
+        "You shine like starlight.",
+        "Good day, bright one!",
+        "I like your glow.",
+        "Where do you come from?",
+        "Where is your home planet? Do you even come from a planet?",
+        "I do not feel any heavy elements in your body. Are you a star?"
+      ],
+      "gallavoir": [
+        "I suppose a Gallavoir Protector must possess a warrior's skills... Remember, peace is also a skill.",
+        "We will not be caged.",
+        "Lovely to see a fellow Gallavoir traveller.",
+        "Where did you grow up? You seem familiar.",
+        "Do you ever get homesick?",
+        "Are you from the Saints? You look like a Saint.",
+        "Are you a Knight Errant?"
+      ]
+    }
+  }
+]

@@ -17,6 +17,7 @@
   "humanDescription" : "The ship's fuel hatch. With fuel for the FTL drive I can explore outside this system.",
   "hylotlDescription" : "The humble FTL fuel hatch. Fuel is the lifeblood of exploration.",
   "novakidDescription" : "FTL fuel goes in here",
+  "gallavoirDescription" : "A fuel port common in ships of any Gallavoir fleet.",
 
   "inventoryIcon" : "gallavoirfuelhatchicon.png",
   "orientations" : [

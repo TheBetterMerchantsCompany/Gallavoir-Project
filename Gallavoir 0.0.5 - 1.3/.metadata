@@ -1,10 +1,10 @@
 {
   "author" : "Mackinz, Princess",
-  "description" : "Gallavoir Alpha",
+  "description" : "Gallavoir are basically Gardevoir and Gallade from Pokemon, in space! The mod is heavily WIP but should be in a playable shape.",
   "friendlyName" : "Gallavoir Alpha",
-  "link" : "",
+  "link" : "steam://url/CommunityFilePage/948933067",
   "name" : "Gallavoir",
   "path" : ".",
-  "steamContentId" : "",
-  "version" : "Alpha 0.0.5a"
+  "steamContentId" : "948933067",
+  "version" : "Alpha 0.0.5e"
 }

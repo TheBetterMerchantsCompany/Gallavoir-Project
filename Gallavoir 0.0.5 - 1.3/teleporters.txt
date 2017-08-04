@@ -1,0 +1,6 @@
+﻿/spawnitem gallavoirteleporter 8 '{"description":"Return Elevator","interactData":{"canBookmark" : false,"destinations" : [{ "name" : "Back","planetName":"Portal Elevator","warpAction" : "Nowhere=3283.1153","icon" : "beamup" }]}}'
+
+/spawnitem gallavoirteleporter 1 '{"description":"Main Elevator","interactData":{"canBookmark" : false,"destinations" : [{ "name" : "Living Room","planetName":"Portal Elevator","warpAction" : "Nowhere=3283.1119","icon" : "beamdown" },{ "name" : "Bathroom","planetName":"Portal Elevator","warpAction" : "Nowhere=3283.1086","icon" : "beamdown" },{ "name" : "Greenhouse","planetName":"Portal Elevator","warpAction" : "Nowhere=3192.1075","icon" : "beamdown" },{ "name" : "Hotel","planetName":"Portal Elevator","warpAction" : "Nowhere=3350.1075","icon" : "beamdown" }]}}'
+
+
+/spawnitem gallavoirteleporter 1 '{"interactData":{"canBookmark" : false,"destinations" : [{ "name" : "Mech Down","planetName":"Mech Recall","warpAction" : "Nowhere=3224.1153","deploy" : true,"icon" : "deploy" }]}}'

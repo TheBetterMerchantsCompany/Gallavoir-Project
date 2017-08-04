@@ -1,0 +1,60 @@
+{
+  "name" : "tiered", // 1 is default. The rest is tier+1 for first six, which are melee, and last two are ranged 5 and 6.
+  "swaps" : [ // Colors are from dark to bright.
+    { // Defaults
+      "890900" : "890900", "e5323b" : "e5323b", "ff7060" : "ff7060", //plasticred
+      "0964a0" : "0964a0", "2992bc" : "2992bc", "60b9ff" : "60b9ff", //plasticblue
+      "151515" : "151515", "383838" : "383838", "555555" : "555555", //handle
+      "676767" : "676767", "b1b1b1" : "b1b1b1", "e9e9e9" : "e9e9e9"  //blade
+    },
+    { // Iron
+      "890900" : "686868", "e5323b" : "b2b2b2", "ff7060" : "e8e8e8", //plasticred
+      "0964a0" : "686868", "2992bc" : "b2b2b2", "60b9ff" : "e8e8e8", //plasticblue
+      "151515" : "764d2d", "383838" : "9f6c3c", "555555" : "c1975c", //handle
+      "676767" : "686868", "b1b1b1" : "b2b2b2", "e9e9e9" : "e8e8e8"  //blade
+    },
+    { // Tungsten
+      "890900" : "663b14", "e5323b" : "c88b28", "ff7060" : "e7c474", //plasticred
+      "0964a0" : "686868", "2992bc" : "b2b2b2", "60b9ff" : "e8e8e8", //plasticblue
+      "151515" : "764d2d", "383838" : "9f6c3c", "555555" : "c1975c", //handle
+      "676767" : "161616", "b1b1b1" : "393939", "e9e9e9" : "686868"  //blade
+    },
+    { // Titanium
+      "890900" : "8f9195", "e5323b" : "c4c7cd", "ff7060" : "e5e9f1", //plasticred
+      "0964a0" : "8f9195", "2992bc" : "c4c7cd", "60b9ff" : "e5e9f1", //plasticblue
+      "151515" : "0455b9", "383838" : "1379fb", "555555" : "57a1ff", //handle
+      "676767" : "8f9195", "b1b1b1" : "c4c7cd", "e9e9e9" : "e5e9f1"  //blade
+    },
+    { // Durasteel
+      "890900" : "8d581c", "e5323b" : "c88b28", "ff7060" : "e7c474", //plasticred
+      "0964a0" : "3d3d51", "2992bc" : "676f83", "60b9ff" : "9da8af", //plasticblue
+      "151515" : "161616", "383838" : "393939", "555555" : "565656", //handle
+      "676767" : "3d3d51", "b1b1b1" : "676f83", "e9e9e9" : "9da8af"  //blade
+    },
+    { // Violuim
+      "890900" : "3d0068", "e5323b" : "9622e5", "ff7060" : "bb47ff", //plasticred
+      "0964a0" : "a355c0", "2992bc" : "d29ce7", "60b9ff" : "ffffff", //plasticblue
+      "151515" : "161616", "383838" : "393939", "555555" : "565656", //handle
+      "676767" : "a355c0", "b1b1b1" : "d29ce7", "e9e9e9" : "ffffff"  //blade
+    },
+    { // Impervium
+      "890900" : "161616", "e5323b" : "393939", "ff7060" : "565656", //plasticred
+      "0964a0" : "a355c0", "2992bc" : "d29ce7", "60b9ff" : "ffffff", //plasticblue
+      "151515" : "486020", "383838" : "447c28", "555555" : "60aa3e", //handle
+      "676767" : "a355c0", "b1b1b1" : "d29ce7", "e9e9e9" : "ffffff"  //blade
+    },
+    { // Violuim blade colors
+      "890900" : "3d0068", "e5323b" : "9622e5", "ff7060" : "bb47ff", //plasticred
+      "0964a0" : "3d0068", "2992bc" : "9622e5", "60b9ff" : "bb47ff", //plasticblue
+      "151515" : "161616", "383838" : "393939", "555555" : "565656", //handle
+      "676767" : "3d0068", "b1b1b1" : "9622e5", "e9e9e9" : "bb47ff"  //blade
+    },
+    { // Impervium blade colors
+      "890900" : "161616", "e5323b" : "393939", "ff7060" : "565656", //plasticred
+      "0964a0" : "161616", "2992bc" : "393939", "60b9ff" : "565656", //plasticblue
+      "151515" : "486020", "383838" : "447c28", "555555" : "60aa3e", //handle
+      "676767" : "161616", "b1b1b1" : "393939", "e9e9e9" : "565656"  //blade
+    }
+
+  ]
+}

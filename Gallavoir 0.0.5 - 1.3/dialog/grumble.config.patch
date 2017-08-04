@@ -1,0 +1,57 @@
+[
+  {
+    "op": "add",
+    "path": "/tagCriteria/gallavoir",
+    "value": {
+      "default": [
+        "Please put my things back where they were.",
+        "Please return what you have taken.",
+        "It appears that some objects have been removed."
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/enclosedArea/gallavoir",
+    "value": {
+      "default": [
+        "I would really appreciate if you could repair the damages to my home.",
+        "My home is open to the elements, I would be grateful if you'd mend the damage.",
+        "Please fix the walls. It is a bit unpleasant out there."
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/otherDeed/gallavoir",
+    "value": {
+      "default": [
+        "Did you put my house up for rent? This must be a mistake...",
+        "There is another deed in my home? Surely a mistake has been made?",
+        "I do not wish to share my house with anyone."
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/severe/gallavoir",
+    "value": {
+      "default": [
+        "I cannot put up with this much longer - look at the state of my home.",
+        "My requests are left unanswered, my entreaties fall on deaf ears... Shameful.",
+        "This house is in a very bad shape, fix it or I leave."
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/final/gallavoir",
+    "value": {
+      "default": [
+        "I try to be respectful of others, it is a shame you do not make the same effort.",
+        "I have lost all respect for you. I hope one day you will see the error of your ways.",
+        "I cannot live in these conditions. Goodbye."
+      ]
+    }
+  }
+]

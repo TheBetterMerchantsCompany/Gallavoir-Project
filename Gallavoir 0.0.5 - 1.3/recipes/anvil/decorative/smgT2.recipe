@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "tungstenbar", "count" : 3 },
+    { "item" : "climbingrope", "count" : 2 },
+    { "item" : "smgT1", "count" : 1 }
+  ],
+  "output" : { "item" : "smgT2", "count" : 1 },
+  "groups" : [ "craftinganvil", "weapons", "all" ]
+}

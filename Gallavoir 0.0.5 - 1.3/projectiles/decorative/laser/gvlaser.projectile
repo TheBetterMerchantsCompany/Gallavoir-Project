@@ -1,0 +1,17 @@
+{
+  "projectileName" : "gvlaser",
+  "physics" : "laserlance",
+  "bounces" : 0,
+  "damageKindImage" : "icon.png",
+  "image" : "laser.png",
+  "animationCycle" : 0.5,
+  "frameNumber" : 1,
+  "timeToLive" : 0.1,
+  "power" : 50,
+  "speed" : 0,
+  "damagePoly" : [[ 0, -0.25 ],[ 256, -0.25 ],[ 256, 0.25 ],[ 0, 0.25 ]],
+  "supportsProcessing" : true,
+  "statusEffects" : [ ],
+  "lightColor" : [90, 50, 120],
+  "damageKind" : "plasmabullet"
+}

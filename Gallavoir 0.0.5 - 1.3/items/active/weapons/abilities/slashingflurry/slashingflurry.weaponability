@@ -1,0 +1,60 @@
+{
+  "animationParts" : { },
+  "animationCustom" : { },
+
+  "ability" : {
+    "name" : "Slashing Flurry",
+    "type" : "slashingflurry",
+    "scripts" : ["/items/active/weapons/abilities/slashingflurry/slashingflurry.lua"],
+    "class" : "SlashingFlurry",
+
+    "cooldownResetTime" : 0.25,
+    "maxCooldownTime" : 0.25,
+    "minCooldownTime" : 0.15,
+    "cooldownSwingReduction" : 0.04,
+
+    "energyUsage" : 4.0,
+    "cooldownTime" : 0.2,
+
+    "damageConfig" : {
+      "damageSourceKind" : "<elementalType>shortsword",
+      "baseDamage" : 3,
+      "knockback" : 3,
+      "timeout" : 0.15,
+      "timeoutGroup" : "alt"
+    },
+
+    "cycleRotationOffsets" : [0, 15, -15],
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : false,
+        "weaponOffset" : [0.0, 0.0],
+   
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0.1,
+        "armRotation" : 4,
+        "weaponRotation" : 90,
+        "twoHanded" : false,
+        "weaponOffset" : [0.0, 0.0],
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "fire2" : {
+        "duration" : 0.1,
+        "armRotation" : 4,
+        "weaponRotation" : 90,
+        "twoHanded" : false,
+        "weaponOffset" : [0.0, 0.0],
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    }
+  }
+}

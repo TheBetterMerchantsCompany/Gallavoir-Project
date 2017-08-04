@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "titaniumbar", "count" : 3 },
+    { "item" : "copperbar", "count" : 2 },
+    { "item" : "smgT2", "count" : 1 }
+  ],
+  "output" : { "item" : "smgT3", "count" : 1 },
+  "groups" : [ "craftinganvil2", "weapons", "all" ]
+}

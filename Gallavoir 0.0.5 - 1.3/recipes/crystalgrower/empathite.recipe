@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "empathitesmall", "count" : 2 },
+    { "item" : "sand2", "count" : 100 },
+    { "item" : "corefragmentore", "count" : 16 }
+  ],
+  "duration" : 8,
+  "output" : { "item" : "empathite", "count" : 1 },
+  "groups" : [ "crystalgrower", "all" ]
+}

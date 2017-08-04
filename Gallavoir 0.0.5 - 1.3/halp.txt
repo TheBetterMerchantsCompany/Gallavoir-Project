@@ -1,0 +1,12 @@
+-687661762 -309679563 lava asteroids gate (needs a weatherfix)
+
+@[TBMC] Princess You can flip drawables using the ?flipx, ?flipy or ?flipxy directives.
+
+@tamamo89 in your projectile file:
+"orientationLocked" : true
+that will allow you to use mcontroller.setRotation in projectile scripts
+
+Object+x, Monster+x, Player+x, BackgroundOverlay+x, ForegroundOverlay+x, FrontParticle+x, BackParticle+x, MiddleParticle+x, Liquid+x
+
+http://starbounder.org/Modding:Image_Processing_Directives
+Image Directives setcolor replace hueshift brightness saturation border crop flipx / flipy / flipxy multiply fade scale / scalenearest / scalebicubic / scalebilinear addmask submask blendmult/blendscreen

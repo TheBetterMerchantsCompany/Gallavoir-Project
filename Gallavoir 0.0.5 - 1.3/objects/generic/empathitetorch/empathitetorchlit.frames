@@ -1,0 +1,44 @@
+{
+  "frameGrid" : {
+    "size" : [8, 16],
+    "dimensions" : [2, 9],
+    "names" : [
+      [ "default.turningOn.1", "default.turningOff.1" ],
+      [ "red.turningOn.1", "red.turningOff.1" ],
+      [ "blue.turningOn.1", "blue.turningOff.1" ],
+      [ "green.turningOn.1", "green.turningOff.1" ],
+      [ "yellow.turningOn.1", "yellow.turningOff.1" ],
+      [ "orange.turningOn.1", "orange.turningOff.1" ],
+      [ "pink.turningOn.1", "pink.turningOff.1" ],
+      [ "black.turningOn.1", "black.turningOff.1" ],
+      [ "white.turningOn.1", "white.turningOff.1" ]
+    ]
+  },
+  "aliases" : {
+    "default.default"      : "default.turningOn.1",
+
+    "default.turningOn.2"  : "default.turningOn.1",
+    "red.turningOn.2"      : "red.turningOn.1",
+    "blue.turningOn.2"     : "blue.turningOn.1",
+    "green.turningOn.2"    : "green.turningOn.1",
+    "yellow.turningOn.2"   : "yellow.turningOn.1",
+    "orange.turningOn.2"   : "orange.turningOn.1",
+    "pink.turningOn.2"     : "pink.turningOn.1",
+    "black.turningOn.2"    : "black.turningOn.1",
+    "white.turningOn.2"    : "white.turningOn.1",
+    "default.turningOff.2" : "default.turningOff.1",
+    "red.turningOff.2"     : "red.turningOff.1",
+    "blue.turningOff.2"    : "blue.turningOff.1",
+    "green.turningOff.2"   : "green.turningOff.1",
+    "yellow.turningOff.2"  : "yellow.turningOff.1",
+    "orange.turningOff.2"  : "orange.turningOff.1",
+    "pink.turningOff.2"    : "pink.turningOff.1",
+    "black.turningOff.2"   : "black.turningOff.1",
+    "white.turningOff.2"   : "white.turningOff.1",
+
+    "turningOn.1"          : "default.turningOn.1",
+    "turningOn.2"          : "default.turningOn.2",
+    "turningOff.1"         : "default.turningOff.1",
+    "turningOff.2"         : "default.turningOff.2"
+  }
+}

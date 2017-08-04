@@ -8,7 +8,7 @@
   "price" : 70,
   "radioMessagesOnPickup" : [ "pickupflag" ],
   
-  "description" : "The Gallavoir flag. Resistance is futile/, Big Ape! Use ^green;[E]^white; to bookmark a teleportation location.",
+  "description" : "The Gallavoir flag. Resistance is futile, Big Ape! Use ^green;[E]^white; to bookmark a teleportation location.",
   "shortdescription" : "Gallavoir Flag",
   "race" : "gallavoir",
 

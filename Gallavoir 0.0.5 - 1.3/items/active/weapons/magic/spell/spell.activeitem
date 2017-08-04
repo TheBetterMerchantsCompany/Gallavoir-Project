@@ -1,0 +1,184 @@
+{
+  "itemName" : "spell",
+  "price" : 1080,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "Fires a spell. Technically, it's not magic.",
+  "shortdescription" : "Spell",
+  "tooltipKind" : "staff",
+  "category" : "Spell",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","ranged","spell"],
+  "level" : 1,
+
+  "animation" : "spell.animation",
+  "animationParts" : { },
+  "animationCustom" : { },
+  "baseOffset" : [0.0, 0.0],
+  "muzzleOffset" : [0.75, 0.25],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "primaryAbility" : {
+    "inaccuracy" : 0,
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      }
+    }
+  },
+
+  "stances" : {
+    "idle" : {
+      "weaponOffset" : [0, 0],
+
+      "armRotation" : 0,
+      "weaponRotation" : 0,
+
+      "twoHanded" : true,
+      "allowRotate" : true,
+      "allowFlip" : true
+    },
+    "charge" : {
+      "weaponOffset" : [0, 0],
+
+      "duration" : 0.5,
+      "armRotation" : 20,
+      "weaponRotation" : -20,
+
+      "twoHanded" : true,
+      "allowRotate" : true,
+      "allowFlip" : true
+    },
+    "charged" : {
+      "weaponOffset" : [0, 0],
+
+      "armRotation" : 20,
+      "weaponRotation" : -20,
+
+      "twoHanded" : true,
+      "allowRotate" : true,
+      "allowFlip" : true
+    },
+    "discharge" : {
+      "weaponOffset" : [0, 0],
+
+      "duration" : 0.5,
+      "armRotation" : 0,
+      "weaponRotation" : 0,
+
+      "allowRotate" : true,
+      "allowFlip" : true
+    },
+    "fire" : {
+      "duration" : 0,
+      "armRotation" : 4,
+      "weaponRotation" : 90,
+
+      "twoHanded" : true,
+      "allowRotate" : false,
+      "allowFlip" : false
+    },
+    "fire2" : {
+      "duration" : 0,
+      "armRotation" : 4,
+      "weaponRotation" : 90,
+
+      "twoHanded" : true,
+      "allowRotate" : false,
+      "allowFlip" : false
+    },
+    "cooldown" : {
+      "duration" : 0.2,
+      "armRotation" : 8,
+      "weaponRotation" : 90,
+
+      "twoHanded" : true,
+      "allowRotate" : false,
+      "allowFlip" : false
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildweapon.lua",
+  "builderConfig" : [{
+    "nameGenerator" : "spellnames.config:nameGen",
+    "elementalType" : [
+      "fire",
+      "ice",
+      "electric",
+      "poison"
+    ],
+    "primaryAbilities" : [ 
+      "elementswarm",
+      "elementbouncer",
+      "elementorb",
+      "elementportal" ],
+    "altAbilities" : [
+      "healingzone",
+      "energyzone",
+      "flashlight",
+      "grenadelauncher",
+      "explosiveburst",
+      "lance",
+      "flamethrowersword",
+      "slashingflurry"
+    ],
+    "elementalConfig" : {
+      "fire" : {
+        "animationCustom" : {
+        "lights" : { "glow" : { "color" : [140, 40, 20] }},
+          "sounds" : {
+            "fire" : [ "/sfx/melee/swing_shortsword_fire1.ogg", "/sfx/melee/swing_shortsword_fire2.ogg", "/sfx/melee/swing_shortsword_fire3.ogg" ]
+          }
+        }
+      },
+      "ice" : {
+        "animationCustom" : {
+        "lights" : { "glow" : { "color" : [20, 80, 140] }},
+          "sounds" : {
+            "fire" : [ "/sfx/melee/swing_shortsword_ice1.ogg", "/sfx/melee/swing_shortsword_ice2.ogg", "/sfx/melee/swing_shortsword_ice3.ogg" ]
+          }
+        }
+      },
+      "poison" : {
+        "animationCustom" : {
+          "lights" : { "glow" : { "color" : [80, 20, 140] }},
+          "sounds" : {
+            "fire" : [ "/sfx/melee/swing_shortsword_poison1.ogg", "/sfx/melee/swing_shortsword_poison2.ogg", "/sfx/melee/swing_shortsword_poison3.ogg" ]
+          }
+        }
+      },
+      "electric" : {
+        "animationCustom" : {
+          "lights" : { "glow" : { "color" : [20, 140, 20] }},
+          "sounds" : {
+            "fire" : [ "/sfx/melee/swing_shortsword_electric1.ogg", "/sfx/melee/swing_shortsword_electric2.ogg", "/sfx/melee/swing_shortsword_electric3.ogg" ]
+          }
+        }
+      }
+    },
+    "animationParts" : {
+      "back" : {
+        "path" : "/items/active/weapons/magic/spell/back/<variant>.png",
+        "variants" : 5,
+        "paletteSwap" : true
+      },
+      "symbol" : {
+        "path" : "/items/active/weapons/magic/spell/symbol/<variant>.png",
+        "variants" : 24,
+        "paletteSwap" : true
+      },
+      "muzzleFlash" : "",
+      "stone" : {
+        "path" : "/items/active/weapons/wand/generated/stone/<elementalType>.png"
+      }
+    },
+    "palette" : "/items/active/weapons/colors/melee.weaponcolors",
+    "iconDrawables" : ["back", "symbol"]
+  }]
+}

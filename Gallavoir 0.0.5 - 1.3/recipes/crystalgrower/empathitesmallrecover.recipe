@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "durasteelore", "count" : 2 },
+    { "item" : "sand2", "count" : 250 }
+  ],
+  "duration" : 4,
+  "output" : { "item" : "empathitesmall", "count" : 1 },
+  "groups" : [ "crystalgrower", "all" ]
+}

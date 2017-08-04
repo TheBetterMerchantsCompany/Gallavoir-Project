@@ -1,0 +1,10 @@
+[
+  {
+    "op": "add",
+    "path": "/rareGun/1/1/pool/-",
+    "value": {
+      "weight": 0.7,
+      "item": "spell"
+    }
+  }
+]

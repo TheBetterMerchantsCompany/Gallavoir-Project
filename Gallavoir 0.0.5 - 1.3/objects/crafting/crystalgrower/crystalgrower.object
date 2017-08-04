@@ -1,0 +1,67 @@
+{
+  "objectName" : "crystalgrower",
+  "colonyTags" : ["crafting", "gallavoir"],
+  "rarity" : "Legendary",
+  "price" : 1250,
+  "radioMessagesOnPickup" : [ ],
+  "printable" : false,
+  "description" : "Used to grow crystals and crystal accessories.",
+  "shortdescription" : "^orange;Crystal Growth Accelerator^white;",
+  "race" : "gallavoir",
+  "category" : "crafting",
+
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/crafting.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : "Crystal Growth Accelerator",
+        "subtitle" : "Grow the Power!",
+        "icon" : {
+          "file" : "/interface/crafting/craftingicon.png"
+        }
+      }
+    },
+    "filter" : [ "crystalgrower" ]
+  },
+
+  "apexDescription" : "I can use this station to grow crystals.",
+  "avianDescription" : "I wonder if I can grow avian crystals there?",
+  "floranDescription" : "Thiss table makes shiny crysstalss.",
+  "glitchDescription" : "Statement. This table grows crystals.",
+  "humanDescription" : "I can craft crystals here!",
+  "hylotlDescription" : "This station grows beautiful crystals.",
+  "novakidDescription" : "Shiny!",
+  "gallavoirDescription" : "This table can grow any crystal I can program it for, but is mainly used to grow empathite.",
+
+  "inventoryIcon" : "crystalgrowericon.png",
+
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "crystalgrower.png:<color>.<frame>", "fullbright" : true }, { "image" : "crystalgrowerfullbright.png:<color>.<frame>" } ],
+      "imagePosition" : [-32, -8],
+
+      "direction" : "left",
+
+      "frames" : 16,
+      "animationCycle" : 2.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+
+    {
+      "imageLayers" : [ { "image" : "crystalgrower.png:<color>.<frame>", "fullbright" : true }, { "image" : "crystalgrowerfullbright.png:<color>.<frame>" } ],
+      "imagePosition" : [-32, -8],
+
+      "direction" : "right",
+      "flipImages" : true,
+
+      "frames" : 16,
+      "animationCycle" : 2.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

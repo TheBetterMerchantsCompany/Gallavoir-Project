@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "empathite", "count" : 2 },
+    { "item" : "sand2", "count" : 250 },
+    { "item" : "solariumstar", "count" : 4 }
+  ],
+  "duration" : 16,
+  "output" : { "item" : "empathitelarge", "count" : 1 },
+  "groups" : [ "crystalgrower", "all" ]
+}

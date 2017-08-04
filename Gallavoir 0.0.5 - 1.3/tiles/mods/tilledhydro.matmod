@@ -1,0 +1,16 @@
+{
+  "modId" : 19926,
+  "modName" : "tilledhydro",
+  "description" : "Opened hydroponic tray, ready for planting.",
+  "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
+  "tilled" : true,
+  "health" : 0,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "tilledhydro.png",
+    "variants" : 1,
+    "multiColored" : false,
+    "zLevel" : 0
+  }
+}

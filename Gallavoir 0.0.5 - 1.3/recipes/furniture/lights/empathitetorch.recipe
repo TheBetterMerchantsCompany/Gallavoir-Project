@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "titaniumbar", "count" : 1 },
+    { "item" : "glassmaterial", "count" : 1 },
+    { "item" : "empathitesmall", "count" : 1 }
+  ],
+  "output" : { "item" : "empathitetorch", "count" : 8 },
+  "groups" : [ "craftingfurniture", "lights", "all" ]
+}

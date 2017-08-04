@@ -1,0 +1,24 @@
+{
+  "projectileName" : "fallenstar",
+  "image" : "fallenstar.png",
+  "animationCycle" : 0.125,
+  "frameNumber" : 4,
+  "damageKindImage" : "icon.png",
+  "piercing" : true,
+  "physics" : "bullet",
+  "lightColor" : [128, 128, 64],
+  "pointLight" : true,
+  "fullbright" : true,
+  "persistentAudio" : "/sfx/weapons/star/star_flyby1.wav",
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/energyshardexplosion/playerenergyshardexplosion.config"
+    }
+  ],
+  "power" : 5.0,
+  "speed" : 75,
+  "timeToLive" : 2,
+  "damageKind" : "standardbullet",
+  "emitters" : [ "sparks" ]
+}

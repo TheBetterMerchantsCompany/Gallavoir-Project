@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "coalore", "count" : 640 }
+  ],
+  "duration" : 16,
+  "output" : { "item" : "diamond", "count" : 1 },
+  "groups" : [ "crystalgrower", "all" ]
+}

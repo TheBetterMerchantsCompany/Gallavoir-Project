@@ -1,0 +1,112 @@
+{
+  "itemName" : "shotgunT4",
+  "price" : 960,
+  "maxStack" : 1,
+  "rarity" : "Uncommon",
+  "description" : "Fires a spread that's lethal at close range.",
+  "shortdescription" : "Silence mk.IV",
+  "tooltipKind" : "gun",
+  "category" : "shotgun",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","ranged","shotgun","modifiableWeapon"],
+  "level" : 4,
+
+  "inventoryIcon" : "shotgunT4.png",
+
+  "animation" : "/items/active/weapons/ranged/decorative/shotgun/shotgun.animation",
+  "animationParts" : {
+    "butt" : "",
+    "middle" : "shotgunT4.png",
+    "barrel" : "",
+
+    "buttbright" : "",
+    "middlebright" : "shotgunT4lit.png",
+    "barrelbright" : "",
+    
+    "muzzleFlash" : "/items/active/weapons/ranged/decorative/muzzleflashshotgun.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : ["/sfx/tools/pickaxe_ore2.ogg"]
+    }
+  },
+
+  "learnBlueprintsOnPickup" : [ "shotgunT5" ],
+  
+  "palette" : "/items/active/weapons/tiered.weaponcolors",
+  "colorIndex" : 5,
+
+  "baseOffset" : [0.875, 0.250],
+  "muzzleOffset" : [1.500, 0.250],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua", "/items/active/weapons/ranged/decorative/weaponconfigurator.lua"],
+
+  "interactAction" : "ScriptPane",
+  "interactData" : "/interface/scripted/weaponconfigurator/weaponconfiguratorui.config",
+
+  "elementalType" : "physical",
+  
+  "projectileTypes"                : ["gvlaser", "gvplasma", "gvmelta", "gvlaser",     "gvplasma",    "gvmelta"],
+  "projectileTypesName"            : ["Laser",   "Pulse",    "Plasma",  "Laser Salvo", "Pulse Salvo", "Plasma Salvo"],
+  
+  "projectileTypesFireTime"        : [ 1.0,       1.0,        1.0,       0.16,          0.16,          0.16],
+  "projectileTypesProjectileCount" : [ 6,         6,          6,         1,             1,             1],
+  "projectileTypesInaccuracy"      : [ 0.13,      0.13,       0.13,      0.02,         0.02,         0.02],
+  "projectileTypesFireType"        : ["auto",    "auto",     "auto",    "burst",       "burst",       "burst"],
+  "projectileTypesBurstCount"      : [ 1,         1,          1,         6,             6,             6],
+  "projectileTypesBurstTime"       : [ 1.0,       1.0,        1.0,       0.08,          0.08,          0.08],
+  
+  "altAbilities" : ["burstshot","flashlight"],
+  "altAbilitiesName" : ["Burst Shot","Flashlight"],
+  
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+
+    "fireTime" : 1.0,
+    "baseDps" : 10.5,
+    "energyUsage" : 31.5,
+    "inaccuracy" : 0.13,
+
+    "projectileCount" : 6,
+    "fireType" : "auto",
+
+    "projectileType" : "gvlaser",
+    "projectileParameters" : {
+      "damageKind" : "shotgunbullet",
+      "knockback" : 30
+    },
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 6,
+        "weaponRotation" : 6,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "cooldown" : {
+        "duration" : 0.15,
+        "armRotation" : 6,
+        "weaponRotation" : 6,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      }
+    }
+  },
+  
+  "altAbilityType" : "burstshot",
+  
+  "builder" : "/items/active/weapons/ranged/buildpoweredweapon.lua"
+}

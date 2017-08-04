@@ -1,0 +1,28 @@
+[
+  {
+    "op": "add",
+    "path": "/beacon/gallavoir",
+    "value": {
+      "default": [
+        "Greetings, what can I help you with?",
+        "Hello, what did you need me for?",
+        "What would you like to discuss?",
+        "You were hoping to speak to me?",
+        "Is there something you need?"
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/rent/gallavoir",
+    "value": {
+      "default": [
+        "Here is a token of my gratitude.",
+        "You look like you could use a present. Take this.",
+        "For all you have done for me, please accept this humble gift in thanks.",
+        "Please accept this gift with my gratitude.",
+        "Thank you for all you have done."
+      ]
+    }
+  }
+]

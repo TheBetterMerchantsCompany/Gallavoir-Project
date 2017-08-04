@@ -5,6 +5,13 @@
   "rarity" : "Common",
 
   "interactAction" : "OpenAiInterface",
+  "interactData" : {
+    "config" : "/interface/ai/ralts.config",
+    "windowtitle" : {
+      "title" : "R.A.L.T.S.",
+      "subtitle" : "Advanced Lightweight Terminal System"
+    }
+  },
 
   "category" : "decorative",
   "lightColor" : [102, 61, 61],

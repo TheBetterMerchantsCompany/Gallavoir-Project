@@ -5,7 +5,7 @@
 
   "category" : "door",
   "price" : 625,
-  "description" : "A door. Possibly suitable for a spaceship.",
+  "description" : "A portal door. Suitable for a spaceship.",
   "shortdescription" : "Gallavoir Ship Door",
   "race" : "gallavoir",
 
@@ -15,7 +15,7 @@
   "glitchDescription" : "Statement. A door.",
   "humanDescription" : "Cool door.",
   "hylotlDescription" : "A basic door.",
-  "gallavoirDescription" : "The sleek form of the door from a Gallavoir ship.",
+  "gallavoirDescription" : "The sleek form of a portal from a Gallavoir ship.",
   
   "inventoryIcon" : "gallavoirshipdooricon.png",
   "orientations" : [
@@ -30,6 +30,8 @@
 
   "scripts" : [ "/objects/wired/door/door.lua" ],
   "scriptDelta" : 5,
+
+  "sensorConfig" : {},
 
   "animation" : "/objects/wired/door/door.animation",
   "animationCustom" : {

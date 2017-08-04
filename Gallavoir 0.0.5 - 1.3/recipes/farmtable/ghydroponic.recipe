@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "titaniumbar", "count" : 1 },
+    { "item" : "liquidhealing", "count" : 4 },
+    { "item" : "dirtmaterial", "count" : 10 }
+  ],
+  "output" : {
+    "item" : "ghydroponic",
+    "count" : 20
+  },
+  "groups" : [ "craftingfarm", "farming" ]
+}

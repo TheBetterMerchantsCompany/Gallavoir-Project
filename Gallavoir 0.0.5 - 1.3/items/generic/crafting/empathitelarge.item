@@ -5,5 +5,6 @@
   "inventoryIcon" : "empathitelarge.png",
   "description" : "An abnormally large empathite crystal. Energy radiates from within its lattice, unfettered.",
   "shortdescription" : "Giant Empathite Crystal",
-  "learnBlueprintsOnPickup" : []
+  "learnBlueprintsOnPickup" : [],
+  "itemTags" : [ "reagent" ]
 }

@@ -1,0 +1,7 @@
+[
+  {
+    "op": "add",
+    "path": "/slashingflurry",
+    "value": "/items/active/weapons/abilities/slashingflurry/slashingflurry.weaponability"
+  }
+]

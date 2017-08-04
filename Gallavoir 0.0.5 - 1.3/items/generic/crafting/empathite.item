@@ -5,5 +5,6 @@
   "inventoryIcon" : "empathite.png",
   "description" : "A fully formed empathite crystal. There is considerably more power within.",
   "shortdescription" : "Empathite Crystal",
-  "learnBlueprintsOnPickup" : []
+  "learnBlueprintsOnPickup" : [],
+  "itemTags" : [ "reagent" ]
 }

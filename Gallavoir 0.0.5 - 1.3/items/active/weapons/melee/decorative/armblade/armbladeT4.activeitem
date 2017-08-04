@@ -1,0 +1,135 @@
+{
+  "itemName" : "armbladeT4",
+  "price" : 480,
+  "level" : 4,
+  "maxStack" : 1,
+  "rarity" : "Uncommon",
+  "description" : "This hilt houses the projector for an energy blade.",
+  "shortdescription" : "Eternal Harmony mk.IV",
+  "tooltipKind" : "sword",
+  "category" : "Arm Blade",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","melee","shortsword","modifiableWeapon"],
+
+  "inventoryIcon" : "armbladeT4.png",
+
+  "animation" : "armblade.animation",
+  "animationParts" : {
+    "handle": "armbladeT4handle.png",
+    "handleFullbright" : "",
+    "blade" : "armbladeT4blade.png"
+  },
+
+  "learnBlueprintsOnPickup" : [ "armbladeT5" ],
+  
+  "palette" : "/items/active/weapons/tiered.weaponcolors",
+  "colorIndex" : 5,
+
+  "scripts" : ["/items/active/weapons/melee/energymeleeweapon.lua", "/items/active/weapons/ranged/decorative/weaponconfigurator.lua"],
+
+  "interactAction" : "ScriptPane",
+  "interactData" : "/interface/scripted/weaponconfigurator/weaponconfiguratorui.config",
+
+  "activeTime" : 2.0,
+
+  "elementalType" : "physical",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/melee/meleecombo.lua"],
+    "class" : "MeleeCombo",
+
+    "comboSteps" : 2,
+
+    "flashTime" : 0.15,
+    "flashDirectives" : "fade=FFFFFFFF=0.15",
+
+    "swooshOffsetRegions" : [
+      [-1.0, -0.25, 2.5, 2.0],
+      [0, -0.5, 2.5, 1.0]
+    ],
+
+    "comboSpeedFactor" : 0.9,
+
+    "edgeTriggerGrace" : 0.25,
+
+    "fireTime" : 0.625,
+    "baseDps" : 7.5,
+
+    "damageConfig" : {
+      "damageSourceKind" : "shortsword",
+      "statusEffects" : [ ],
+      "knockbackMode" : "facing",
+      "timeout" : 0.5
+    },
+    "stepDamageConfig" : [
+      {
+        "baseDamageFactor" : 1.0,
+        "knockback" : 10
+      },
+      {
+        "baseDamageFactor" : 1.4,
+        "knockback" : 20
+      }
+    ],
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : -80,
+        "weaponRotation" : -90,
+        "weaponOffset" : [0.375, 1],
+
+        "allowFlip" : true,
+        "allowRotate" : true
+      },
+      "windup1" : {
+        "duration" : 0.1,
+        "armRotation" : 30,
+        "weaponRotation" : -90,
+        "weaponOffset" : [0.375, 1],
+
+        "allowFlip" : true,
+        "allowRotate" : true
+      },
+      "fire1" : {
+        "duration" : 0.2,
+        "armRotation" : 0,
+        "weaponRotation" : -90,
+        "weaponOffset" : [0.375, 1],
+
+        "allowFlip" : true,
+        "allowRotate" : true
+      },
+      "wait1" : {
+        "duration" : 0.3,
+        "armRotation" : -80,
+        "weaponRotation" : -90,
+        "weaponOffset" : [0.375, 1],
+
+        "allowRotate" : false,
+        "allowFlip" : true
+      },
+      "windup2" : {
+        "duration" : 0.1,
+        "armRotation" : 135,
+        "weaponRotation" : -90,
+        "weaponOffset" : [0.375, 1],
+
+        "twoHanded" : false,
+        "allowFlip" : true,
+        "allowRotate" : true
+      },
+      "fire2" : {
+        "duration" : 0.3,
+        "armRotation" : 0,
+        "weaponRotation" : -90,
+        "weaponOffset" : [0.375, 1],
+
+        "twoHanded" : false,
+        "allowFlip" : true,
+        "allowRotate" : true
+      }
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

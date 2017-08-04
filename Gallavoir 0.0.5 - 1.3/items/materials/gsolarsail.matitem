@@ -1,0 +1,12 @@
+{
+  "itemName" : "gsolarsail",
+  "rarity" : "Rare",
+  "inventoryIcon" : "gsolarsail.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Solar Sail. Scoops photons from outer space.",
+  "shortdescription" : "Solar Sail",
+  "glitchDescription" : "Observation. This sail is not time-efficient.",
+  "floranDescription" : "Pretty.",
+  "gallavoirdescription" : "These sails are mainly used for orbital maneuvering by humans.",
+  "materialId" : 19922
+}

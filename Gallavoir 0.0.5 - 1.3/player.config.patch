@@ -1,3 +1,42 @@
 [
-{ "op" : "add", "path" : "/defaultCodexes/gallavoir", "value" : [ "protectorate1", "protectorate2", "gallavoirdiary" ] }
+  {
+    "op" : "add",
+    "path" : "/defaultCodexes/gallavoir",
+    "value" : [ "protectorate1", "protectorate2", "gallavoirdiary" ]
+  },
+  {
+    "op": "add",
+    "path": "/defaultBlueprints/tier1/-",
+    "value": {
+      "item": "empathitesmall"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/defaultBlueprints/tier1/-",
+    "value": {
+      "item": "empathite"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/defaultBlueprints/tier1/-",
+    "value": {
+      "item": "empathitelarge"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/defaultBlueprints/tier1/-",
+    "value": {
+      "item": "empathitesmallrecover"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/defaultBlueprints/tier1/-",
+    "value": {
+      "item": "syntheticdiamond"
+    }
+  }
 ]

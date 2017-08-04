@@ -1,0 +1,62 @@
+{
+  "itemName" : "swordT4",
+  "price" : 960,
+  "level" : 4,
+  "maxStack" : 1,
+  "rarity" : "Uncommon",
+  "description" : "This hardened hilt houses the projector for an energy blade.",
+  "shortdescription" : "Sacred Darkness mk.IV",
+  "tooltipKind" : "sword",
+  "category" : "broadsword",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","broadsword","modifiableWeapon"],
+
+  "inventoryIcon" : "swordT4.png",
+
+  "animation" : "sword.animation",
+  "animationParts" : {
+    "handle" : "swordT4handle.png",
+    "handleFullbright" : "",
+    "blade" : "swordT4blade.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : [ "/sfx/melee/laser_weapon_swing1.ogg", "/sfx/melee/laser_weapon_swing2.ogg", "/sfx/melee/laser_weapon_swing3.ogg" ],
+      "fire2" : [ "/sfx/melee/laser_weapon_swing1.ogg", "/sfx/melee/laser_weapon_swing2.ogg", "/sfx/melee/laser_weapon_swing3.ogg" ],
+      "fire3" : [ "/sfx/melee/laser_weapon_swing1.ogg", "/sfx/melee/laser_weapon_swing2.ogg", "/sfx/melee/laser_weapon_swing3.ogg" ]
+    }
+  },
+
+  "learnBlueprintsOnPickup" : [ "swordT5" ],
+  
+  "palette" : "/items/active/weapons/tiered.weaponcolors",
+  "colorIndex" : 5,
+
+  "scripts" : ["/items/active/weapons/melee/energymeleeweapon.lua", "/items/active/weapons/ranged/decorative/weaponconfigurator.lua"],
+  
+  "altAbilities" : ["spinslash","superspinslash","downstab","risingslash"],
+  "altAbilitiesName" : ["Spin Slash","Super Spin Slash","Pogo Sword","Rising Slash"],
+
+  "interactAction" : "ScriptPane",
+  "interactData" : "/interface/scripted/weaponconfigurator/weaponconfiguratorui.config",
+
+  "activeTime" : 3.0,
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "broadswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.83,
+    "baseDps" : 11.5,
+
+    "stances" : {
+      "windup1" : {
+        "duration" : 0.15
+      }
+    }
+  },
+
+  "altAbilityType" : "superspinslash",
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

@@ -1,0 +1,25 @@
+{
+  "materialId" : 19922,
+  "materialName" : "gsolarsail",
+  "particleColor" : [112, 72, 39, 255],
+  "itemDrop" : "gsolarsail",
+  "description" : "Solar Sail. Scoops photons from outer space.",
+  "shortdescription" : "Solar Sail",
+  "glitchDescription" : "Observation. This sail is not time-efficient.",
+  "floranDescription" : "Pretty.",
+  "gallavoirDescription" : "These sails are mainly used for orbital maneuvering by humans.",
+  "footstepSound" : "/sfx/blocks/footstep_dirt.wav",
+  "health" : 2,
+  "category": "materials",
+
+  "renderTemplate" : "/tiles/slopedmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "gsolarsail.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : false,
+    "zLevel" : 1280,
+    "radiantLight" : [25, 50, 75]
+  }
+}

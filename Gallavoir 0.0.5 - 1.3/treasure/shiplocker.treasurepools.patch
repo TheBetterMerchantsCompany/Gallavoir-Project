@@ -5,6 +5,7 @@
     "value": [
     [0, {
       "fill" : [
+        {"item" : "empathitesmall"},
         {"pool" : "starterTreasure"}
       ]
     }]
