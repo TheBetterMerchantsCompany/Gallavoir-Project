@@ -6,3 +6,6 @@ Pokemon in space, but in a less cheesy way.
 
 #### TODO:
 Everything.
+
+Steam version: http://steamcommunity.com/sharedfiles/filedetails/?id=948933067
+This github is mostly offline until I actually need to send the source to someone or setup an automated uploader.
