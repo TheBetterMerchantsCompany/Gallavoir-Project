@@ -33,7 +33,7 @@
 
   "sensorConfig" : {},
 
-  "animation" : "/objects/wired/door/door.animation",
+  "animation" : "door.animation",
   "animationCustom" : {
     "sounds" : {
       "open" : {
@@ -47,7 +47,8 @@
     }
   },
   "animationParts" : {
-    "door" : "gallavoirshipdoor.png"
+    "door" : "gallavoirshipdoor.png",
+    "doorlit" : "gallavoirshipdoorlit.png"
   },
   "animationPosition" : [-20, 0],
 

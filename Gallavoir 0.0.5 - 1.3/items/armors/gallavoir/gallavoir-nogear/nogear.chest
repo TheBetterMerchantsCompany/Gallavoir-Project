@@ -7,6 +7,7 @@
   "description" : "Be one with your inner self.",
   "shortdescription" : "No Gear",
   "tooltipKind" : "armor",
+  "hideBody" : true,
 
   "maleFrames" : {
     "body" : "chestm.png",

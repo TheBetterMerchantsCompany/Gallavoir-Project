@@ -3,5 +3,35 @@
     "op": "add",
     "path": "/slashingflurry",
     "value": "/items/active/weapons/abilities/slashingflurry/slashingflurry.weaponability"
+  },
+  {
+    "op": "add",
+    "path": "/supercharge",
+    "value": "/items/active/weapons/abilities/supercharge/supercharge.weaponability"
+  },
+  {
+    "op": "add",
+    "path": "/supershotgun",
+    "value": "/items/active/weapons/abilities/supercharge/supershotgun.weaponability"
+  },
+  {
+    "op": "add",
+    "path": "/homingrocketburst",
+    "value": "/items/active/weapons/abilities/homingrocketburst/homingrocketburst.weaponability"
+  },
+  {
+    "op": "add",
+    "path": "/attackflash",
+    "value": "/items/active/weapons/abilities/attackflash/attackflash.weaponability"
+  },
+  {
+    "op": "add",
+    "path": "/bayonetstab",
+    "value": "/items/active/weapons/abilities/bayonet/bayonetstab.weaponability"
+  },
+  {
+    "op": "add",
+    "path": "/bayonetcleave",
+    "value": "/items/active/weapons/abilities/bayonet/bayonetcleave.weaponability"
   }
 ]

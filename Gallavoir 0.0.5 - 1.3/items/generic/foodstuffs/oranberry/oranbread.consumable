@@ -1,20 +1,24 @@
 {
   "itemName" : "oranbread",
   "rarity" : "Common",
+  "price" : 50,
+  "category" : "preparedFood",
   "inventoryIcon" : "oranbread.png",
   "description" : "Fluffy bread, made with an Oran berry.",
   "shortdescription" : "Oran Bread",
-  "handPosition" : [0, 6],
   "effects" : [ [
     {
-        "effect" : "foodheal20",
-        "duration" : 60
+        "effect" : "oranfoodheal",
+        "duration" : 30
     },
     {
-        "effect" : "wellfed",
-        "duration" : 105
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 90
     }
   ] ],
+  "foodValue" : 20,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
   "blockingEffects" : [
     "wellfed"
   ],

@@ -1,10 +1,13 @@
 {
   "author" : "Mackinz, Princess",
   "description" : "Gallavoir are basically Gardevoir and Gallade from Pokemon, in space! The mod is heavily WIP but should be in a playable shape.",
-  "friendlyName" : "Gallavoir Alpha",
+  "friendlyName" : "Gallavoir",
+  "includes" : ["Improved Food Descriptions"],
   "link" : "steam://url/CommunityFilePage/948933067",
   "name" : "Gallavoir",
   "path" : ".",
+  "requires" : ["MinionLib"],
   "steamContentId" : "948933067",
-  "version" : "Alpha 0.0.5e"
+  "tags" : "NPCs and Creatures|Weapons|Ships|Species|Food and Farming",
+  "version" : "Beta 1.0.6 RC2"
 }

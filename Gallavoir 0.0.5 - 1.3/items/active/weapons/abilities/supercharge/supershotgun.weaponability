@@ -1,0 +1,124 @@
+{
+  "animationParts" : { },
+  "animationCustom" : {
+    "animatedParts" : {
+      "stateTypes" : {
+        "firing" : {
+          "default" : "off",
+          "states" : {
+            "off" : {},
+            "charge" : {
+              "frames" : 4,
+              "cycle" : 1.0,
+              "mode" : "transition",
+              "transition" : "fullcharge"
+            },
+            "fullcharge" : {
+              "frames" : 3,
+              "cycle" : 0.2,
+              "mode" : "loop"
+            },
+            "fire" : {
+              "frames" : 2,
+              "cycle" : 0.07,
+              "mode" : "transition",
+              "transition" : "off"
+            }
+          }
+        }
+      }
+    },
+    "sounds" : {
+      "charge" : ["/sfx/melee/charge_up13.ogg"],
+      "charged" : ["/sfx/melee/energywhip_swing3.ogg"]
+    }
+  },
+  "animationScripts" : [
+    "/items/active/effects/laserbeam.lua"
+  ],
+  "ability" : {
+    "type" : "supershotgun",
+    "name" : "Charge Shot",
+    "scripts" : ["/items/active/weapons/abilities/supercharge/chargefire.lua"],
+    "class" : "ChargeFire",
+
+    // The difference? ALL values are on a curve. The second charge level is max. Note that most values are hardcoded to use charge levels that are on a straight line.
+  
+    "beams" : [
+      {
+        "offset" : [0,0],
+        "color" : [180, 100, 240, 128],
+        "length" : 10,
+        "segments" : 6,
+        "angle" : 75
+      },
+      {
+        "offset" : [0,0],
+        "color" : [180, 100, 240, 128],
+        "length" : 10,
+        "segments" : 6,
+        "angle" : -75
+      }
+    ],
+  
+    "chargeLevels" : [
+      {
+        "time" : 0,
+        "energyCost" : 15.75,
+        "cooldown" : 0.5,
+        "projectileType" : "chargeshotsmall",
+        "inaccuracy" : 0.065,
+        "projectileCount" : 6,
+        "baseDamage" : 5,
+        "fireSound" : "fire"
+      },
+      {
+        "time" : 2.0,
+        "energyCost" : 78.75,
+        "cooldown" : 0.5,
+        "projectileType" : "chargeshotlarge",
+        "inaccuracy" : 0.39,
+        "projectileCount" : 6,
+        "baseDamage" : 25,
+        "fireSound" : "fire"
+      }
+    ],
+  
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "charge" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 7,
+        "weaponRotation" : 7,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "cooldown" : {
+        "duration" : 0.15,
+        "armRotation" : 7,
+        "weaponRotation" : 7,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      }
+    }
+  }
+}

@@ -1,24 +1,24 @@
 {
   "itemName" : "oransouffle",
-  "rarity" : "Common",
+  "rarity" : "Uncommon",
+  "price" : 100,
+  "category" : "preparedFood",
   "inventoryIcon" : "oransouffle.png",
   "description" : "A fluffy souffle, topped with an Oran berry.",
   "shortdescription" : "Oran Souffle",
-  "handPosition" : [0, 6],
   "effects" : [ [
     {
-        "effect" : "runboost25",
-        "duration" : 30
+        "effect" : "oranfoodmaxheal",
+        "duration" : 45
     },
     {
-        "effect" : "foodheal120",
-        "duration" : 60
-    },
-    {
-        "effect" : "wellfed",
-        "duration" : 120
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 135
     }
   ] ],
+  "foodValue" : 30,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
   "blockingEffects" : [
     "wellfed"
   ]

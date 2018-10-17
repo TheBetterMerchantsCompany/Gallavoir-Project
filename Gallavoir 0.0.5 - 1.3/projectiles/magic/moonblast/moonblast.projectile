@@ -1,0 +1,22 @@
+{
+  "projectileName" : "moonblast",
+  "physics" : "laser",
+  "bounces" : 0,
+  "damageKindImage" : "icon.png",
+  "image" : "plasma.png",
+  "animationCycle" : 0.5,
+  "frameNumber" : 3,
+  "power" : 50,
+  "speed" : 150,
+  "supportsProcessing" : true,
+  "damagePoly" : [ [-0.5, -0.5], [-0.5, 0.5], [0.5, 0.5], [0.5, -0.5] ],
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/plasmabulletexplosion/plasmabulletexplosion.config"
+    }
+  ],
+  "statusEffects" : [ ],
+  "lightColor" : [30, 50, 120],
+  "damageKind" : "plasmabullet"
+}

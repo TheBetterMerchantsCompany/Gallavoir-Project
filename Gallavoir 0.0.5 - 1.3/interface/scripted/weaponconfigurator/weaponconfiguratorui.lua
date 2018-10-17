@@ -9,7 +9,7 @@ function init()
   self.projList = "projScrollArea.itemList"
   self.altList = "altScrollArea.itemList"
 
-  self.upgradeableDamageTypes = {"physical", "fire", "ice", "electric", "poison"}
+  self.upgradeableDamageTypes = {"physicalgv", "fire", "ice", "electric", "poison"}
   self.upgradeableProjectiles = {"none"}
   self.upgradeableAltAbilities = {"none"}
   
@@ -18,6 +18,8 @@ function init()
   self.selectedDamage = nil
   self.selectedProjectile = nil
   self.selectedAltAbility = nil
+  
+  --sb.logInfo("%s",_ENV)
   
   populateItemList()
 end
@@ -46,7 +48,6 @@ function populateItemList(forceRepop)
     widget.clearListItems(self.damageList)
     widget.clearListItems(self.projList)
     widget.clearListItems(self.altList)
-    widget.setButtonEnabled("btnUpgrade", false)
 
     for i, item in pairs(self.upgradeableDamageTypesName) do
       local selectedItem = widget.addListItem(self.damageList)
@@ -102,12 +103,19 @@ function populateItemList(forceRepop)
     self.selectedAltAbility = nil
     
     widget.setButtonEnabled("btnUpgrade", false)
+    widget.setButtonEnabled("cbxTwoHanded", not weaponConfig.twoHanded)
+    widget.setChecked("cbxTwoHanded", weapon.parameters.twoHanded or weaponConfig.twoHanded)
+    widget.setFontColor("checkLabel", weaponConfig.twoHanded and {128,128,128} or {255,255,255})
     
     itemSelected()
   end
 end
 
+function check()
+end
+
 function itemSelected()
+  --sb.logInfo("Saved you a dick")
   local listItem = widget.getListSelected(self.damageList)
   self.selectedDamage = listItem
   local listItem2 = widget.getListSelected(self.projList)
@@ -129,13 +137,14 @@ function doUpgrade()
     local selectedAltAbilityData = self.upgradeableAltAbilities[widgetData3.index] or ""
     
     local selectedBulletDamageData = selectedDamageData
-    if selectedBulletDamageData == "physical" then selectedBulletDamageData = "" end
+    if selectedBulletDamageData == "physicalgv" then selectedBulletDamageData = "" end
     local upgradeItem = player.primaryHandItem()
     
     if upgradeItem then
       local consumedItem = player.consumeItem(upgradeItem, false, true)
       if consumedItem then
         local upgradedItem = copy(consumedItem)
+        
         local data = config.getParameter("upgradeData")
         
         replacePatternInData(data, nil, "<elementalType>", selectedDamageData)
@@ -181,12 +190,58 @@ function doUpgrade()
           replacePatternInData(altdata, nil, "<altAbilityType>", selectedAltAbilityData)
           util.mergeTable(upgradedItem.parameters, altdata)
         end
+       
+        local thdata = config.getParameter("twoHandedUpgradeData")
+        thdata.twoHanded = widget.getChecked("cbxTwoHanded")
+        thdata.primaryAbility.baseDps = getDps(upgradedItem)
+        thdata.primaryAbility.energyUsage = getEnergyUsage(upgradedItem)
+        thdata.primaryAbility.inaccuracy = getInaccuracy(upgradedItem)
+        util.mergeTable(upgradedItem.parameters, thdata)
         
-        sb.logInfo("%s",upgradedItem)
+        --sb.logInfo("%s",upgradedItem)
         player.giveItem(upgradedItem)
       end
     end
     pane.dismiss()
+  end
+end
+
+function getDps(upgradedItem)
+  local rootWeaponConfig = root.itemConfig(upgradedItem)
+  local weaponConfig = rootWeaponConfig.config
+  local baseDps = weaponConfig.primaryAbility.baseDps
+  local dpsMultiplier = 1.75
+  
+  if weaponConfig.twoHanded then
+    return baseDps
+  else
+    return baseDps * (widget.getChecked("cbxTwoHanded") and dpsMultiplier or 1)
+  end
+end
+
+function getEnergyUsage(upgradedItem)
+  local rootWeaponConfig = root.itemConfig(upgradedItem)
+  local weaponConfig = rootWeaponConfig.config
+  local energyUsage = weaponConfig.primaryAbility.energyUsage or 0
+  local energyMultiplier = 1.75
+  
+  if weaponConfig.twoHanded then
+    return energyUsage
+  else
+    return energyUsage * (widget.getChecked("cbxTwoHanded") and energyMultiplier or 1)
+  end
+end
+
+function getInaccuracy(upgradedItem)
+  local rootWeaponConfig = root.itemConfig(upgradedItem)
+  local weaponConfig = rootWeaponConfig.config
+  local inaccuracy = upgradedItem.parameters.primaryAbility.inaccuracy or weaponConfig.primaryAbility.inaccuracy or 0
+  local incMultiplier = 0.5
+  
+  if weaponConfig.twoHanded then
+    return inaccuracy
+  else
+    return inaccuracy * (widget.getChecked("cbxTwoHanded") and incMultiplier or 1)
   end
 end
 

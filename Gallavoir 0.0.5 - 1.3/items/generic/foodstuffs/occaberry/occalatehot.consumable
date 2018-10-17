@@ -1,31 +1,25 @@
 {
   "itemName" : "occalatehot",
   "rarity" : "Uncommon",
+  "price" : 100,
+  "category" : "drink",
   "inventoryIcon" : "occalatehot.png",
   "description" : "Deliciously warm Occalate. Sure to refresh, even in the coldest reaches of the universe.",
   "shortdescription" : "Hot Occalate",
   "effects" : [ [
     {
-        "effect" : "frostslow",
-        "duration" : 30
+        "effect" : "extremecoldimmunity",
+        "duration" : 90
     },
     {
-        "effect" : "biomecoldImmunity",
-        "duration" : 30
-    },
-    {
-        "effect" : "occafireresist",
-        "duration" : 60
-    },
-    {
-        "effect" : "foodheal120",
-        "duration" : 45
-    },
-    {
-        "effect" : "wellfed",
-        "duration" : 60
+        "effect" : "fireblock",
+        "duration" : 90
     }
   ] ],
+  "foodValue" : 20,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "emitters" : [ "drinking" ],
   "blockingEffects" : [
     "wellfed"
   ]

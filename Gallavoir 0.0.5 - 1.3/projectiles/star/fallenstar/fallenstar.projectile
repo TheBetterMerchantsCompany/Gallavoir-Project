@@ -13,7 +13,7 @@
   "actionOnReap" : [
     {
       "action" : "config",
-      "file" : "/projectiles/explosions/energyshardexplosion/playerenergyshardexplosion.config"
+      "file" : "/projectiles/star/starexplosion/starexplosion.config"
     }
   ],
   "power" : 5.0,

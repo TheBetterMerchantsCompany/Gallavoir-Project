@@ -3,7 +3,7 @@
   "rarity" : "Uncommon",
   "inventoryIcon" : "ghydroponic.png",
   "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
-  "description" : "This metallic tray contains an abundance of water and nutrients, reclaimed from air.",
+  "description" : "This metallic tray contains an abundance of water and nutrients.",
   "shortdescription" : "Hydroponic Tray",
   "glitchDescription" : "Statement. Hydroponics. Best used as a soil replacement.",
   "floranDescription" : "Hard metal can grow cropsss?",

@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "oranberrym", "count" : 1 },
+    { "item" : "sugar", "count" : 1 },
+    { "item" : "egg", "count" : 1 }
+	],
+  "output" : { "item" : "oransouffle", "count" : 1 },
+  "groups" : [ "craftingfood", "desserts" ]
+}

@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "titaniumbar", "count" : 6 },
+    { "item" : "durasteelbar", "count" : 6 },
+    { "item" : "copperbar", "count" : 4 },
+    { "item" : "dazzlinggleamT2", "count" : 1 }
+  ],
+  "output" : { "item" : "dazzlinggleamT4", "count" : 1 },
+  "groups" : [ "craftinganvil3", "weapons", "all" ]
+}

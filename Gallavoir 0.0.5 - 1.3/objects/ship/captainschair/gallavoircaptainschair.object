@@ -22,7 +22,7 @@
   "inventoryIcon" : "gallavoircaptainschairicon.png",
   "orientations" : [
     {
-      "image" : "gallavoircaptainschair.png:<color>",
+      "imageLayers" : [ { "image" : "gallavoircaptainschair.png:<color>.<frame>", "fullbright" : true }, { "image" : "gallavoircaptainschairfullbright.png:<color>.<frame>" } ],
       "imagePosition" : [-12, 0],
       "frames" : 1,
       "animationCycle" : 0.5,
@@ -34,7 +34,7 @@
       "sitPosition" : [1.6, 22.5]
     },
     {
-      "image" : "gallavoircaptainschair.png:<color>",
+      "imageLayers" : [ { "image" : "gallavoircaptainschair.png:<color>.<frame>", "fullbright" : true }, { "image" : "gallavoircaptainschairfullbright.png:<color>.<frame>" } ],
       "imagePosition" : [-12, 0],
       "frames" : 1,
       "animationCycle" : 0.5,

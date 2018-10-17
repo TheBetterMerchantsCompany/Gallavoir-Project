@@ -1,0 +1,9 @@
+{
+  "name" : "gvattackdrone",
+  "category" : "gvattackdrone",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "gvattackdrone.png"
+  }
+}

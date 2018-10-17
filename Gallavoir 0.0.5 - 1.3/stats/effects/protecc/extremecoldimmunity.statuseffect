@@ -1,0 +1,16 @@
+{
+  "name" : "extremecoldimmunity",
+  "effectConfig" : {
+    "stat" : "biomecoldImmunity",
+    "base" : true,
+    "biomecoldImmunity" : 1.0
+  },
+  "defaultDuration" : 90,
+
+  "scripts" : [
+    "protecc.lua"
+  ],
+
+  "label" : "Extreme Cold Immunity",
+  "icon" : "/interface/statuses/iceblock.png"
+}

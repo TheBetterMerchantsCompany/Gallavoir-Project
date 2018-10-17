@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "leppaberrym", "count" : 1 }
+	],
+  "output" : { "item" : "leppajuice", "count" : 1 },
+  "groups" : [ "craftingfood", "drinks" ]
+}

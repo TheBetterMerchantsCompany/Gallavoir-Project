@@ -1,0 +1,58 @@
+{
+  "itemName" : "gvnullshield",
+  "level" : 1,
+  "price" : 570,
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "category" : "shield",
+  "description" : "Slightly less durable than your bare hands.",
+  "shortdescription" : "Null Shield",
+  "tooltipKind" : "Shield",
+  "twoHanded" : false,
+  "itemTags" : ["shield"],
+
+  "inventoryIcon" : "null.png:nearidle",
+
+  "animation" : "shield.animation",
+  "animationParts" : {
+    "shield" : "null.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "raiseShield" : [ "/sfx/melee/swing_spear.ogg" ],
+      "perfectBlock" : [ "/sfx/melee/shield_block_metal_perfect.ogg" ],
+      "block" : [ "/sfx/melee/shield_block_metal.ogg" ],
+      "break" : [ "/sfx/melee/shield_break_metal.ogg" ]
+    }
+  },
+
+  "scripts" : ["shield.lua"],
+
+  "minActiveTime" : 0.2,
+
+  "forceWalk" : true,
+  "baseShieldHealth" : 20,
+  "cooldownTime" : 0.45,
+
+  "perfectBlockDirectives" : "?border=2;AACCFFFF;00000000",
+  "perfectBlockTime" : 0.2,
+
+  "knockback" : 10,
+  
+  "stances" : {
+    "idle" : {
+      "armRotation" : -90,
+      "shieldRotation" : 0,
+      "allowRotate" : false,
+      "allowFlip" : true
+    },
+    "raised" : {
+      "armRotation" : 0,
+      "shieldRotation" : 0,
+      "allowRotate" : false,
+      "allowFlip" : true
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildunrandshield.lua"
+}

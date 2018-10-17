@@ -51,7 +51,7 @@
     "/objects/spawner/techstation.lua"
   ],
   "scriptDelta" : 20,
-  "shipPetType" : "petbunny",
+  "shipPetType" : "zigzagoon",
   "spawnOffset" : [2, -1],
 
   "chatPortrait" : "/ai/portraits/gallavoirportrait.png:yell.1",

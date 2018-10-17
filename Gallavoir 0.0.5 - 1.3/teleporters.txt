@@ -1,6 +1,27 @@
-﻿/spawnitem gallavoirteleporter 8 '{"description":"Return Elevator","interactData":{"canBookmark" : false,"destinations" : [{ "name" : "Back","planetName":"Portal Elevator","warpAction" : "Nowhere=3283.1153","icon" : "beamup" }]}}'
+﻿/spawnitem blackteleporter 1 '{"interactData":{"canBookmark":false,"destinations":[{"name":"Home","planetName":"Evival Basin III","warpAction":"CelestialWorld:-687661762:-309679563:-135116273:8=3288.1180","icon":"beamdown"}]}}'
+
+/spawnitem gallavoirteleporter 8 '{"description":"Return Elevator","interactData":{"canBookmark" : false,"destinations" : [{ "name" : "Back","planetName":"Portal Elevator","warpAction" : "Nowhere=3283.1153","icon" : "beamup" }]}}'
 
 /spawnitem gallavoirteleporter 1 '{"description":"Main Elevator","interactData":{"canBookmark" : false,"destinations" : [{ "name" : "Living Room","planetName":"Portal Elevator","warpAction" : "Nowhere=3283.1119","icon" : "beamdown" },{ "name" : "Bathroom","planetName":"Portal Elevator","warpAction" : "Nowhere=3283.1086","icon" : "beamdown" },{ "name" : "Greenhouse","planetName":"Portal Elevator","warpAction" : "Nowhere=3192.1075","icon" : "beamdown" },{ "name" : "Hotel","planetName":"Portal Elevator","warpAction" : "Nowhere=3350.1075","icon" : "beamdown" }]}}'
 
 
+
 /spawnitem gallavoirteleporter 1 '{"interactData":{"canBookmark" : false,"destinations" : [{ "name" : "Mech Down","planetName":"Mech Recall","warpAction" : "Nowhere=3224.1153","deploy" : true,"icon" : "deploy" }]}}'
+
+/spawnitem gallavoirteleporter 1 '{"interactData":{"canBookmark" : false,"destinations" : [{ "name" : "Unique Test","planetName":"Test Warp","warpAction" : "Nowhere=techstation","icon" : "deploy" },{ "name" : "Ship Test","planetName":"Test Warp","warpAction" : "ClientShipWorld:58e425087fee76ea0963cee10ddae638","icon" : "deploy" }]}}'
+
+/spawnitem gallavoirteleporter 1 '{"interactData":{"canBookmark" : false,"destinations" : [{ "name" : "Mech Down","planetName":"Mech Recall","warpAction" : "Nowhere","deploy" : true,"icon" : "deploy" }]}}'
+
+/spawnitem gallavoirteleporter 1 '{"interactData":{"canBookmark" : false,"destinations" : [{ "name" : "Sadr III","planetName":"Hyperspace Planet","warpAction" : "InstanceWorld:planet:12345678901234567890123456789012","deploy" : true,"icon" : "deploy" }]}}'
+
+/spawnitem gallavoirteleporter 1 '{"description":"Base Ship Elevator","interactData":{"canBookmark" : false,"destinations" : [{ "name" : "Base Ship","planetName":"Elevator","warpAction" : "Nowhere=1024.1025","icon" : "beamup" }]}}'
+
+/spawnitem gallavoirteleporter 1 '{"unbreakable":true,"description":"Ship Elevator","interactData":{"canBookmark":false,"includePartyMembers":true,"includePlayerBookmarks":true,"destinations":[{"name":"Beam Down","planetName":"current orbited world","warpAction":"OrbitedWorld","icon":"beamdown"},{"name":"Deploy Mech","planetName":"current orbited world","warpAction":"OrbitedWorld","deploy":true,"icon":"deploy"},{"name":"Built Ship","planetName":"warp elevator","warpAction":"Nowhere=1024.1166","icon":"beamup"}]}}'
+
+/spawnitem gallavoirteleporter 1 '{"unbreakable":false,"description":"Ship Elevator","interactData":{"canBookmark":false,"includePartyMembers":true,"includePlayerBookmarks":true,"destinations":[{"name":"Beam Down","planetName":"current orbited world","warpAction":"OrbitedWorld","icon":"beamdown"},{"name":"Deploy Mech","planetName":"current orbited world","warpAction":"OrbitedWorld","deploy":true,"icon":"deploy"},{"name":"Base Ship","planetName":"warp elevator","warpAction":"Nowhere=1024.1025","icon":"beamup"}]}}'
+
+/spawnitem ancientcrystaltrap 1 '{"beamImages":{"first":"/projectiles/traps/freezetrapbeam/freezetrapbeam.png","body":"/projectiles/traps/freezetrapbeam/freezetrapbeam.png","last":"/projectiles/traps/freezetrapbeam/freezetrapbeam.png"},"orientations":[{"image":"ancientcrystaltrapground.png:<color>.<frame>","imagePosition":[0,0],"direction":"right","animationPosition":[0,0],"animationParts":{"bg":"ancientcrystaltrapground.png","fg":"ancientcrystaltrapground.png"},"renderLayer":"Object+50","lightPosition":[0,1],"beamDirection":[0,1],"beamStartOffset":[1,1.5],"maxBeamLength":512,"metaBoundBox":[-4,-4,4,54],"spaceScan":0.1,"anchors":["bottom","left","right"],"collision":"solid"}]}'
+
+/spawnitem gnohat 1 '{"description":"Feel the breeze OF POWER on your hair!","level":6,"leveledStatusEffects":[{"levelFunction":"standardArmorLevelMaxHealthMultiplier","stat":"shieldHealth","amount":20}]}'
+
+/spawnitem commonpistol 1 '{"primaryAbility":{"scripts":["/items/active/weapons/abilities/skyfire/skyfire.lua"],"inaccuracy":0.2}}'

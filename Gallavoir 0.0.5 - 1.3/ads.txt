@@ -1,0 +1,10 @@
+﻿Silence mk.I/II/III/IV/V/VI Heavy Shotgun:
+"Lasers? Check. Shiny bits? Check. Overcompensation? Hella check!"
+"The Silence anti-personnel device is what in the mercenary business is called "an overachiever". Although it has a small magazine it is considered overly lethal in all forms, to the point its banned in most sectors due to "unfairness in war", you heard that right, its unfair to use it."
+Damage: unique: applies touch of death effect in a [Range] ft cone (Will DC 30+half of users level to resist)
+Range: 10/15/20/30/50/75 ft
+Magazine: Miniature fusion "Sparkle" batteries, 2/3/3/4/4/5 shots per battery
+Recharge: no recharge
+Weight: 7 lbs
+
+not mine but works

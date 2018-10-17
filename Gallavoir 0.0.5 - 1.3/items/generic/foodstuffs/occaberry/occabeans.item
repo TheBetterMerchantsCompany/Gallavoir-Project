@@ -1,8 +1,10 @@
 {
   "itemName" : "occabeans",
   "rarity" : "Common",
+  "price" : 40,
+  "category" : "cookingIngredient",
   "inventoryIcon" : "occabeans.png",
   "description" : "The beans from an Occa berry pod. Very spicy.",
   "shortdescription" : "Occa Beans",
-  "learnBlueprintsOnPickup" : [ "occalate", "occalatecake", "occaextract", "occalateliquid" ]
+  "learnBlueprintsOnPickup" : [ "occalate", "occalatecake", "occaextract", "occalatehot" ]
 }

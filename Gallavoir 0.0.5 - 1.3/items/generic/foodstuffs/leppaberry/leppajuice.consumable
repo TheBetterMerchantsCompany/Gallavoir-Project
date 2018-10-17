@@ -1,0 +1,26 @@
+{
+  "itemName" : "leppajuice",
+  "rarity" : "Uncommon",
+  "price" : 100,
+  "category" : "drink",
+  "inventoryIcon" : "leppajuice.png",
+  "description" : "Spicy juice made of leppa berries.",
+  "shortdescription" : "Leppa Juice",
+  "effects" : [ [
+    {
+        "effect" : "energyregen",
+        "duration" : 90
+    },
+    {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 90
+    }
+  ] ],
+  "foodValue" : 20,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "emitters" : [ "drinking" ],
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

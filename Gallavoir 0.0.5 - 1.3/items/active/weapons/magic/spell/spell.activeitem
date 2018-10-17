@@ -8,7 +8,7 @@
   "tooltipKind" : "staff",
   "category" : "Spell",
   "twoHanded" : true,
-  "itemTags" : ["weapon","ranged","spell"],
+  "itemTags" : ["weapon","staff","spell"],
   "level" : 1,
 
   "animation" : "spell.animation",
@@ -17,7 +17,7 @@
   "baseOffset" : [0.0, 0.0],
   "muzzleOffset" : [0.75, 0.25],
 
-  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+  "scripts" : ["/items/active/weapons/ranged/hiddengun.lua"],
 
   "primaryAbility" : {
     "inaccuracy" : 0,

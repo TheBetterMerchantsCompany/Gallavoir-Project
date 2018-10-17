@@ -10,3 +10,17 @@ Object+x, Monster+x, Player+x, BackgroundOverlay+x, ForegroundOverlay+x, FrontPa
 
 http://starbounder.org/Modding:Image_Processing_Directives
 Image Directives setcolor replace hueshift brightness saturation border crop flipx / flipy / flipxy multiply fade scale / scalenearest / scalebicubic / scalebilinear addmask submask blendmult/blendscreen
+
+
+they who asked
+
+
+local lha_oldInit = init
+function init()
+    lha_oldInit()
+
+
+function EntityMonitor(target,callback,callCallback)
+  world.callScriptedEntity(target, "require", "/HLib/Classes/Monitor/MonitorCall.lua");
+  world.callScriptedEntity(target, "__HLibMonitor", entity.id(),callback,callCallback);
+end

@@ -1,0 +1,16 @@
+{
+  "projectileName" : "drainhealexplosion",
+  "image" : "drainheal.png",
+  "animationCycle" : 0.2,
+  "frameNumber" : 1,
+  "speed" : 0,
+  "bounces" : -1,
+  "damagePoly" : [ [-3, 0], [-2, -2], [0, -3], [2, -2], [3, 0], [2, 2], [0, 3], [-2, 2] ],
+  "animationLoops" : false,
+  "piercing" : true,
+  "flippable" : true,
+  "power" : 0,
+  "statusEffects" : [ "drainheal" ],
+  "damageTeam" : { "type" : "indiscriminate" },
+  "damageKind" : "default"
+}

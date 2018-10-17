@@ -1,0 +1,110 @@
+﻿{
+  "itemName" : "psychicT4",
+  "price" : 480,
+  "maxStack" : 1,
+  "rarity" : "Uncommon",
+  "description" : "A wand that contains a powerful spell.",
+  "shortdescription" : "Kinesis ß",
+  "tooltipKind" : "staff",
+  "category" : "Spell",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","staff","spell"],
+  "level" : 4,
+  "learnBlueprintsOnPickup" : [ "psychic" ],
+
+  "inventoryIcon" : "spell2.png",
+
+  "animation" : "/items/active/weapons/magic/spell.animation",
+  "animationParts" : {
+    "middle" : "spell2.png",
+    "middlebright" : "spell2lit.png",
+    
+    "muzzleFlash" : "/items/active/weapons/magic/muzzleflash.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "charge" : ["/sfx/melee/staff_charge1.ogg"],
+      "fullcharge" : ["/sfx/melee/elemental_aura_activate.ogg"],
+      "chargedloop" : ["/sfx/melee/charge_full_hold1.ogg"],
+      "discharge" : ["/sfx/melee/elemental_aura_deactivate1.ogg"],
+      "shock" : ["/sfx/melee/elemental_aura_deactivate1.ogg"],
+      "activate" : ["/sfx/projectiles/plasma3.ogg"]
+    }
+  },
+  
+  "palette" : "/items/active/weapons/colors/melee.weaponcolors",
+  "colorIndex" : 19,
+  
+  "baseOffset" : [0.375, 0.25],
+
+  "scripts" : ["/items/active/weapons/staff/staff.lua"],
+
+  "elementalType" : "psychicgv",
+  "rangedIndex" : 1,
+
+  "stances" : {
+    "idle" : {
+      "armRotation" : -20,
+      "weaponRotation" : 0,
+      "twoHanded" : true,
+
+      "allowRotate" : false,
+      "allowFlip" : true
+    },
+    "fire" : {
+      "duration" : 0.5,
+      "armRotation" : 0,
+      "weaponRotation" : 0,
+      "twoHanded" : true,
+
+      "allowRotate" : true,
+      "allowFlip" : true
+    },
+    "shock" : {
+      "duration" : 0.5,
+      "armRotation" : 0,
+      "weaponRotation" : 5,
+      "twoHanded" : true,
+
+      "allowRotate" : true,
+      "allowFlip" : true
+    },
+    "cooldown" : {
+      "duration" : 0.25,
+      "armRotation" : -10,
+      "weaponRotation" : 0,
+      "twoHanded" : true,
+
+      "allowRotate" : false,
+      "allowFlip" : true
+    }
+  },
+
+  "primaryAbility" : {
+    "type" : "kinesis",
+    "name" : "Force Cloud",
+    "scripts" : ["/items/active/weapons/abilities/kinesis/kinesis.lua"],
+    "class" : "Kinesis",
+    "energyCost" : 5,
+    "maxCastRange" : 40,
+    "projectileType" : "psychicsafe",
+    "projectileParameters" : {
+      "baseDamage" : 0
+    }
+  },
+
+  "altAbility" : {
+    "type" : "kinesisshock",
+    "name" : "Warp",
+    "scripts" : ["/items/active/weapons/abilities/kinesis/kinesisshock.lua"],
+    "class" : "KinesisShock",
+    "energyCost" : 20,
+    "maxCastRange" : 40,
+    "projectileType" : "psychicexplosion",
+    "projectileParameters" : {
+      "baseDamage" : 5
+    }
+  },
+  
+  "builder" : "/items/active/weapons/ranged/buildpoweredweapon.lua"
+}

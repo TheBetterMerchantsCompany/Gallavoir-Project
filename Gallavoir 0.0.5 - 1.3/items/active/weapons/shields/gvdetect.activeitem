@@ -1,0 +1,77 @@
+{
+  "itemName" : "gvdetect",
+  "level" : 1,
+  "price" : 570,
+  "maxStack" : 1,
+  "rarity" : "Uncommon",
+  "category" : "shield",
+  "description" : "Why use steel when you can use the Force?",
+  "shortdescription" : "Minifield Generator",
+  "tooltipKind" : "Shield",
+  "twoHanded" : false,
+  "itemTags" : ["shield"],
+
+  "inventoryIcon" : "detecticon.png",
+
+  "animation" : "poweredminishield.animation",
+  "animationParts" : {
+    "shield" : "detect.png",
+    "shieldlit" : "detectlit.png",
+    "field" : "detectshield-ded.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "raiseShield" : [ "/sfx/melee/swing_spear.ogg" ],
+      "perfectBlock" : [ "/sfx/melee/shield_block_metal_perfect.ogg" ],
+      "block" : [ "/sfx/melee/shield_block_metal.ogg" ],
+      "break" : [ "/sfx/melee/shield_break_metal.ogg" ]
+    }
+  },
+
+  "scripts" : ["minishield.lua"],
+  "animationScripts" : ["/items/active/animations/truncated_icosahedron.lua"],
+
+  "minActiveTime" : 0.2,
+
+  "energyUsage" : 45,
+  "shieldEnergyRegen" : 0.75,
+  
+  "effectImmunity" : true,
+  
+  "forceWalk" : false,
+  "baseShieldHealth" : 30,
+  "cooldownTime" : 0.1,
+  
+  "dodec" : {
+    "doRender" : true,
+    "trans" : [-1, 0],
+    "rot" : [0, 0, 0]
+  },
+
+  "perfectBlockDirectives" : "?border=2;FFCCFFAA;00000000",
+  "perfectBlockTime" : 0.1,
+
+  "knockback" : 10,
+  
+  "stances" : {
+    "idle" : {
+      "armRotation" : -90,
+      "shieldRotation" : 0,
+      "aimAngle" : 0,
+      "twoHanded" : false,
+      
+      "allowRotate" : false,
+      "allowFlip" : true
+    },
+    "raised" : {
+      "armRotation" : 0,
+      "shieldRotation" : 0,
+      "twoHanded" : false,
+      
+      "allowRotate" : true,
+      "allowFlip" : true
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildunrandshield.lua"
+}

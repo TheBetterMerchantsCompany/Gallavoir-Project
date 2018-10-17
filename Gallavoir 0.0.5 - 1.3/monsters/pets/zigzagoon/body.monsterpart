@@ -1,0 +1,8 @@
+{
+  "name" : "body",
+  "category" : "zigzagoon",
+  "type" : "body",
+  "frames" : {
+  "body" : "zigzagoon.png"
+  }
+}

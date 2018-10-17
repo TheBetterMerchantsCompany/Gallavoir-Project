@@ -1,0 +1,21 @@
+{
+  "projectileName" : "dazzlinggleamflash",
+  "image" : "dazzlinggleamflash.png",
+  "pointLight" : true,
+  "lightColor" : [192, 192, 192],
+  "animationCycle" : 0.25,
+  "fullbright" : true,
+  "power" : -1,
+  "knockback" : 30,
+  "frameNumber" : 4,
+  "speed" : 16,
+  "timeToLive" : 0.25,
+  "damagePoly" : [ [18, 30], [-15, 30], [-15, -40], [18, -40], [30, -25], [35, -5], [35, 13], [30, 18] ],
+  "animationLoops" : false,
+  "piercing" : true,
+  "statusEffects" : [
+    {"effect": "stun", "duration" : 1.5}
+  ],
+  "damageType" : "ignoresdef",
+  "damageKind" : "nodamage"
+}

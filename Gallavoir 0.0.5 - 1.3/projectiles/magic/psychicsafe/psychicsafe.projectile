@@ -1,0 +1,63 @@
+{
+  "projectileName" : "psychicsafe",
+  "image" : "psychicsafe.png",
+  "physics" : "default",
+  "animationCycle" : 0.4,
+  "frameNumber" : 4,
+  "windupFrames" : 3,
+  "winddownFrames" : 3,
+  "renderLayer" : "ItemDrop+1",
+  "fullbright" : true,
+  "emitters" : [ ],
+  "lightColor" : [110, 60, 130],
+  
+  "speed" : 0,
+  "power" : 0.0,
+  "onlyHitTerrain" : true,
+  "piercing" : true,
+  "bounces" : -1,
+  "timeToLive" : 32,
+  "actionOnReap" : [],
+  
+  "physicsCollisions" : {
+    "piece1" : {
+      "collision" : [ [-3.0, 0], [0, 3.0] ],
+      "collisionKind" : "slippery",
+      "categoryWhitelist" : ["monster", "npc", "vehicle", "itemdrop"]
+    },
+    "piece2" : {
+      "collision" : [ [0, 3.0], [3.0, 0] ],
+      "collisionKind" : "slippery",
+      "categoryWhitelist" : ["monster", "npc", "vehicle", "itemdrop"]
+    },
+    "piece3" : {
+      "collision" : [ [3.0, 0], [0, -3.0] ],
+      "collisionKind" : "slippery",
+      "categoryWhitelist" : ["monster", "npc", "vehicle", "itemdrop"]
+    },
+    "piece4" : {
+      "collision" : [ [0, -3.0], [-3.0, 0] ],
+      "collisionKind" : "slippery",
+      "categoryWhitelist" : ["monster", "npc", "vehicle", "itemdrop"]
+    }
+  },
+  
+  "physicsForces" : {
+    "vacuum" : {
+      "type" : "RadialForceRegion",
+      "outerRadius" : 3,
+      "innerRadius" : 0,
+      "targetRadialVelocity" : -25,
+      "controlForce" : 250,
+      "categoryWhitelist" : ["monster", "npc", "vehicle", "itemdrop"]
+    }
+  },
+
+  "scripts" : [ "/projectiles/staffprojectile.lua" ],
+  "queryRange" : 2,
+  
+  "controlMovement" : {
+    "maxSpeed" : 64,
+    "controlForce" : 500
+  }
+}

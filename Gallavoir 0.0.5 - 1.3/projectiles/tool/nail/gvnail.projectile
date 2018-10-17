@@ -1,0 +1,23 @@
+{
+  "projectileName" : "gvnail",
+  "physics" : "grenade",
+  "bounces" : 0,
+  "damageKindImage" : "icon.png",
+  "image" : "gvnail.png",
+  "animationCycle" : 0.5,
+  "frameNumber" : 3,
+  "power" : 50,
+  "speed" : 50,
+  "supportsProcessing" : true,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/plasmabulletexplosion/plasmabulletexplosion.config"
+    }
+  ],
+  "statusEffects" : [ ],
+  "lightColor" : [90, 50, 120],
+  "damageKind" : "plasmabullet",
+  
+  "scripts" : [ "nail.lua" ]
+}

@@ -1,20 +1,15 @@
 {
   "itemName" : "passhoberrym",
   "rarity" : "Common",
+  "price" : 40,
+  "category" : "food",
+  "eventCategory" : "eventCrop",
   "inventoryIcon" : "passhoberrym.png",
   "description" : "The bouyant fruit of the Passho tree.",
   "shortdescription" : "Passho Berry",
-  "handPosition" : [0, -2],
-  "effects" : [ [
-    {
-        "effect" : "foodheal50",
-        "duration" : 30
-    },
-    {
-        "effect" : "wellfed",
-        "duration" : 60
-    }
-  ] ],
+  "foodValue" : 10,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
   "blockingEffects" : [
     "wellfed"
   ],

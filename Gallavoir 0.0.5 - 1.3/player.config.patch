@@ -2,7 +2,7 @@
   {
     "op" : "add",
     "path" : "/defaultCodexes/gallavoir",
-    "value" : [ "protectorate1", "protectorate2", "gallavoirdiary" ]
+    "value" : [ "protectorate1", "protectorate2", "gallavoirorigins", "gallavoirdiary" ]
   },
   {
     "op": "add",
@@ -36,7 +36,12 @@
     "op": "add",
     "path": "/defaultBlueprints/tier1/-",
     "value": {
-      "item": "syntheticdiamond"
+      "item": "diamond"
     }
+  },
+  {
+    "op": "add",
+    "path": "/statusControllerSettings/primaryScriptSources/-",
+    "value": "/stats/gv_player_primary.lua"
   }
 ]

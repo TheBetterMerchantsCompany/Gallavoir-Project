@@ -1,0 +1,22 @@
+{
+  "itemName" : "energyaugmentbeta",
+  "price" : 5000,
+  "rarity" : "Legendary",
+  "tooltipKind" : "eppaugment",
+  "category" : "eppAugment",
+  "inventoryIcon" : "energyaugment.png",
+  "description" : "An EPP module that changes the way energy generation works.",
+  "shortdescription" : "Energy Gen ß Augment",
+
+  "augment" : {
+    "type" : "back",
+    "name" : "energybeta",
+    "displayName" : "Energy Generator ß",
+    "displayIcon" : "/items/augments/back/energyaugment.png",
+    "effects" : [ "energyregenbeta" ]
+  },
+
+  "radioMessagesOnPickup" : [ "pickupaugment" ],
+
+  "scripts" : [ "/scripts/augments/augment.lua" ]
+}

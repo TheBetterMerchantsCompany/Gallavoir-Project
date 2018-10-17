@@ -1,0 +1,17 @@
+{
+  "name" : "oranberryheal",
+  "effectConfig" : {
+    "healAmount" : 150,
+    "emissionRate" : 1
+  },
+  "defaultDuration" : 30,
+
+  "scripts" : [
+    "heal.lua"
+  ],
+
+  "animationConfig" : "heal.animation",
+
+  "label" : "Healing",
+  "icon" : "/interface/statuses/heal.png"
+}

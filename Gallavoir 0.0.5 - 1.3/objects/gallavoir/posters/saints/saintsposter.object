@@ -1,0 +1,23 @@
+{
+  "objectName" : "saintsposter",
+  "colonyTags" : ["gallavoir","pretty"],
+  "rarity" : "Legendary",
+  "category" : "decorative",
+  "price" : 900,
+
+  "description" : "You don't have to be a Saint to help people.",
+  "shortdescription" : "Saints Poster",
+  "race" : "gallavoir",
+
+  "inventoryIcon" : "saintspostericon.png",
+  "orientations" : [
+    {
+      "image" : "saintsposter.png:<color>",
+      "imagePosition" : [-16, -16],
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ]
+}

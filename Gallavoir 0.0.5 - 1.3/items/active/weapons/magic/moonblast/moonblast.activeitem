@@ -1,0 +1,190 @@
+{
+  "itemName" : "moonblast",
+  "price" : 480,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "The power of SUCC",
+  "shortdescription" : "Moon Weaver",
+  "tooltipKind" : "staff",
+  "category" : "Spell",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","staff","spell"],
+  "level" : 6,
+
+  "inventoryIcon" : "icon.png",
+
+  "animation" : "/items/active/weapons/magic/spell.animation",
+  "animationParts" : {
+    "middle" : "sprite.png",
+    
+    "altMuzzleFlash" : "/items/active/weapons/magic/muzzleflash.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : ["/sfx/melee/retro_hit.ogg"],
+      "fire2" : [ "/sfx/melee/retro_kill_robotic.ogg" ]
+    }
+  },
+  
+  "palette" : "/items/active/weapons/tiered.weaponcolors",
+  "colorIndex" : 4,
+  
+  "baseOffset" : [-0.375, 0.0],
+  "muzzleOffset" : [1.25, 0.0],
+  "handGrip" : "wrap",
+  
+  "scripts" : ["/items/active/weapons/ranged/hiddengun.lua"],
+
+  "elementalType" : "moongv",
+  "rangedIndex" : 1,
+  
+  "primaryAbility" : {
+    "name" : "Lunar Rain",
+    "scripts" : ["/items/active/weapons/abilities/skyfire/skyfire.lua"],
+    "class" : "GunFire",
+
+    "fireTime" : 0.1,
+    "baseDps" : 11.2,
+    "energyUsage" : 40,
+    "inaccuracy" : 0.2,
+
+    "projectileCount" : 1,
+    "fireType" : "burst",
+    "burstCount" : 3,
+    "burstTime" : 0.1,
+
+    "projectileType" : "moonblast",
+    "projectileParameters" : {
+      "knockback" : 0.5
+    },
+    
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : false,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 3,
+        "weaponRotation" : 3,
+        "twoHanded" : false,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "cooldown" : {
+        "duration" : 0.04,
+        "armRotation" : 3,
+        "weaponRotation" : 3,
+        "twoHanded" : false,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      }
+    }
+  },
+
+  "altAbility" : {
+    "name" : "Drain Blade",
+    "type" : "shortswordcombo",
+    "scripts" : ["/items/active/weapons/abilities/draincombo/draincombo.lua"],
+    "class" : "MeleeCombo",
+
+    "comboSteps" : 2,
+    
+    "swooshOffset" : [2, 0],
+    
+    "projectileType" : "drainheal",
+    "projectileParameters" : {},
+
+    "flashTime" : 0.15,
+    "flashDirectives" : "fade=FFFFFFFF=0.15",
+
+    "swooshOffsetRegions" : [
+      [-1.0, -0.25, 2.5, 2.0],
+      [0, -0.5, 2.5, 1.0]
+    ],
+
+    // cooldown time multiplier for steps after the first, compounded per combo step
+    "comboSpeedFactor" : 0.9,
+
+    "edgeTriggerGrace" : 0.25,
+
+    "fireTime" : 0.625,
+    "baseDps" : 7.5,
+
+    "damageConfig" : {
+      "damageSourceKind" : "shortsword",
+      "statusEffects" : [ ],
+      "knockbackMode" : "facing",
+      "timeout" : 0.5
+    },
+    "stepDamageConfig" : [
+      {
+        "baseDamageFactor" : 1.0,
+        "knockback" : 10
+      },
+      {
+        "baseDamageFactor" : 1.4,
+        "knockback" : 20
+      }
+    ],
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : false,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "windup1" : {
+        "duration" : 0.05,
+        "armRotation" : 45,
+        "weaponRotation" : 0,
+
+        "allowFlip" : true,
+        "allowRotate" : true
+      },
+      "fire1" : {
+        "duration" : 0.2,
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+
+        "allowFlip" : true,
+        "allowRotate" : true
+      },
+      "wait1" : {
+        "duration" : 0.3,
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "allowRotate" : true,
+        "allowFlip" : true,
+        "twoHanded" : false
+      },
+      "windup2" : {
+        "duration" : 0.1,
+        "armRotation" : -45,
+        "weaponRotation" : 0,
+        "twoHanded" : false,
+        "allowFlip" : true,
+        "allowRotate" : true
+      },
+      "fire2" : {
+        "duration" : 0.3,
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : false,
+        "allowFlip" : true,
+        "allowRotate" : true
+      }
+    }
+  },
+
+  "builder" : "/items/active/weapons/ranged/buildpoweredweapon.lua"
+}

@@ -1,0 +1,108 @@
+{
+  "itemName" : "revolverT4",
+  "price" : 480,
+  "maxStack" : 1,
+  "rarity" : "Uncommon",
+  "description" : "A massive handgun that packs a kick.",
+  "shortdescription" : "Justice mk.IV",
+  "tooltipKind" : "gun",
+  "category" : "pistol",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","ranged","pistol","modifiableWeapon"],
+  "level" : 4,
+
+  "inventoryIcon" : "revolverT4.png",
+
+  "animation" : "/items/active/weapons/ranged/decorative/revolver/revolver.animation",
+  "animationParts" : {
+    "butt" : "",
+    "middle" : "revolverT4.png",
+    "barrel" : "",
+
+    "buttbright" : "",
+    "middlebright" : "revolverT4lit.png",
+    "barrelbright" : "",
+    
+    "muzzleFlash" : "/items/active/weapons/ranged/decorative/muzzleflashrevolver.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : ["/sfx/tools/pickaxe_ore4.ogg"]
+    }
+  },
+
+  "learnBlueprintsOnPickup" : [ "revolverT5" ],
+  
+  "palette" : "/items/active/weapons/tiered.weaponcolors",
+  "colorIndex" : 5,
+
+  "baseOffset" : [0.5, 0.125],
+  "muzzleOffset" : [1, 0.5],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua", "/items/active/weapons/ranged/decorative/weaponconfigurator.lua"],
+
+  "interactAction" : "ScriptPane",
+  "interactData" : "/interface/scripted/weaponconfigurator/weaponconfiguratorui.config",
+
+  "elementalType" : "physicalgv",
+  
+  "projectileTypes"                : ["gvlaser", "gvplasma", "gvmelta", "gvlaser",     "gvplasma",    "gvmelta"],
+  "projectileTypesName"            : ["Laser",   "Pulse",    "Plasma",  "Heavy Laser", "Heavy Pulse", "Heavy Plasma"],
+  
+  "projectileTypesFireTime"        : [ 0.5,       0.5,        0.5,       1,             1,             1],
+  "projectileTypesProjectileCount" : [ 1,         1,          1,         1,             1,             1],
+  "projectileTypesInaccuracy"      : [ 0.02,      0.02,       0.02,      0.0,           0.0,           0.0],
+  "projectileTypesFireType"        : ["auto",    "auto",     "auto",    "auto",        "auto",        "auto"],
+  "projectileTypesBurstCount"      : [ 1,         1,          1,         1,             1,             1],
+  "projectileTypesBurstTime"       : [ 0.5,       0.5,        0.5,       1,             1,             1],
+  
+  "rangedIndex" : 1,
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/decorative/gunfire.lua"],
+    "class" : "GunFire",
+
+    "fireTime" : 0.5,
+    "baseDps" : 6,
+    "energyUsage" : 18.75,
+    "inaccuracy" : 0.02,
+
+    "projectileCount" : 1,
+    "fireType" : "auto",
+
+    "projectileType" : "gvplasma",
+    "projectileParameters" : {
+      "knockback" : 4
+    },
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : false,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 7,
+        "weaponRotation" : 7,
+        "twoHanded" : false,
+
+        "allowRotate" : false,
+        "allowFlip" : true
+      },
+      "cooldown" : {
+        "duration" : 0.5,
+        "armRotation" : 7,
+        "weaponRotation" : 7,
+        "twoHanded" : false,
+
+        "allowRotate" : false,
+        "allowFlip" : true
+      }
+    }
+  },
+  
+  "builder" : "/items/active/weapons/ranged/buildpoweredweapon.lua"
+}

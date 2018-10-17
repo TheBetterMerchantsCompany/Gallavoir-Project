@@ -1,24 +1,24 @@
 {
   "itemName" : "orantruffle",
-  "rarity" : "Common",
+  "rarity" : "Uncommon",
+  "price" : 100,
+  "category" : "preparedFood",
   "inventoryIcon" : "orantruffle.png",
   "description" : "Decadent chocolate, covering a precious Oran Berry.",
   "shortdescription" : "Oran Truffle",
-  "handPosition" : [0, 6],
   "effects" : [ [
     {
-        "effect" : "runboost25",
-        "duration" : 30
-    },
-	{
-        "effect" : "foodheal120",
-        "duration" : 60
+        "effect" : "oranfoodheal",
+        "duration" : 45
     },
     {
-        "effect" : "wellfed",
-        "duration" : 90
+        "effect" : "runboostfood",
+        "duration" : 135
     }
   ] ],
+  "foodValue" : 30,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
   "blockingEffects" : [
     "wellfed"
   ],

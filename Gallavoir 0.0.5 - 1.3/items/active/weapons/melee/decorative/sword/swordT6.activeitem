@@ -40,12 +40,12 @@
 
   "activeTime" : 3.0,
 
-  "elementalType" : "physical",
+  "elementalType" : "physicalgv",
 
   "primaryAbilityType" : "broadswordcombo",
   "primaryAbility" : {
     "fireTime" : 0.83,
-    "baseDps" : 11.5,
+    "baseDps" : 11,
 
     "stances" : {
       "windup1" : {

@@ -1,0 +1,29 @@
+{
+  "name" : "energyregenbeta",
+  "effectConfig" : {
+    "stats" : [
+      {
+      "stat" : "energyRegenBlockTime",
+      "mult" : 0
+      },
+      {
+      "stat" : "energyRegenPercentageRate",
+      "mult" : 0.0625
+      },
+      {
+      "stat" : "maxEnergy",
+      "mult" : 2
+      }
+    ],
+    "unlockStats" : [ "energy" ],
+    "statLockTime" : 1
+  },
+  "defaultDuration" : 90,
+
+  "scripts" : [
+    "protecc.lua"
+  ],
+
+  "label" : "Energy Generator ß",
+  "icon" : "/interface/statuses/maxenergy.png"
+}

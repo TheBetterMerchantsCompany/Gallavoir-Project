@@ -8,7 +8,7 @@
   "winddownFrames" : 3,
   "intangibleWinddown" : true,
   "power" : 50,
-  "speed" : 25,
+  "speed" : 35,
   "timeToLive" : 1.0,
   "bounces" : 4,
   "piercing" : true,

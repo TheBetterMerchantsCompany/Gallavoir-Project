@@ -1,0 +1,1 @@
+there's a glitch that automatically deactivates one other pod when a new one is activated.

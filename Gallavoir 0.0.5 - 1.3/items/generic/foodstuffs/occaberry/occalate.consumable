@@ -1,23 +1,26 @@
 {
   "itemName" : "occalate",
   "rarity" : "Common",
+  "price" : 50,
+  "category" : "preparedFood",
   "inventoryIcon" : "occalate.png",
   "description" : "It took unrefined genius to refine spicy Occa beans into this soothing treat.",
   "shortdescription" : "Occalate",
-  "handPosition" : [8, -4],
   "effects" : [ [
     {
-        "effect" : "runboost25",
-        "duration" : 30
+        "effect" : "runboostfood",
+        "duration" : 90
     },
     {
-        "effect" : "occafireresist",
-        "duration" : 30
-    },
-    {
-        "effect" : "wellfed",
-        "duration" : 60
+        "effect" : "fireblock",
+        "duration" : 90
     }
   ] ],
+  "foodValue" : 20,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "blockingEffects" : [
+    "wellfed"
+  ],
   "learnBlueprintsOnPickup" : [ "occalatespicy" ]
 }

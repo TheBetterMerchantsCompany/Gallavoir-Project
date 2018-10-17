@@ -1,0 +1,60 @@
+{
+  "animationParts" : { },
+  "animationCustom" : {
+    "particleEmitters" : {
+      "altMuzzleFlash" : {
+        "active" : false,
+        "transformationGroups" : ["muzzle"],
+        "offsetPart" : "muzzleFlash",
+        "burstCount" : 3,
+        "particles" : [
+          { "particle" : "rocketbarrelpuff" }
+        ]
+      }
+    },
+    "sounds" : {
+      "altFire" : [ "/sfx/gun/grenade2.ogg" ],
+      "targetAcquired" : [  ]
+    }
+  },
+  "animationScripts" : [
+    "/items/active/weapons/ranged/abilities/homingrocket/homingrocketanimation.lua"
+  ],
+
+  "ability" : {
+    "name" : "Homing Rocket Burst",
+    "type" : "homingrocketburst",
+    "scripts" : ["/items/active/weapons/ranged/decorative/gunfire.lua", "/items/active/weapons/abilities/homingrocketburst/homingrocketburst.lua"],
+    "class" : "HomingRocketAttack",
+
+    "projectileType" : "homingrocket",
+    "projectileParameters" : {},
+    "baseDps" : 10,
+    "energyUsage" : 62.5,
+    "fireTime" : 1.0,
+
+    "queryRange" : 50,
+    "rocketWindupTime" : 0.75,
+
+    "stances" : {
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : false,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "cooldown" : {
+        "duration" : 0.3,
+        "armRotation" : 3,
+        "weaponRotation" : 3,
+        "twoHanded" : false,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    }
+  }
+}

@@ -8,7 +8,7 @@
 	
 	"The Gallavoir, living in peaceful coexistence with their home-worlds fauna, were visited by an Apex exploration party. Never having seen such strange creatures, the Gallavoir offered feasts in respect for their visitors. Though they did not speak the same language, an agreement was made to bring a handful of Gallavoir off-world.",
 	
-	"These Gallavoir were taken across the galaxy, to an outpost of the Miniknog, and locked away in solitary rooms. Over the course of several weeks, experiments were run by the Miniknog on this new race. According to the tests ran, there seemed to be latent psionic abilities that the Gallavoir were using subconsciously to affect the emotions of those who came in close proximity.",
+	"These Gallavoir were taken across the multiverse, to an outpost of the Miniknog, and locked away in solitary rooms. Over the course of several weeks, experiments were run by the Miniknog on this new race. According to the tests ran, there seemed to be latent psionic abilities that the Gallavoir were using subconsciously to affect the emotions of those who came in close proximity.",
 	
 	"Such a discovery seemed to pique the interest of the Miniknog. The Gallavoir were subjected to treatment in the VEP. Most of the Gallavoir who entered into the VEP died a grotesque death. Two (one male and one female), however, survived the process and broke out of the VEP chambers.",
 	
@@ -23,5 +23,9 @@
 	"It has been many years since what happened on that base. Gardevoir, as the female Gallavoir preferred be called, and her male companion, Gallade, came to become the leaders of their people. With my help, they reverse-engineered Apex technology and established a guerilla war against the Miniknog and Big Ape. They established diplomatic relations with other races.",
 	
 	"It has been many years since then, with a few generations now growing used to the nomadic nature of this guerilla war against the Apex. The children of Gardevoir and Gallade serve as the leaders of the Gallavoir throughout the galaxy. Perhaps, one day, Big Ape will be brought down by a Gallavoir."
-	]
+	],
+    "itemConfig" : {
+    "rarity" : "rare",
+    "price" : 250
+  }
 }

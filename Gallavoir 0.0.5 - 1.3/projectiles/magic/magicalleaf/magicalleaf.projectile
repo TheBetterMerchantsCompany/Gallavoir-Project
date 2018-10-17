@@ -1,0 +1,24 @@
+{
+  "projectileName" : "magicalleaf",
+  "image" : "magicalleaf.png",
+  "animationCycle" : 0.4,
+  "frameNumber" : 4,
+  "damageKindImage" : "icon.png",
+  "lightColor" : [64, 128, 64],
+  "pointLight" : true,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/plasmabulletexplosion/plasmabulletexplosion.config"
+    }
+  ],
+  "power" : 10.0,
+  "speed" : 30.0,
+  "physics" : "laser",
+  "damageKind" : "poison",
+
+  "scripts" : [ "/projectiles/controlprojectile.lua" ],
+  "controlForce" : 150,
+  "maxSpeed" : 150,
+  "armTime" : 1
+}

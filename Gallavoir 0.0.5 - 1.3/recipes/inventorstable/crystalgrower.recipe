@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "titaniumbar", "count" : 10 },
+    { "item" : "liquidhealing", "count" : 10 },
+    { "item" : "empathitesmall", "count" : 1}
+  ],
+  "output" : {
+    "item" : "crystalgrower",
+    "count" : 1
+  },
+  "duration" : 5,
+  "groups" : [ "inventorstable2", "craftingstations", "all" ]
+}

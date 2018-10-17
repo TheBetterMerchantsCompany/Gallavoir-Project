@@ -1,0 +1,137 @@
+{
+  "itemName" : "blackholestaff",
+  "price" : 480,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "The created black hole is safe to most life forms, but not to defenseless ground.",
+  "unusedTag" : "Be careful, you might summon a gay singularity",
+  "shortdescription" : "Microsingularity Generator",
+  "tooltipKind" : "base",
+  "category" : "staff",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","staff","spell"],
+  "level" : 6,
+  "learnBlueprintsOnPickup" : [ "blackholestaff" ],
+
+  "inventoryIcon" : "blackholestaff.png",
+  
+  "animation" : "/items/active/weapons/staff/staff.animation",
+  "animationParts" : {
+    "staff" : "blackholestaff.png",
+    "stafflit" : "blackholestafflit.png",
+    "stone" : "",
+    "chargeEffect" : "staffglow.png"
+  },
+  
+  "animationCustom" : {
+    "animatedParts" : {
+      "parts" : {
+        "staff" : {
+          "properties" : {
+            "centered" : false,
+            "offset" : [-1.5, -4.25]
+          }
+        },
+        "stafflit" : {
+          "properties" : {
+            "zLevel" : 1,
+            "centered" : false,
+            "fullbright" : true,
+            "image" : "<partImage>",
+            "offset" : [-1.5, -4.25],
+            "transformationGroups" : ["weapon"]
+          }
+        },
+        "chargeEffect" : {
+          "properties" : {
+            "centered" : false,
+            "offset" : [-1.625, -1.5]
+          }
+        }
+      }
+    },
+    "particleEmitters" : {
+      "blackholecharge" : {
+        "active" : false,
+        "transformationGroups" : ["weapon"],
+        "emissionRate" : 10,
+        "offsetRegion" : [-0.5, 1.25, 0.5, 2.75],
+        "particles" : [
+          {"particle" : "energyblade"},
+          {"particle" : "energyblade2"}
+        ]
+      }
+    },
+    "sounds" : {
+      "blackholecharge" : ["/sfx/melee/staff_charge1.ogg"],
+      "blackholefullcharge" : ["/sfx/melee/elemental_aura_activate.ogg"],
+      "blackholechargedloop" : ["/sfx/melee/charge_full_hold1.ogg"],
+      "blackholedischarge" : ["/sfx/melee/elemental_aura_deactivate1.ogg"],
+      "blackholeactivate" : ["/sfx/projectiles/plasma3.ogg"]
+    }
+  },
+
+  "baseOffset" : [1, 0],
+  
+  "stances" : {
+    "idle" : {
+      "armRotation" : -90,
+      "weaponRotation" : 0,
+      "twoHanded" : false,
+
+      "allowRotate" : false,
+      "allowFlip" : true
+    },
+    "charge" : {
+      "duration" : 1.3,
+      "armRotation" : 20,
+      "weaponRotation" : -20,
+      "twoHanded" : true,
+
+      "allowRotate" : false,
+      "allowFlip" : true
+    },
+    "charged" : {
+      "armRotation" : 20,
+      "weaponRotation" : -20,
+      "twoHanded" : true,
+
+      "allowRotate" : false,
+      "allowFlip" : false
+    },
+    "discharge" : {
+      "duration" : 0.5,
+      "armRotation" : 20,
+      "weaponRotation" : -20,
+      "twoHanded" : true,
+
+      "allowRotate" : false,
+      "allowFlip" : false
+    },
+    "cooldown" : {
+      "duration" : 0.5,
+      "armRotation" : -45,
+      "weaponRotation" : 0,
+      "twoHanded" : true,
+
+      "allowRotate" : false,
+      "allowFlip" : false
+    }
+  },
+  
+  "scripts" : ["/items/active/weapons/staff/staff.lua"],
+
+  "elementalType" : "blackhole",
+  "rangedIndex" : 1,
+
+  "primaryAbilityType" : "elementorb",
+  "primaryAbility" : {
+    "name" : "Singularity",
+    "energyCost" : 100,
+    "maxCastRange" : 30,
+    "projectileType" : "blackholeorb",
+    "projectileParameters" : {}
+  },
+
+  "builder" : "/items/active/weapons/ranged/buildpoweredweapon.lua"
+}

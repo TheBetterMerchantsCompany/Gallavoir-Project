@@ -1,0 +1,38 @@
+Types: basically all vanilla
+
+Manufacturers: "Callox ", "Graxus ", "Manaticon ", "Necrolix ", "Rotik ", "Shade Co. ", "Teklacki ",  "Xia-Li "
+
+Callox: Bursts. Bursts everywhere. Burst fire grenade launchers, sniper rifles, rocket launchers.
+ae: carbine
+
+Graxus: Explosive. All explosive. All the time. High energy cost, increased spread, but who cares, amirite? 1.5 DPS, by the way.
+ae: big
+
+Manaticon: All guns do... strange stuff. Rapidly accelerating bullets, spread bullets, old legendary guns, basically.
+ae: weird
+
+Necrolix: They want you *very* dead. Specialize in high-alpha weapons. These guns *start* at low end of firerate.
+ae: sniper
+
+Rotik: Increased addons per gun. Better soft stats.
+ae: high quality
+
+Shade Co.: Low energy cost, no elements, high firerate, high spread.
+ae: ak
+
+Teklacki: Gunfire? Screw gunfire, we use heavybeamfire.
+ae: energy
+
+Xia-Li: All guns elemental. Guns have a chance to do elemental stuff.
+ae: smg
+
+
+Addons:
+
+Spread: *3 projectiles.
+
+Ded killy: *1.2 dps and *1.5 energy consumption.
+
+Flashlight: duh.
+
+Grenade launcher: duh. 

@@ -1,20 +1,21 @@
 {
   "itemName" : "oranberrym",
   "rarity" : "Common",
+  "price" : 40,
+  "category" : "food",
+  "eventCategory" : "eventCrop",
   "inventoryIcon" : "oranberrym.png",
   "description" : "The healthy fruit of the Oran Tree.",
   "shortdescription" : "Oran Berry",
-  "handPosition" : [0, -2],
   "effects" : [ [
     {
-        "effect" : "foodheal95",
-        "duration" : 30
-    },
-    {
-        "effect" : "wellfed",
-        "duration" : 60
+        "effect" : "oranberryheal",
+        "duration" : 15
     }
   ] ],
+  "foodValue" : 5,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
   "blockingEffects" : [
     "wellfed"
   ],

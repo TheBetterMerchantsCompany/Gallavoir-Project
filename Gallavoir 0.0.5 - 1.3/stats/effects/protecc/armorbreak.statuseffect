@@ -1,0 +1,19 @@
+{
+  "name" : "armorbreak",
+  "effectConfig" : {
+    "stat" : "protection",
+    "protection" : 0.5,
+    "emitter" : "break",
+    "fade" : 666666
+  },
+  "defaultDuration" : 1,
+
+  "scripts" : [
+    "protecc.lua"
+  ],
+  
+  "animationConfig" : "armorbreak.animation",
+
+  "label" : "Armor Break",
+  "icon" : "/interface/statuses/oldpoison.png"
+}

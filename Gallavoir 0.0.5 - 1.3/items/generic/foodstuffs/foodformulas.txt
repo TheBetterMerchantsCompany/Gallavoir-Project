@@ -1,0 +1,1 @@
+for a food that restores X hunger points and grants Y helpful status effects, the duration for each helpful status effect is (9*X/Y) seconds

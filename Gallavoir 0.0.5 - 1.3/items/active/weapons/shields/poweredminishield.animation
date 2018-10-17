@@ -1,0 +1,156 @@
+{
+  "globalTagDefaults" : {
+    "hand" : "near",
+    "directives" : ""
+  },
+
+  "animatedParts" : {
+    "stateTypes" : {
+      "shield" : {
+        "default" : "idle",
+        "states" : {
+          "idle" : {},
+          "raised" : {},
+          "raisedPerfect" : {},
+          "block" : {
+            "frames" : 1,
+            "cycle" : 0.12,
+            "mode" : "transition",
+            "transition" : "raised"
+          }
+        }
+      }
+    },
+    "parts" : {
+      "shield" : {
+        "properties" : {
+          "zLevel" : 1,
+          "centered" : true,
+          "transformationGroups" : ["shield"],
+          "rotationCenter" : [0, 0],
+          "shieldPoly" : [ [-0.25, -2.5], [-0.25, 2.5], [1.5, 1.0], [1.5, -1.0] ]
+        },
+        "partStates" : {
+          "shield" : {
+            "idle" : {
+              "properties" : {
+                "image" : "<partImage>:<hand>idle"
+              }
+            },
+            "raised" : {
+              "properties" : {
+                "image" : "<partImage>:<hand>raised"
+              }
+            },
+            "raisedPerfect" : {
+              "properties" : {
+                "image" : "<partImage>:<hand>raised"
+              }
+            },
+            "block" : {
+              "properties" : {
+                "image" : "<partImage>:<hand>raised",
+                "offset" : [-0.25, 0]
+              }
+            }
+          }
+        }
+      },
+      "shieldlit" : {
+        "properties" : {
+          "fullbright" : true,
+          "zLevel" : 2,
+          "centered" : true,
+          "transformationGroups" : ["shield"],
+          "rotationCenter" : [0, 0]
+        },
+        "partStates" : {
+          "shield" : {
+            "idle" : {
+              "properties" : {
+                "image" : "<partImage>:<hand>idle"
+              }
+            },
+            "raised" : {
+              "properties" : {
+                "image" : "<partImage>:<hand>raised"
+              }
+            },
+            "raisedPerfect" : {
+              "properties" : {
+                "image" : "<partImage>:<hand>raised"
+              }
+            },
+            "block" : {
+              "properties" : {
+                "image" : "<partImage>:<hand>raised",
+                "offset" : [-0.25, 0]
+              }
+            }
+          }
+        }
+      },
+      "field" : {
+        "properties" : {
+          "zLevel" : 2,
+          "centered" : true,
+          "transformationGroups" : ["shield"],
+          "rotationCenter" : [0, 0]
+        },
+        "partStates" : {
+          "shield" : {
+            "idle" : {
+              "properties" : {
+                "image" : "",
+                "offset" : [-1.5, 0]
+              }
+            },
+            "raised" : {
+              "properties" : {
+                "image" : "<partImage>:<hand>raised<directives>",
+                "offset" : [-1.5, 0]
+              }
+            },
+            "raisedPerfect" : {
+              "properties" : {
+                "image" : "<partImage>:<hand>raised<directives>",
+                "offset" : [-1.5, 0]
+              }
+            },
+            "block" : {
+              "properties" : {
+                "image" : "<partImage>:<hand>raised<directives>",
+                "offset" : [-1.5, 0]
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+
+  "transformationGroups" : {
+    "shield" : {}
+  },
+
+  "sounds" : {
+    "raiseShield" : [ ],
+    "lowerShield" : [ ],
+    "perfectBlock" : [ ],
+    "block" : [ ],
+    "break" : [ ]
+  },
+
+  "particleEmitters" : {
+    "perfectBlock" : {
+      "active" : false,
+      "transformationGroups" : ["shield"],
+      "emissionRate" : 30,
+      "offsetRegion" : [-0.5, -1.0, 0.5, 1.0],
+      "particles" : [
+        { "particle" : "sparkle5"},
+        { "particle" : "sparkle5"}
+      ]
+    }
+  }
+}

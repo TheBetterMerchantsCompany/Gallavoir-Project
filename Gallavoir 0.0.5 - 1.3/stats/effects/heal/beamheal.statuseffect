@@ -1,0 +1,17 @@
+{
+  "name" : "beamheal",
+  "effectConfig" : {
+    "healAmount" : 2.5,
+    "emissionRate" : 1
+  },
+  "defaultDuration" : 0.1,
+
+  "scripts" : [
+    "heal.lua"
+  ],
+
+  "animationConfig" : "heal.animation",
+
+  "label" : "Healing",
+  "icon" : "/interface/statuses/heal.png"
+}

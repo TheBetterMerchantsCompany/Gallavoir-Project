@@ -1,0 +1,17 @@
+{
+  "name" : "drainheal",
+  "effectConfig" : {
+    "healAmount" : 1,
+    "emissionRate" : 1
+  },
+  "defaultDuration" : 0.01,
+
+  "scripts" : [
+    "heal.lua"
+  ],
+
+  "animationConfig" : "heal.animation",
+
+  "label" : "Healing",
+  "icon" : "/interface/statuses/heal.png"
+}

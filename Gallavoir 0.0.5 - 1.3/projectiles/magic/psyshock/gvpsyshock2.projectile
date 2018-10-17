@@ -1,0 +1,23 @@
+{
+  "projectileName" : "gvpsyshock2",
+  "physics" : "laser",
+  "piercing" : true,
+  "bounces" : -1,
+  "damageKindImage" : "icon.png",
+  "image" : "psyshock2.png",
+  "animationCycle" : 2,
+  "frameNumber" : 1,
+  "power" : 50,
+  "speed" : 180,
+  "supportsProcessing" : true,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/plasmabulletexplosion/plasmabulletexplosion.config"
+    }
+  ],
+  "statusEffects" : [ ],
+  "lightColor" : [45, 25, 60],
+  "damageKind" : "standardbullet",
+  "damageType" : "IgnoresDef"
+}

@@ -1,0 +1,190 @@
+{
+  "itemName" : "psyshock",
+  "price" : 480,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "The Shadow remains cast!",
+  "shortdescription" : "Shadow Stone",
+  "tooltipKind" : "staff",
+  "category" : "Spell",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","staff","spell"],
+  "level" : 6,
+
+  "inventoryIcon" : "icon.png",
+
+  "animation" : "/items/active/weapons/magic/spell.animation",
+  "animationParts" : {
+    "middle" : "sprite.png",
+    "stone" : "",
+    
+    "muzzleFlash" : "/items/active/weapons/magic/muzzleflash.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : ["/sfx/melee/retro_hit.ogg"],
+      "altFire" : ["/sfx/melee/retro_kill_robotic.ogg"],
+      
+      "shadowgvcharge" : ["/sfx/melee/staff_charge1.ogg"],
+      "shadowgvfullcharge" : ["/sfx/melee/elemental_aura_activate.ogg"],
+      "shadowgvchargedloop" : ["/sfx/melee/charge_full_hold1.ogg"],
+      "shadowgvdischarge" : ["/sfx/melee/elemental_aura_deactivate1.ogg"],
+      "shadowgvactivate" : ["/sfx/projectiles/plasma3.ogg"]
+    }
+  },
+  
+  "palette" : "/items/active/weapons/tiered.weaponcolors",
+  "colorIndex" : 8,
+  "handGrip" : "inside",
+
+  "baseOffset" : [-0.5, 0.0],
+  "muzzleOffset" : [2.0, 0.0],
+
+  "scripts" : ["/items/active/weapons/ranged/hiddengun.lua"],
+
+  "elementalType" : "shadowgv",
+  "rangedIndex" : 1,
+
+  "primaryAbility" : {
+    "type" : "elementswarm",
+    "name" : "Shadow Swarm",
+    "scripts" : ["/items/active/weapons/abilities/controlprojectile/controlprojectile.lua"],
+    "class" : "ControlProjectile",
+
+    "energyCost" : 50,
+
+    "maxCastRange" : 40,
+
+    "projectileCount" : 5,
+    "projectileAngleCount" : 25,
+    "projectileRotation" : 90,
+    "projectileDistance" : 8,
+
+    "projectileType" : ["gvpsyshock1","gvpsyshock2","gvpsyshock3"],
+    "projectileParameters" : {
+      "baseDamage" : 5,
+      "knockback" : 0,
+      "speed" : -64,
+      "timeToLive" : 0.12,
+      "movementSettings" : {
+        "collisionEnabled" : false
+      }
+    }
+  },
+  "altAbility" : {
+    "name" : "Pure Darkness",
+    "scripts" : ["/items/active/weapons/ranged/abilities/altfire.lua"],
+    "class" : "AltFireAttack",
+
+    "projectileType" : "gvshadowball",
+    "projectileParameters" : {
+      "baseDamage" : 5,
+      "knockback" : 0,
+      "speed" : 12,
+      "timeToLive" : 1.8
+    },
+
+    "baseDps" : 11.2,
+    "fireTime" : 1.4,
+    "energyUsage" : 40,
+    "inaccuracy" : 0.01,
+    "projectileCount" : 1,
+    
+    "fireType" : "auto",
+    "useParticleEmitter" : false,
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+  
+        "frontArmFrame" : "run.3",
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+  
+        "frontArmFrame" : "run.3",
+        "allowRotate" : false,
+        "allowFlip" : true
+      },
+      "cooldown" : {
+        "duration" : 0.1,
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+  
+        "frontArmFrame" : "run.3",
+        "allowRotate" : false,
+        "allowFlip" : true
+      }
+    }
+  },
+
+  "stances" : {
+    "idle" : {
+      "armRotation" : 0,
+      "weaponRotation" : 0,
+      "twoHanded" : true,
+
+      "frontArmFrame" : "run.3",
+      "allowRotate" : true,
+      "allowFlip" : true
+    },
+    "fire" : {
+      "duration" : 0,
+      "armRotation" : 0,
+      "weaponRotation" : 0,
+      "twoHanded" : true,
+
+      "frontArmFrame" : "run.3",
+      "allowRotate" : false,
+      "allowFlip" : true
+    },
+    "charge" : {
+      "duration" : 1.0,
+      "armRotation" : 0,
+      "weaponRotation" : 0,
+      "twoHanded" : true,
+
+      "frontArmFrame" : "run.3",
+      "allowRotate" : false,
+      "allowFlip" : true
+    },
+    "charged" : {
+      "armRotation" : 0,
+      "weaponRotation" : 0,
+      "twoHanded" : true,
+
+      "frontArmFrame" : "run.3",
+      "allowRotate" : true,
+      "allowFlip" : true
+    },
+    "discharge" : {
+      "duration" : 0.5,
+      "armRotation" : 0,
+      "weaponRotation" : 0,
+      "twoHanded" : true,
+
+      "frontArmFrame" : "run.3",
+      "allowRotate" : true,
+      "allowFlip" : true
+    },
+    "cooldown" : {
+      "duration" : 0.1,
+      "armRotation" : 0,
+      "weaponRotation" : 0,
+      "twoHanded" : true,
+
+      "frontArmFrame" : "run.3",
+      "allowRotate" : false,
+      "allowFlip" : true
+    }
+  },
+  
+  "builder" : "/items/active/weapons/ranged/buildpoweredweapon.lua"
+}

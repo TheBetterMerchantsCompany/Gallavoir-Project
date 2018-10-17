@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "refinedaegisalt", "count" : 3 },
+    { "item" : "solariumstar", "count" : 3 },
+    { "item" : "empathitesmall", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "gvnailgun",
+    "count" : 1
+  },
+  "groups" : [ "craftingaccelerator", "weapons", "all" ]
+}

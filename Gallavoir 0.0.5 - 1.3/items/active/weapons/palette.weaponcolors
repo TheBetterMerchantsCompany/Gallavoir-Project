@@ -1,0 +1,9 @@
+{
+  "name" : "palette", // My base empathite color palette.
+  "swaps" : [ // Colors are from dark to bright.
+    { // Defaults
+      "af00bf" : "48305c", "c700d9" : "805090", "e800ff" : "9966cc", "e878ff" : "c880ff", "ffb4ff" : "dcb4ff"
+    }
+
+  ]
+}

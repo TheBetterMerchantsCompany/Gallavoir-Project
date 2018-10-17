@@ -1,0 +1,79 @@
+{
+  "objectName" : "wacantreeseed",
+  "colonyTags" : ["nature"],
+  "rarity" : "Common",
+  "category" : "seed",
+  "description" : "A large tree with electrifying fruits.",
+  "shortdescription" : "Wacan Tree Seed",
+  "objectType" : "farmable",
+  "printable" : false,
+  "price" : 40,
+
+  "apexDescription" : "My fur is standing on end around this plant.",
+  "avianDescription" : "AH! It shocked me!",
+  "floranDescription" : "Thisss plant isss ssshockingly tasssty.",
+  "glitchDescription" : "Analysis. This plant seems to act much like a capacitor in adaptations.",
+  "humanDescription" : "Why do I suddenly feel like watching bad movie sequels?",
+  "hylotlDescription" : "I-I'd rather not touch that tree.",
+  "novakidDescription" : "Not sure what all the fuss is about. I produce more energy inside me than that tree ever will.",
+  "gallavoirDescription" : "The Wacan berry tree, illuminating our lives since long ago.",
+
+  "tooltipKind" : "seed",
+  "inventoryIcon" : "wacantreeseedicon.png",
+  "largeImage" : "wacantreeseed.png:default.3.0",
+
+  "lightColor" : [204, 204, 163],
+  "pointLight" : true,
+  "pointBeam" : 1.25,
+  "beamAmbience" : 0.4,
+
+  "orientations" : [
+    {
+      "dualImage" : "wacantreeseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [-12, 0],
+      "animationPosition" : [-12, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "lightPosition" : [0.5, 3.5],
+      "beamAngle" : 270,
+      "spaces" : [ [-1, 0], [-1, 1], [-1, 2], [-1, 3], [-1, 4], [0, 0], [0, 1], [0, 2], [0, 3], [0, 4], [1, 0], [1, 1], [1, 2], [1, 3], [1, 4] ],
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "animation" : "wacantreeseed.animation",
+  "animationParts" : {
+    "fg" : "wacantreeseed.png",
+    "bg" : "wacantreeseedlitaf.png"
+  },
+
+  "scripts" : [ "/objects/farmables/wacantree/wacanlight.lua" ],
+  "scriptDelta" : 15,
+
+  "stages" : [
+    {
+      "duration" : [490, 630]
+    },
+    {
+      "duration" : [350, 450]
+    },
+    {
+      "duration" : [280, 360]
+    },
+    {
+      "duration" : [210, 270]
+    },
+    {
+      "duration" : [175, 225]
+    },
+    {
+      "duration" : [175, 225]
+    },
+    {
+      "harvestPool" : "wacantreeHarvest",
+      "resetToStage" : 3
+    }
+  ]
+}

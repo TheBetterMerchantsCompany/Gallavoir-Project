@@ -1,0 +1,54 @@
+{
+  "itemName" : "spearT3",
+  "price" : 960,
+  "level" : 3,
+  "maxStack" : 1,
+  "rarity" : "Uncommon",
+  "description" : "This long hilt houses the projector for an anemic energy blade.",
+  "shortdescription" : "Chance mk.III",
+  "tooltipKind" : "sword",
+  "category" : "spear",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","spear","modifiableWeapon"],
+
+  "inventoryIcon" : "spearT3.png",
+
+  "animation" : "spear.animation",
+  "animationParts" : {
+    "handle" : "spearT3.png",
+    "handleFullbright" : "",
+    "blade" : ""
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : [ "/sfx/melee/laser_weapon_swing1.ogg", "/sfx/melee/laser_weapon_swing2.ogg", "/sfx/melee/laser_weapon_swing3.ogg" ]
+    }
+  },
+
+  "learnBlueprintsOnPickup" : [ "spearT4" ],
+  
+  "palette" : "/items/active/weapons/tiered.weaponcolors",
+  "colorIndex" : 4,
+
+  "scripts" : ["/items/active/weapons/melee/energymeleeweapon.lua", "/items/active/weapons/ranged/decorative/weaponconfigurator.lua"],
+
+  "interactAction" : "ScriptPane",
+  "interactData" : "/interface/scripted/weaponconfigurator/weaponconfiguratorui.config",
+
+  "altAbilities" : ["spearspin", "flurry"],
+  "altAbilitiesName" : ["Spear Spin", "Flurry"],
+
+  "elementalType" : "physicalgv",
+
+  "aimOffset" : -1.0,
+
+  "primaryAbilityType" : "spearstab",
+  "primaryAbility" : {
+    "fireTime" : 0.95,
+    "baseDps" : 10
+  },
+
+  "altAbilityType" : "spearspin",
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

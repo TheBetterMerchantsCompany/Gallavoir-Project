@@ -1,0 +1,19 @@
+{
+  "input" : [
+    { "item" : "ironbar", "count" : 3 },
+    { "item" : "climbingrope", "count" : 2 },
+    { "item" : "empathitesmall", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "gvnailgun",
+    "count" : 1,
+    "parameters" : 
+      {
+      "shortdescription" : "GVC-HNA-81",
+      "rarity" : "Common",
+      "level" : 1,
+      "colorIndex" : 2
+      }
+  },
+  "groups" : [ "craftinganvil", "weapons", "all" ]
+}

@@ -1,0 +1,14 @@
+﻿Gallav'ir
+
+"It is your primary directive to get closer to that beautiful creature... Get closer... Get closer now... It looks so friendly... Do not resist... Do not struggle... Come closer..." 
+
+Stats: 10P/6S/4H
+Aspects: Non-Euclidean/Luminescent
+Weakness: Sticky
+
+Injure: Light of Ruin (3/Luminescent)
+Dodge: Not There (3/Non-Euclidean)
+Trap: No Way Out (2/Non-Euclidean)
+Frighten: Flare (1/Luminescent)
+
+Lavender

@@ -36,12 +36,12 @@
   "interactAction" : "ScriptPane",
   "interactData" : "/interface/scripted/weaponconfigurator/weaponconfiguratorui.config",
 
-  "elementalType" : "physical",
+  "elementalType" : "physicalgv",
 
   "primaryAbilityType" : "hammersmash",
   "primaryAbility" : {
     "fireTime" : 1.2,
-    "baseDps" : 11.5
+    "baseDps" : 13
   },
 
   "altAbilityType" : "physicalshockwave",

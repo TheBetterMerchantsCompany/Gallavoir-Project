@@ -1,0 +1,19 @@
+{
+  "input" : [
+    { "item" : "tungstenbar", "count" : 3 },
+    { "item" : "climbingrope", "count" : 2 },
+    { "item" : "empathitesmall", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "gvnailgun",
+    "count" : 1,
+    "parameters" : 
+      {
+      "shortdescription" : "GVC-HNA-82",
+      "rarity" : "Common",
+      "level" : 2,
+      "colorIndex" : 3
+      }
+  },
+  "groups" : [ "craftinganvil", "weapons", "all" ]
+}

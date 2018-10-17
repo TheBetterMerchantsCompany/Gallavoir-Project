@@ -1,0 +1,105 @@
+{
+  "itemName" : "dazzlinggleamT2",
+  "price" : 480,
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "Summon the Light!\n^green;Primary:^reset; Blinding Flashlight\n^green;Special:^reset; Explosive Flare",
+  "shortdescription" : "Holy Flare ",
+  "tooltipKind" : "staff",
+  "category" : "Spell",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","staff","spell"],
+  "level" : 2,
+  "learnBlueprintsOnPickup" : [ "dazzlinggleamT2", "dazzlinggleamT4" ],
+
+  "inventoryIcon" : "spell.png",
+
+  "animation" : "/items/active/weapons/magic/spell.animation",
+  "animationParts" : {
+    "middle" : "spell.png",
+    "middlebright" : "spelllit.png",
+    
+    "altMuzzleFlash" : "/items/active/weapons/magic/muzzleflash.png",
+    "flashMuzzleFlash" : "/items/active/weapons/magic/muzzleflash.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : ["/sfx/melee/retro_kill_robotic.ogg"]
+    }
+  },
+  
+  "palette" : "/items/active/weapons/tiered.weaponcolors",
+  "colorIndex" : 2,
+  
+  "baseOffset" : [1.0, 0.75],
+  "muzzleOffset" : [3.0, 0.0],
+  
+  "scripts" : ["/items/active/weapons/ranged/hiddengun.lua"],
+
+  "elementalType" : "lightgv",
+  "rangedIndex" : 1,
+
+  "primaryAbilityType" : "attackflash",
+  "primaryAbility" : {
+    "muzzleOffset" : [-0.75, -0.8125],
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      }
+    }
+  },
+
+  "altAbility" : {
+    "name" : "Explosive Flare",
+    "type" : "grenadelauncher",
+
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+
+    "fireTime" : 2,
+    "baseDps" : 11.2,
+    "energyUsage" : 40,
+    "projectileCount" : 1,
+    "inaccuracy" : 0.0,
+    "fireType" : "auto",
+
+    "projectileType" : "dazzlinggleam",
+    "projectileParameters" : {},
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 5,
+        "weaponRotation" : 5,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "cooldown" : {
+        "duration" : 0.25,
+        "armRotation" : 5,
+        "weaponRotation" : 5,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    }
+  },
+
+  "builder" : "/items/active/weapons/ranged/buildpoweredweapon.lua"
+}

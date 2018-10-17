@@ -1,0 +1,22 @@
+{ //First colors are lovingly handpicked straight from the sprites. Garde is 3gen and gal is 4. Too bad their palettes are one color too small =/
+
+  "undyColor" : [ // light to dark.
+    { "dc1f00" : "f89880", "be1b00" : "f57056", "951500" : "e05038" }, //GardevoirRed [ur moms pink]
+    { "dc1f00" : "f8c058", "be1b00" : "eba647", "951500" : "e08020" }, //GardevoirOrange [no gal colors, too similar, probably the same palette]
+    { "dc1f00" : "dc1f00", "be1b00" : "be1b00", "951500" : "951500" }, //VanillaRed
+    { "dc1f00" : "c4f7ff", "be1b00" : "23c8fe", "951500" : "066aff" }, //TerrarianIcyBlue
+    { "dc1f00" : "f8e0f8", "be1b00" : "f8b8d0", "951500" : "f890a8" }, //FairyPink
+  ],
+  
+  "hairColor" : [ // light to dark. "ffffff" <- copypaste spot
+    { "E8DAB8" : "c8f8a8", "d9c189" : "90e090", "a38d59" : "70b870", "735e3a" : "307848" }, //GardevoirGreen
+    { "E8DAB8" : "b8e0f8", "d9c189" : "78c0e8", "a38d59" : "50a8d0", "735e3a" : "207078" }, //GardevoirBlue
+    { "E8DAB8" : "81c8b3", "d9c189" : "61b969", "a38d59" : "49875a", "735e3a" : "3e5353" }, //GalladeGreen
+    { "E8DAB8" : "8bc4f7", "d9c189" : "6b97f7", "a38d59" : "4758ae", "735e3a" : "38346f" }, //GalladeBlue
+    { "E8DAB8" : "f07082", "d9c189" : "ee0037", "a38d59" : "bf2d4d", "735e3a" : "a01e3e" }, //RubyRed
+    { "E8DAB8" : "f8f878", "d9c189" : "f8e800", "a38d59" : "c08800", "735e3a" : "805000" }, //PikachuYellow
+    { "E8DAB8" : "d0b0f8", "d9c189" : "b070f8", "a38d59" : "7828d8", "735e3a" : "401090" }, //PsychicPurple
+    { "E8DAB8" : "f0d8e8", "d9c189" : "e0b0e0", "a38d59" : "c080b8", "735e3a" : "a84888" }, //KindaPink
+    { "E8DAB8" : "f8f0a8", "d9c189" : "f8d868", "a38d59" : "cc9933", "735e3a" : "804000" }, //FabulousBlonde
+  ]
+}

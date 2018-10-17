@@ -1,0 +1,5 @@
+C:\Users\Nick\Desktop\imagick\convert.exe "%~f1" -fill "#48305cAF" -opaque "#48305c" "%~f1"
+C:\Users\Nick\Desktop\imagick\convert.exe "%~f1" -fill "#805090AF" -opaque "#805090" "%~f1"
+C:\Users\Nick\Desktop\imagick\convert.exe "%~f1" -fill "#9966ccAF" -opaque "#9966cc" "%~f1"
+C:\Users\Nick\Desktop\imagick\convert.exe "%~f1" -fill "#c880ffAF" -opaque "#c880ff" "%~f1"
+C:\Users\Nick\Desktop\imagick\convert.exe "%~f1" -fill "#dcb4ffAF" -opaque "#dcb4ff" "%~f1"

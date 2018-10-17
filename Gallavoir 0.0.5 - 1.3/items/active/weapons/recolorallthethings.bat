@@ -1,0 +1,1 @@
+for /r %%I in (*.png) do recolor "%%~fI"

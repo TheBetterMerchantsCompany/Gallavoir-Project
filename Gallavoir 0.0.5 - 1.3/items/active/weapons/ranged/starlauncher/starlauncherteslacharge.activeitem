@@ -1,0 +1,158 @@
+{
+  "itemName" : "starlauncherteslacharge",
+  "price" : 1440,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "The power to blow stuff up.",
+  "shortdescription" : "Tesla Charging Proto",
+  "tooltipKind" : "gun",
+  "category" : "Space Cannon",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","ranged","rocketlauncher"],
+  "level" : 6,
+
+  "inventoryIcon" : [
+    { "image" : "starlauncherteslacharge.png" }
+  ],
+
+  "animation" : "/items/active/weapons/ranged/poweredlasergun.animation",
+  "animationParts" : {
+    "butt" : "",
+    "middle" : "starlauncherteslacharge.png",
+    "barrel" : "",
+
+    "buttbright" : "",
+    "middlebright" : "starlauncherteslachargefullbright.png",
+    "barrelbright" : "",
+
+    "muzzleFlash" : ""
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "firecharge" : [],
+      "charge" : ["/sfx/melee/charge_up13.ogg"],
+      "charged" : ["/sfx/melee/energywhip_swing3.ogg"],
+      "fire" : [ "/sfx/gun/electricrailgun1.ogg" ],
+      "beamImpact" : [],
+      "altFire" : [ "/sfx/gun/elemental_lance.ogg" ]
+    },
+    "lights" : {
+      "muzzleFlash" : {
+        "color" : [0, 0, 0]
+      }
+    },
+    "particleEmitters" : {
+      "altMuzzleFlash" : {
+        "active" : false,
+        "emissionRate" : 8,
+        "transformationGroups" : ["muzzle"],
+        "offsetRegion" : [0, 0, 0, 0],
+        "particles" : []
+      }
+    }
+  },
+  "animationScripts" : ["/items/active/effects/chain.lua"],
+
+  "baseOffset" : [0.125, 0.75],
+  "muzzleOffset" : [0.25, 0.0625],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "starelectric",
+
+   "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/abilities/heavybeamcharge/heavybeamcharge.lua"],
+    "class" : "HeavyBeam",
+
+    "fireTime" : 2,
+    "baseDps" : 10.5,
+    "energyUsage" : 40,
+
+    "damageConfig" : {
+      "statusEffects" : [ ],
+      "damageSourceKind" : "electric",
+      "knockback" : 0
+    },
+
+    "chargeLevels" : [
+      {
+        "time" : 0,
+        "energyCost" : 20,
+        "cooldown" : 0.5,
+        "baseDamage" : 5.25,
+        "beamLength" : 12
+      },
+      {
+        "time" : 2.0,
+        "energyCost" : 100,
+        "cooldown" : 0.5,
+        "baseDamage" : 26.25,
+        "beamLength" : 64
+      }
+    ],
+    
+    "beamLength" : 40,
+
+    "chain" : {
+      "startOffset" : [0, 0],
+      "segmentImage" : "/items/active/weapons/ranged/starlauncher/beam.png",
+      "endSegmentImage" : "/items/active/weapons/ranged/starlauncher/beamend.png",
+      "segmentSize" : 0.48,
+      "overdrawLength" : 0.2,
+      "taper" : 0,
+      "renderLayer" : "Projectile-1",
+      "fullbright" : true
+    },
+    
+    "chainWeak" : {
+      "startOffset" : [0, 0],
+      "segmentImage" : "/items/active/weapons/ranged/starlauncher/beamweak.png",
+      "endSegmentImage" : "/items/active/weapons/ranged/starlauncher/beamweakend.png",
+      "segmentSize" : 0.48,
+      "overdrawLength" : 0.2,
+      "taper" : 0,
+      "renderLayer" : "Projectile-1",
+      "fullbright" : true
+    },
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "charge" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0.11,
+        "cooldown" : 0.03,
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "cooldown" : {
+        "duration" : 0.1,
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      }
+    }
+  },
+
+  "builder" : "/items/active/weapons/ranged/buildpoweredweapon.lua"
+}

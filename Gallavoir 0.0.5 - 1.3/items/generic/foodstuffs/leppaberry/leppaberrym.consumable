@@ -1,0 +1,23 @@
+{
+  "itemName" : "leppaberrym",
+  "rarity" : "Common",
+  "price" : 40,
+  "category" : "food",
+  "eventCategory" : "eventCrop",
+  "inventoryIcon" : "leppaberrym.png",
+  "description" : "The energetic fruit of the Leppa Tree.",
+  "shortdescription" : "Leppa Berry",
+  "effects" : [ [
+    {
+        "effect" : "energyregen",
+        "duration" : 45
+    }
+  ] ],
+  "foodValue" : 5,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "learnBlueprintsOnPickup" : [ "leppajuice", "leppatreeseed" ]
+}

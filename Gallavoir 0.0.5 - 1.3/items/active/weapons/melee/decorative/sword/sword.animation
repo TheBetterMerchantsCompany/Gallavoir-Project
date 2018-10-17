@@ -181,7 +181,7 @@
   },
 
   "particleEmitters" : {
-    "physicalswoosh" : {
+    "physicalgvswoosh" : {
       "active" : false,
       "transformationGroups" : ["swoosh"],
       "burstCount" : 4,

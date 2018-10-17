@@ -1,0 +1,128 @@
+[
+{ "op": "add", "path": "/orantreeHarvest", "value": 
+[
+	[0, {
+	  "fill" : [
+		{"item" : [ "oranberrym", 1]}
+],
+	  "pool" : [
+		{"weight" : 0.89, "item" : "oranberrym" }
+	  ],
+	  "poolRounds" : [
+		[0.6, 1],
+		[0.2, 2],
+		[0.1, 3],
+		[0.1, 4]
+	  ]
+} ]
+]
+},
+{ "op": "add", "path": "/leppatreeHarvest", "value": 
+[
+	[0, {
+	  "fill" : [
+		{"item" : [ "leppaberrym", 1]}
+],
+	  "pool" : [
+		{"weight" : 0.89, "item" : "leppaberrym" }
+	  ],
+	  "poolRounds" : [
+		[0.6, 1],
+		[0.2, 2],
+		[0.1, 3],
+		[0.1, 4]
+	  ]
+} ]
+]
+},
+{ "op": "add", "path": "/occatreeHarvest", "value": 
+[
+	[0, {
+	  "fill" : [
+		{"item" : [ "occaberrym", 1]}
+],
+	  "pool" : [
+		{"weight" : 0.89, "item" : "occaberrym" }
+	  ],
+	  "poolRounds" : [
+		[0.6, 1],
+		[0.2, 2],
+		[0.1, 3],
+		[0.1, 4]
+	  ]
+} ]
+]
+},
+{ "op": "add", "path": "/passhotreeHarvest", "value": 
+[
+	[0, {
+	  "fill" : [
+		{"item" : [ "passhoberrym", 1]}
+],
+	  "pool" : [
+		{"weight" : 0.89, "item" : "passhoberrym" }
+	  ],
+	  "poolRounds" : [
+		[0.6, 1],
+		[0.2, 2],
+		[0.1, 3],
+		[0.1, 4]
+	  ]
+} ]
+]
+},
+{ "op": "add", "path": "/payapatreeHarvest", "value": 
+[
+	[0, {
+	  "fill" : [
+		{"item" : [ "payapaberrym", 1]}
+],
+	  "pool" : [
+		{"weight" : 0.89, "item" : "payapaberrym" }
+	  ],
+	  "poolRounds" : [
+		[0.6, 1],
+		[0.2, 2],
+		[0.1, 3],
+		[0.1, 4]
+	  ]
+} ]
+]
+},
+{ "op": "add", "path": "/shucatreeHarvest", "value": 
+[
+	[0, {
+	  "fill" : [
+		{"item" : [ "shucaberrym", 1]}
+],
+	  "pool" : [
+		{"weight" : 0.89, "item" : "shucaberrym" }
+	  ],
+	  "poolRounds" : [
+		[0.6, 1],
+		[0.2, 2],
+		[0.1, 3],
+		[0.1, 4]
+	  ]
+} ]
+]
+},
+{ "op": "add", "path": "/wacantreeHarvest", "value": 
+[
+	[0, {
+	  "fill" : [
+		{"item" : [ "wacanberrym", 1]}
+],
+	  "pool" : [
+		{"weight" : 0.89, "item" : "wacanberrym" }
+	  ],
+	  "poolRounds" : [
+		[0.6, 1],
+		[0.2, 2],
+		[0.1, 3],
+		[0.1, 4]
+	  ]
+} ]
+]
+}
+]

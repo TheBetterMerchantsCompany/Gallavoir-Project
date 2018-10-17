@@ -1,0 +1,5 @@
+For bridges: (buildings are reverse)
+
+1st floor: green on the left, yellow on the right.
+
+2nd floor: cyan on the left, purple on the right. Balconies are orange.

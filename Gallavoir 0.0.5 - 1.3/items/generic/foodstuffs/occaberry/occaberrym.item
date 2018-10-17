@@ -1,8 +1,11 @@
 {
   "itemName" : "occaberrym",
   "rarity" : "Common",
+  "price" : 40,
+  "category" : "cookingIngredient",
   "inventoryIcon" : "occaberrym.png",
   "description" : "The pod-like fruit of the Occa Tree. Not edible.",
   "shortdescription" : "Occa Berry",
+  "eventCategory" : "eventCrop",
   "learnBlueprintsOnPickup" : [ "occabeans", "occatreeseed" ]
 }

@@ -1,0 +1,124 @@
+{
+  "itemName" : "gvattackdronespawner",
+  "price" : 1000,
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "category" : "Drone Controller",
+  "description" : "Small and weak, this drone is nevertheless very useful.",
+  "shortdescription" : "Attack Drone",
+  "tooltipKind" : "dronespawner",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","minionSpawner"],
+
+  "podUuid" : true, //Yeah... collar lua needs it to exist.
+
+  "inventoryIcon" : "gvattackdronespawner.png",
+  "animation" : "gvattackdronespawner.animation",
+  "animationParts" : {
+    "filledcapturepod" : "gvattackdronespawner.png",
+    "unfilledcapturepod" : "gvattackdronespawnerlit.png"
+  },
+  "animationCustom" : { },
+  "scripts" : ["/items/active/spawners/spawneritem.lua"],
+
+	"tooltipFields" : {
+    "objectImage" : [{
+			"color" : [255, 255, 255],
+			"image" : "/monsters/drones/gvattackdrone/gvattackdrone.png:idle.1?",
+			"transformation" : [
+				[-1, 0, 16],
+				[0, 1, -16],
+				[0, 0, 1]
+			],
+			"position" : [3, 1],
+			"fullbright" : false
+		}],
+		"atkLabel" : "^lightgray;Homing Mines (CD:4.0)\n^blue;Lightning Bolt (CD:0.0)^reset;"
+	},
+
+  "stances" : {
+    "idle" : {
+      "armRotation" : 0,
+      "animationState" : {
+        "weapon" : "visible"
+      },
+      "allowRotate" : true,
+      "allowFlip" : true
+    },
+    "windup" : {
+      "duration" : 0.1,
+      "transitionFunction" : "fire",
+      "armRotation" : 0,
+      "animationState" : {
+        "weapon" : "visible"
+      },
+      "allowRotate" : false,
+      "allowFlip" : false
+    },
+    "dead" : {
+      "duration" : 0.5,
+      "transitionFunction" : "kill",
+      "armRotation" : 90,
+      "animationState" : {
+        "weapon" : "visible"
+      },
+      "allowRotate" : false,
+      "allowFlip" : false
+    },
+    "throw" : {
+      "armRotation" : 20,
+      "animationState" : {
+        "weapon" : "visible"
+      },
+      "allowRotate" : true,
+      "allowFlip" : true
+    },
+    "catch" : {
+      "duration" : 0.2,
+      "transition" : "idle",
+      "armRotation" : 90,
+      "animationState" : {
+        "weapon" : "visible"
+      },
+      "allowRotate" : false,
+      "allowFlip" : true
+    },
+    "monsterEnergyCatch" : {
+      "duration" : 1.5,
+      "transition" : "podTeleportCatch",
+      "transitionFunction" : "showEnergyBall",
+      "armRotation" : 90,
+      "animationState" : {
+        "weapon" : "visible"
+      },
+      "allowRotate" : false,
+      "allowFlip" : true
+    },
+    "podTeleportCatch" : {
+      "duration" : 0.3,
+      "transition" : "idle",
+      "armRotation" : 90,
+      "animationState" : {
+        "weapon" : "visible"
+      },
+      "allowRotate" : false,
+      "allowFlip" : true
+    }
+  },
+
+  "projectileType" : "spawnerprojectile",
+  "projectileParameters" : {
+    "speed" : 40,
+    "level" : 0
+  },
+
+  "minion" : [{"config" : {"type" : "gvattackdrone","parameters" : { "aggressive" : true, "level" : 6, "seed" : "1", "familyIndex" : 0}}}],
+  "minionId" : "47616C6C61766F69725F49444E5F41",
+  "minionAmount" : 8,
+
+  "currentCollar" : null,
+  "currentCard" : null,
+  
+  
+  "builder" : "/items/buildscripts/builddrone.lua"
+}

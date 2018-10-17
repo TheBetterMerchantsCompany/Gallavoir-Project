@@ -1,0 +1,15 @@
+{
+  "frameGrid" : {
+    "size" : [7, 49],
+    "dimensions" : [4, 1],
+    "names" : [
+      ["extend.1", "extend.2", "extend.3", "active.1"]
+    ]
+  },
+
+  "aliases" : {
+    "retract.1" : "extend.3",
+    "retract.2" : "extend.2",
+    "retract.3" : "extend.1"
+  }
+}

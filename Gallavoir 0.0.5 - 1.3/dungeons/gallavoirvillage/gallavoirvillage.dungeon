@@ -1,0 +1,368 @@
+{
+  "metadata" : {
+    "name" : "gallavoirvillage",
+    "species" : "gallavoir",
+    "rules" : [
+    ],
+    "anchor" : [ "gallavoirhouse1" ],
+    "gravity" : 80,
+    "maxRadius" : 1000000,
+    "maxParts" : 20,
+    "extendSurfaceFreeSpace" : 100,
+    "protected" : true
+  },
+
+  "parts" : [
+    {
+      "name" : "gallavoirhouse1",
+      "rules" : [
+        [ "maxSpawnCount", [3] ]
+      ],
+      "chance" : 500,
+      "def" : [ "tmx", "house1.json" ]
+    },
+    {
+      "name" : "gallavoirhouse2",
+      "rules" : [
+        [ "maxSpawnCount", [3] ]
+      ],
+      "chance" : 500,
+      "def" : [ "tmx", "house2.json" ]
+    },
+    
+    {
+      "name" : "gallavoirhouseair1",
+      "rules" : [
+        [ "maxSpawnCount", [3] ]
+      ],
+      "chance" : 500,
+      "def" : [ "tmx", "houseair1.json" ]
+    },
+    {
+      "name" : "gallavoirhouseair2",
+      "rules" : [
+        [ "maxSpawnCount", [3] ]
+      ],
+      "chance" : 500,
+      "def" : [ "tmx", "houseair2.json" ]
+    },
+    
+    {
+      "name" : "gallavoirhousebig1-1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotConnectToPart", [ "gallavoirbridgehigh1", "gallavoirbridgehigh1-a" ] ]
+      ],
+      "chance" : 1000,
+      "def" : [ "tmx", "housebig1-1.json" ]
+    },
+    
+    {
+      "name" : "gallavoirhousebig2-1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "ignorePartMaximumRule" ]
+      ],
+      "chance" : 1000,
+      "def" : [ "tmx", "housebig2-1.json" ]
+    },
+    
+    {
+      "name" : "gallavoirgreenhouse",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "chance" : 1000,
+      "def" : [ "tmx", "greenhouse.json" ]
+    },
+    {
+      "name" : "gallavoirworkshop",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "chance" : 1000,
+      "def" : [ "tmx", "workshop.json" ]
+    },
+    
+    {
+      "name" : "gallavoirbridge1",
+      "rules" : [
+        [ "maxSpawnCount", [3] ],
+        [ "ignorePartMaximumRule" ]
+      ],
+      "chance" : 250,
+      "def" : [ "tmx", "bridge1.json" ]
+    },
+    {
+      "name" : "gallavoirbridge2",
+      "rules" : [
+        [ "maxSpawnCount", [3] ],
+        [ "ignorePartMaximumRule" ]
+      ],
+      "chance" : 250,
+      "def" : [ "tmx", "bridge2.json" ]
+    },
+    {
+      "name" : "gallavoirbridge3",
+      "rules" : [
+        [ "maxSpawnCount", [3] ],
+        [ "ignorePartMaximumRule" ]
+      ],
+      "chance" : 250,
+      "def" : [ "tmx", "bridge3.json" ]
+    },
+    
+    {
+      "name" : "gallavoirbridgeair1",
+      "rules" : [
+        [ "maxSpawnCount", [3] ],
+        [ "ignorePartMaximumRule" ]
+      ],
+      "chance" : 250,
+      "def" : [ "tmx", "bridgeair1.json" ]
+    },
+    {
+      "name" : "gallavoirbridgeair2",
+      "rules" : [
+        [ "maxSpawnCount", [3] ],
+        [ "ignorePartMaximumRule" ]
+      ],
+      "chance" : 250,
+      "def" : [ "tmx", "bridgeair2.json" ]
+    },
+    {
+      "name" : "gallavoirbridgeair3",
+      "rules" : [
+        [ "maxSpawnCount", [3] ],
+        [ "ignorePartMaximumRule" ]
+      ],
+      "chance" : 250,
+      "def" : [ "tmx", "bridgeair3.json" ]
+    },
+    
+    {
+      "name" : "gallavoirbridgehigh1",
+      "rules" : [
+        [ "maxSpawnCount", [3] ],
+        [ "ignorePartMaximumRule" ]
+      ],
+      "chance" : 250,
+      "def" : [ "tmx", "bridgehigh1.json" ]
+    },
+    
+    {
+      "name" : "gallavoirbridge1-a",
+      "rules" : [
+        [ "maxSpawnCount", [3] ],
+        [ "ignorePartMaximumRule" ]
+      ],
+      "chance" : 250,
+      "def" : [ "tmx", "bridge1-a.json" ]
+    },
+    {
+      "name" : "gallavoirbridge2-a",
+      "rules" : [
+        [ "maxSpawnCount", [3] ],
+        [ "ignorePartMaximumRule" ]
+      ],
+      "chance" : 250,
+      "def" : [ "tmx", "bridge2-a.json" ]
+    },
+    {
+      "name" : "gallavoirbridge3-a",
+      "rules" : [
+        [ "maxSpawnCount", [3] ],
+        [ "ignorePartMaximumRule" ]
+      ],
+      "chance" : 250,
+      "def" : [ "tmx", "bridge3-a.json" ]
+    },
+    
+    {
+      "name" : "gallavoirbridgeair1-a",
+      "rules" : [
+        [ "maxSpawnCount", [3] ],
+        [ "ignorePartMaximumRule" ]
+      ],
+      "chance" : 250,
+      "def" : [ "tmx", "bridgeair1-a.json" ]
+    },
+    {
+      "name" : "gallavoirbridgeair2-a",
+      "rules" : [
+        [ "maxSpawnCount", [3] ],
+        [ "ignorePartMaximumRule" ]
+      ],
+      "chance" : 250,
+      "def" : [ "tmx", "bridgeair2-a.json" ]
+    },
+    {
+      "name" : "gallavoirbridgeair3-a",
+      "rules" : [
+        [ "maxSpawnCount", [3] ],
+        [ "ignorePartMaximumRule" ]
+      ],
+      "chance" : 250,
+      "def" : [ "tmx", "bridgeair3-a.json" ]
+    },
+    
+    {
+      "name" : "gallavoirbridgehigh1-a",
+      "rules" : [
+        [ "maxSpawnCount", [3] ],
+        [ "ignorePartMaximumRule" ]
+      ],
+      "chance" : 250,
+      "def" : [ "tmx", "bridgehigh1-a.json" ]
+    },
+    
+    {
+      "name" : "gallavoirbridgetree",
+      "rules" : [
+        [ "maxSpawnCount", [3] ],
+        [ "ignorePartMaximumRule" ]
+      ],
+      "chance" : 500,
+      "def" : [ "tmx", "bridgetree.json" ]
+    },
+    
+    {
+      "name" : "gallavoirlegs1",
+      "rules" : [
+        [ "maxSpawnCount", [12] ],
+        [ "ignorePartMaximumRule" ]
+      ],
+      "chance" : 500,
+      "def" : [ "tmx", "legs1.json" ]
+    },
+    {
+      "name" : "gallavoirlegs2",
+      "rules" : [
+        [ "maxSpawnCount", [12] ],
+        [ "ignorePartMaximumRule" ]
+      ],
+      "chance" : 500,
+      "def" : [ "tmx", "legs2.json" ]
+    },
+    {
+      "name" : "gallavoirlegs3",
+      "rules" : [
+        [ "maxSpawnCount", [12] ],
+        [ "ignorePartMaximumRule" ]
+      ],
+      "chance" : 500,
+      "def" : [ "tmx", "legs3.json" ]
+    },
+    
+    {
+      "name" : "gallavoirbalcony1-l",
+      "rules" : [
+        [ "maxSpawnCount", [255] ],
+        [ "ignorePartMaximumRule" ]
+      ],
+      "chance" : 1,
+      "def" : [ "tmx", "balcony1-l.json" ]
+    },
+    {
+      "name" : "gallavoirbalcony1-r",
+      "rules" : [
+        [ "maxSpawnCount", [255] ],
+        [ "ignorePartMaximumRule" ]
+      ],
+      "chance" : 1,
+      "def" : [ "tmx", "balcony1-r.json" ]
+    },
+    {
+      "name" : "gallavoirbalcony2-l",
+      "rules" : [
+        [ "maxSpawnCount", [255] ],
+        [ "ignorePartMaximumRule" ]
+      ],
+      "chance" : 1,
+      "def" : [ "tmx", "balcony2-l.json" ]
+    },
+    {
+      "name" : "gallavoirbalcony2-r",
+      "rules" : [
+        [ "maxSpawnCount", [255] ],
+        [ "ignorePartMaximumRule" ]
+      ],
+      "chance" : 1,
+      "def" : [ "tmx", "balcony2-r.json" ]
+    },
+    
+    {
+      "name" : "gallavoirbalcony1-a-l",
+      "rules" : [
+        [ "maxSpawnCount", [255] ],
+        [ "ignorePartMaximumRule" ]
+      ],
+      "chance" : 1,
+      "def" : [ "tmx", "balcony1-a-l.json" ]
+    },
+    {
+      "name" : "gallavoirbalcony1-a-r",
+      "rules" : [
+        [ "maxSpawnCount", [255] ],
+        [ "ignorePartMaximumRule" ]
+      ],
+      "chance" : 1,
+      "def" : [ "tmx", "balcony1-a-r.json" ]
+    },
+    {
+      "name" : "gallavoirbalcony2-a-l",
+      "rules" : [
+        [ "maxSpawnCount", [255] ],
+        [ "ignorePartMaximumRule" ]
+      ],
+      "chance" : 1,
+      "def" : [ "tmx", "balcony2-a-l.json" ]
+    },
+    {
+      "name" : "gallavoirbalcony2-a-r",
+      "rules" : [
+        [ "maxSpawnCount", [255] ],
+        [ "ignorePartMaximumRule" ]
+      ],
+      "chance" : 1,
+      "def" : [ "tmx", "balcony2-a-r.json" ]
+    },
+    
+    {
+      "name" : "gallavoirbalcony1-b-l",
+      "rules" : [
+        [ "maxSpawnCount", [255] ],
+        [ "ignorePartMaximumRule" ]
+      ],
+      "chance" : 1,
+      "def" : [ "tmx", "balcony1-b-l.json" ]
+    },
+    {
+      "name" : "gallavoirbalcony1-b-r",
+      "rules" : [
+        [ "maxSpawnCount", [255] ],
+        [ "ignorePartMaximumRule" ]
+      ],
+      "chance" : 1,
+      "def" : [ "tmx", "balcony1-b-r.json" ]
+    },
+    {
+      "name" : "gallavoirbalcony2-b-l",
+      "rules" : [
+        [ "maxSpawnCount", [255] ],
+        [ "ignorePartMaximumRule" ]
+      ],
+      "chance" : 1,
+      "def" : [ "tmx", "balcony2-b-l.json" ]
+    },
+    {
+      "name" : "gallavoirbalcony2-b-r",
+      "rules" : [
+        [ "maxSpawnCount", [255] ],
+        [ "ignorePartMaximumRule" ]
+      ],
+      "chance" : 1,
+      "def" : [ "tmx", "balcony2-b-r.json" ]
+    }
+  ]
+}

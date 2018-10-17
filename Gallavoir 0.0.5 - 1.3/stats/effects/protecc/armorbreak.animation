@@ -1,0 +1,16 @@
+{
+  "particleEmitters" : {
+    "break" : {
+      "enabled" : true,
+      "emissionRate" : 5.0,
+      "particles" : [
+        {
+          "particle" : "ancientshard1"
+        },
+        {
+          "particle" : "ancientshard2"
+        }
+      ]
+    }
+  }
+}

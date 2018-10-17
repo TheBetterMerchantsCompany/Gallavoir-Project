@@ -1,0 +1,19 @@
+{
+  "input" : [
+    { "item" : "durasteelbar", "count" : 3 },
+    { "item" : "copperbar", "count" : 2 },
+    { "item" : "empathitesmall", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "gvnailgun",
+    "count" : 1,
+    "parameters" : 
+      {
+      "shortdescription" : "GVC-HNA-84",
+      "rarity" : "Uncommon",
+      "level" : 4,
+      "colorIndex" : 5
+      }
+  },
+  "groups" : [ "craftinganvil3", "weapons", "all" ]
+}

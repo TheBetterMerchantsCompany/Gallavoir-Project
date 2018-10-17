@@ -1,0 +1,70 @@
+{
+  "itemName" : "gvprotect",
+  "level" : 1,
+  "price" : 570,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "category" : "shield",
+  "description" : "Why use steel when you can use the Force?",
+  "shortdescription" : "Forcefield Generator",
+  "tooltipKind" : "Shield",
+  "twoHanded" : true,
+  "itemTags" : ["shield"],
+
+  "inventoryIcon" : "protecticon.png",
+
+  "animation" : "poweredshield.animation",
+  "animationParts" : {
+    "shield" : "protect.png",
+    "shieldlit" : "protectlit.png",
+    "field" : "protectshield-ded.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "raiseShield" : [ "/sfx/melee/swing_spear.ogg" ],
+      "perfectBlock" : [ "/sfx/melee/shield_block_metal_perfect.ogg" ],
+      "block" : [ "/sfx/melee/shield_block_metal.ogg" ],
+      "break" : [ "/sfx/melee/shield_break_metal.ogg" ]
+    }
+  },
+
+  "scripts" : ["shield.lua"],
+  "animationScripts" : ["/items/active/animations/dodecahedron.lua"],
+
+  "minActiveTime" : 0.2,
+
+  "energyUsage" : 60,
+  "shieldEnergyRegen" : 1,
+  
+  "effectImmunity" : true,
+  
+  "forceWalk" : true,
+  "baseShieldHealth" : 60,
+  "cooldownTime" : 0.3,
+
+  "perfectBlockDirectives" : "?border=2;FFCCFFAA;00000000",
+  "perfectBlockTime" : 0.1,
+
+  "knockback" : 10,
+  
+  "stances" : {
+    "idle" : {
+      "armRotation" : -90,
+      "shieldRotation" : 0,
+      "twoHanded" : false,
+      
+      "allowRotate" : false,
+      "allowFlip" : true
+    },
+    "raised" : {
+      "armRotation" : 0,
+      "shieldRotation" : 0,
+      "twoHanded" : false,
+      
+      "allowRotate" : false,
+      "allowFlip" : true
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildunrandshield.lua"
+}

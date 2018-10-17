@@ -102,18 +102,21 @@
   },
 
   "altAbility" : {
-    "name" : "Alpha Strike",
+    "name" : "Skyfire",
     "type" : "rocketlauncher",
 
-    "scripts" : ["/items/active/weapons/ranged/abilities/altfire.lua"],
-    "class" : "AltFireAttack",
+    "scripts" : ["/items/active/weapons/abilities/skyfire/skyfire.lua"],
+    "class" : "GunFire",
 
-    "fireTime" : 2,
+    "fireTime" : 0.18,
     "baseDps" : 10,
     "energyUsage" : 40,
     "projectileCount" : 1,
-    "inaccuracy" : 0.0,
-    "fireType" : "auto",
+    "inaccuracy" : 0.1,
+    
+    "fireType" : "burst",
+    "burstCount" : 3,
+    "burstTime" : 0.09,
 
     "projectileType" : "fallenstar",
     "projectileParameters" : {

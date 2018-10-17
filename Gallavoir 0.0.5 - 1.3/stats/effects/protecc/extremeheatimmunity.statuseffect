@@ -1,0 +1,16 @@
+{
+  "name" : "extremeheatimmunity",
+  "effectConfig" : {
+    "stat" : "biomeheatImmunity",
+    "base" : true,
+    "biomeheatImmunity" : 1.0
+  },
+  "defaultDuration" : 90,
+
+  "scripts" : [
+    "protecc.lua"
+  ],
+
+  "label" : "Extreme Heat Immunity",
+  "icon" : "/interface/statuses/fireblock.png"
+}

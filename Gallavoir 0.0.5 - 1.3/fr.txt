@@ -1,0 +1,21 @@
+-20% fall damage
+25% physical, shadow and poison weakness
+^1.05 armor
++15% pet and minion damage
+Slightly lose saturation and time from full belly (de)buff with energy regenerated. +50% energy regeneration. (0.1 food / 0.12 seconds per energy unit)
+
+While Gallavoir lost most of their innate abilities from both the failed multiversal teleportation attempt and the apex incident, they're still the same big-brained creatures with huge eyes and semi-stable internal structure.
+
+Advantages: Reduced fall damage, gain more armor from heavier armor
+Diet: Omnivore. Prefer to eat fruits, but it's mostly because of increased sugar intake and tradition.
+Favored Playstyle: Summoner
+Immunities: Mental afflictions
+
+Racial Perks / Flaws
+High-powered internal energy systems need noticeable amounts of food to regenerate, but also regenerate 50% faster.
+
+Environmental Bonus
+Swim 15% faster, both in liquids and in space.
+
+Combat Perks
+Well-trained pets and customized minions do 15% more damage.

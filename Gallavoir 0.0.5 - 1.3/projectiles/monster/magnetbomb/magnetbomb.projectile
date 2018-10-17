@@ -1,0 +1,38 @@
+{
+  "projectileName" : "magnetbomb",
+  "image" : "magnetbomb.png",
+  "damageKindImage" : "icon.png",
+  
+  "lightColor" : [100, 90, 50],
+  "pointLight" : false,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/smallregularexplosion/smallregularexplosion.config"
+    }
+  ],
+  "movementSettings" : {
+    "gravityMultiplier" : 0.0,
+    "liquidFriction" : 0.0,
+    "bounceFactor" : 0.5
+  },
+  "statusEffects" : [ ],
+  "flippable" : true,
+  "bounces" : -1,
+  "power" : 10.0,
+  "speed" : 2.0,
+  "timeToLive" : 16,
+  "physics" : "grenade",
+  "damageType" : "NoDamage",
+  "damageKind" : "default",
+
+  "scripts" : [ "/projectiles/homingprojectile.lua" ],
+  "scriptDelta" : 3,
+
+  "controlForce" : 64,
+  "maxSpeed" : 32,
+  
+  "homingDistance" : 30,
+  "rotationRate" : 2.5,
+  "trackingLimit" : 4.0
+}

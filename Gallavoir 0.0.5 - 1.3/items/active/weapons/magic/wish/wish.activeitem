@@ -1,0 +1,189 @@
+{
+  "itemName" : "wish",
+  "price" : 480,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "A staff that contains a powerful spell.",
+  "shortdescription" : "Healing Staff",
+  "tooltipKind" : "staff",
+  "category" : "Spell",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","staff","spell"],
+  "level" : 6,
+  "learnBlueprintsOnPickup" : [ "wish" ],
+
+  "inventoryIcon" : "sprite.png",
+
+  "animation" : "/items/active/weapons/magic/spell.animation",
+  "animationParts" : {
+    "middle" : "sprite.png",
+    
+    "muzzleFlash" : ""
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "charge" : [""],
+      "beamImpact" : [ ],
+      "fire" : ["/sfx/melee/retro_hit.ogg"],
+      "altFire" : ["/sfx/melee/retro_kill_robotic.ogg"],
+      "fireStart" : [ "/sfx/gun/erchiuseyebeam_stop.ogg" ],
+      "fireLoop" : [ "/sfx/objects/plasmadisc.ogg" ],
+      "fireEnd" : [ "/sfx/gun/erchiuseyebeam_start.ogg" ]
+    },
+    "transformationGroups" : {
+      "weapon" : {},
+      "muzzle" : {},
+      "beamEnd" : {}
+    },
+    "particleEmitters" : {
+      "muzzleFlash" : {
+        "transformationGroups" : ["muzzle"],
+        "offsetRegion" : [0, 4, 0, 4],
+        "particles" : [ ]
+      },
+      "beamCollision" : {
+        "active" : false,
+        "transformationGroups" : ["beamEnd"],
+        "particles" : [ ]
+      }
+    }
+  },
+  
+  "palette" : "/items/active/weapons/colors/melee.weaponcolors",
+  "colorIndex" : 13,
+
+  "baseOffset" : [0.0, 1.0],
+  "muzzleOffset" : [3.0, -1.8125],
+  
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+  "animationScripts" : ["/items/active/effects/lightning.lua"],
+
+  "elementalType" : "healgv",
+  "rangedIndex" : 1,
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/abilities/draincombo/healingbolt.lua"],
+    "class" : "LightningBolt",
+    "name" : "Beam (^green;+25 HP/s^reset;)",
+
+    "fireTime" : 0.1,
+    "energyUsage" : 20,
+    
+    "healingEffect" : "beamheal",
+
+    "amount" : 2,
+    "width" : 1.25,
+    "forks" : 0,
+    "branching" : 0.2, 
+    "color" : [255, 225, 225, 128],
+    
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 10,
+        "twoHanded" : false,
+        "frontArmFrame" : "swim.2",
+        "backArmFrame" : "swim.2",
+        "weaponOffset" : [-0.75, 0],
+        
+        "aimAngle" : 0,
+
+        "allowRotate" : false,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0.11,
+        "cooldown" : 0.03,
+        "armRotation" : 0,
+        "weaponRotation" : -90,
+        "twoHanded" : true,
+        
+        "frontArmFrame" : "walk.4",
+        "backArmFrame" : "idle.5",
+        
+        "weaponOffset" : [0.875, -1.75],
+        
+        "aimAngle" : 0,
+
+        "allowRotate" : false,
+        "allowFlip" : true
+      },
+      "cooldown" : {
+        "duration" : 0.05,
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+        
+        "aimAngle" : 0,
+
+        "allowRotate" : false,
+        "allowFlip" : true
+      }
+    }
+  },
+  
+  "altAbility" : {
+    "name" : "Sky Blast (^green;+100 HP^reset;)",
+    "scripts" : ["/items/active/weapons/abilities/skyfire/skyfire.lua"],
+    "class" : "GunFire",
+
+    "fireTime" : 2,
+    "baseDps" : 0,
+    "energyUsage" : 20,
+    
+    "projectileCount" : 1,
+    "fireType" : "auto",
+    "inaccuracy" : 0,
+
+    "projectileType" : "wishnade",
+    "projectileParameters" : {
+    },
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 10,
+        "twoHanded" : false,
+        "frontArmFrame" : "swim.2",
+        "backArmFrame" : "swim.2",
+        "weaponOffset" : [-0.75, 0],
+        
+        "aimAngle" : 0,
+
+        "allowRotate" : false,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0.11,
+        "cooldown" : 0.03,
+        "armRotation" : 0,
+        "weaponRotation" : -90,
+        "twoHanded" : true,
+        
+        "frontArmFrame" : "walk.4",
+        "backArmFrame" : "idle.5",
+        
+        "weaponOffset" : [0.875, -1.75],
+        
+        "aimAngle" : 0,
+
+        "allowRotate" : false,
+        "allowFlip" : true
+      },
+      "cooldown" : {
+        "duration" : 0.1,
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+        
+        "aimAngle" : 0,
+
+        "allowRotate" : false,
+        "allowFlip" : true
+      }
+    }
+  },
+  
+  "builder" : "/items/active/weapons/ranged/buildpoweredweapon.lua"
+}
+

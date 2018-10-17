@@ -1,0 +1,240 @@
+{
+  "type" : "gvattackdrone",
+  "shortdescription" : "Attack Drone",
+  "description" : "Small and weak, this drone is nevertheless very useful.",
+
+  "categories" : [ "gvattackdrone" ],
+  "parts" : [ "body" ],
+
+  "animation" : "gvattackdrone.animation",
+
+  "dropPools" : [ { "default" : "empty", "bow" : "money" } ],
+
+  "baseParameters" : {
+    "scripts" : [
+      "/monsters/monster.lua"
+    ],
+
+    "behavior" : "gvmonster",
+    "behaviorUpdateDelta" : 1,
+
+    "seeThroughLiquid" : false,
+    "behaviorConfig" : {
+      "damageOnTouch" : true,
+
+      "targetQueryRange" : 30,
+      "targetOnDamage" : true,
+      "keepTargetInSight" : true,
+      "keepTargetInRange" : 50,
+      "targetOutOfSightTime" : 5.0,
+
+      "foundTargetActions" : [ ],
+
+      "fleeActions" : [ ],
+
+      "hostileActions" : [
+        {
+          "name" : "action-fire",
+          "cooldown" : 4.0,
+          "parameters" : {
+            "requireLineOfSight" : true,
+            "maximumRange" : 30,
+            "minimumRange" : 1,
+            "windupState" : "swoopwindup",
+            "windupTime" : 0.6,
+
+            "projectileType" : "magnetbombspawner",
+            "fireOffset" : [0.0, 0.0],
+            "aimAtTarget" : true,
+            "onGround" : false,
+            "fireState" : "swoop",
+            "fireSound" : "fire2",
+            "fireDelay" : 0.1,
+
+            "fireArc": false,
+            "projectileSpeed": 0,
+            "gravityMultiplier": 0.0,
+
+            "winddownState" : "",
+            "winddownTime" : 1.0
+          }
+        },
+        {
+          "name" : "action-fire",
+          "cooldown" : 0.0,
+          "parameters" : {
+            "requireLineOfSight" : true,
+            "maximumRange" : 30,
+            "minimumRange" : 4,
+            "windupState" : "swoopwindup",
+            "windupTime" : 0.2,
+
+            "projectileType" : "railgunlightning",
+            "fireOffset" : [0.0, 0.0],
+            "aimAtTarget" : true,
+            "onGround" : false,
+            "fireState" : "swoop",
+            "fireSound" : "fire",
+            "fireDelay" : 0.1,
+
+            "fireArc": false,
+            "projectileSpeed": 150,
+            "gravityMultiplier": 0.0,
+
+            "winddownState" : "",
+            "winddownTime" : 0.5
+          }
+        }
+      ],
+
+      "periodicActions" : [ ],
+
+      "approachActions" : [
+        {
+          "name" : "approach-fly",
+          "parameters" : {
+            "minRange" : 8,
+            "maxRange" : 24,
+            "avoidLiquid" : false
+          }
+        }
+      ],
+
+      "followActions" : [
+        {
+          "name" : "approach-teleport",
+          "parameters" : {
+          }
+        },
+        {
+          "name" : "approach-fly",
+          "parameters" : {
+            "avoidLiquid" : false
+          }
+        }
+      ],
+
+      "wanderActions" : [ ],
+
+      "concurrentActions" : [ ],
+
+      "concurrentHostileActions" : [ ]
+    },
+
+    "touchDamage" : {
+      "poly" : [ [0.26, 0.625],  [0.625, 0.26], [0.625, -0.26], [0.26, -0.625], [-0.26, -0.625], [-0.625, -0.26], [-0.625, 0.26], [-0.26, 0.625] ],
+      "damage" : 10,
+
+      "teamType" : "enemy",
+      "damageSourceKind" : "lash",
+      "knockback" : 20,
+      "statusEffects" : [ ]
+    },
+
+    "metaBoundBox" : [-4, -4, 4, 4],
+    "scale" : 1.0,
+
+    "movementSettings" : {
+      "collisionPoly" : [ [0.26, 0.625],  [0.625, 0.26], [0.625, -0.26], [0.26, -0.625], [-0.26, -0.625], [-0.625, -0.26], [-0.625, 0.26], [-0.26, 0.625] ],
+
+      "mass" : 4,
+      "walkSpeed" : 8,
+      "runSpeed" : 32,
+      "gravityEnabled" : false,
+
+      "airFriction" : 8,
+      "airForce" : 240,
+      "flySpeed" : 120
+    },
+
+    "bodyMaterialKind" : "robotic",
+
+    "knockoutTime" : 0.3,
+    "knockoutAnimationStates" : {
+      "damage" : "stunned"
+    },
+    "deathParticles" : "deathPoof",
+    "knockoutEffect" : "",
+
+    "statusSettings" : {
+      "statusProperties" : {
+        "targetMaterialKind" : "robotic"
+      },
+
+      "appliesEnvironmentStatusEffects" : false,
+      "appliesWeatherStatusEffects" : false,
+      "minimumLiquidStatusEffectPercentage" : 0.1,
+
+      "primaryScriptSources" : [
+        "/stats/monster_primary.lua"
+      ],
+      "primaryScriptDelta" : 5,
+
+      "stats" : {
+        "knockbackStunTime" : {
+          "baseValue" : 0.5
+        },
+        "knockbackThreshold" : {
+          "baseValue" : 9
+        },
+        "maxHealth" : {
+          "baseValue" : 35
+        },
+        "protection" : {
+          "baseValue" : 8.0
+        },
+        "healthRegen" : {
+          "baseValue" : 0.0
+        },
+        "powerMultiplier" : {
+          "baseValue" : 1.0
+        },
+        "physicalResistance" : {
+          "baseValue" : 0.0
+        },
+        "fireResistance" : {
+          "baseValue" : -0.5
+        },
+        "fireStatusImmunity" : {
+          "baseValue" : 0.0
+        },
+        "iceResistance" : {
+          "baseValue" : 0.0
+        },
+        "iceStatusImmunity" : {
+          "baseValue" : 0.0
+        },
+        "electricResistance" : {
+          "baseValue" : 0.0
+        },
+        "electricStatusImmunity" : {
+          "baseValue" : 0.0
+        },
+        "poisonResistance" : {
+          "baseValue" : 0.5
+        },
+        "poisonStatusImmunity" : {
+          "baseValue" : 1.0
+        }
+      },
+
+      "resources" : {
+        "stunned" : {
+          "deltaValue" : -1.0,
+          "initialValue" : 0.0
+        },
+        "health" : {
+          "maxStat" : "maxHealth",
+          "deltaStat" : "healthRegen",
+          "defaultPercentage" : 100
+        }
+      }
+    },
+
+    "mouthOffset" : [0, 0],
+    "feetOffset" : [0, -8],
+    "capturable" : true,
+    "captureHealthFraction" : 0.5,
+    "nametagColor" : [64, 160, 255]
+  }
+}

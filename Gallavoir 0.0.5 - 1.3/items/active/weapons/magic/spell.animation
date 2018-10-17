@@ -1,0 +1,316 @@
+{
+  "globalTagDefaults" : {
+    "paletteSwaps" : ""
+  },
+
+  "animatedParts" : {
+    "stateTypes" : {
+      "firing" : {
+        "default" : "off",
+        "states" : {
+          "off" : {},
+          "charge" : {
+            "frames" : 4,
+            "cycle" : 1.0,
+            "mode" : "transition",
+            "transition" : "fullcharge"
+          },
+          "fullcharge" : {
+            "frames" : 3,
+            "cycle" : 0.2,
+            "mode" : "loop"
+          },
+          "fire" : {
+            "frames" : 2,
+            "cycle" : 0.07,
+            "mode" : "transition",
+            "transition" : "off"
+          }
+        }
+      },
+      "flash" : {
+        "default" : "off",
+        "states" : {
+          "off" : {},
+          "on" : {
+            "frames" : 2,
+            "cycle" : 0.07,
+            "mode" : "transition",
+            "transition" : "off"
+          }
+        }
+      },
+      "charge" : {
+        "default" : "idle",
+        "states" : {
+          "idle" : {},
+          "charge" : {
+            "frames" : 13,
+            "cycle" : 1.0,
+            "mode" : "transition",
+            "transition" : "spark"
+          },
+          "spark" : {
+            "frames" : 3,
+            "cycle" : 0.3,
+            "mode" : "transition",
+            "transition" : "charged"
+          },
+          "charged" : {
+            "frames" : 4,
+            "cycle" : 0.5,
+            "mode" : "loop"
+          },
+          "discharge" : {
+            "frames" : 3,
+            "cycle" : 0.3,
+            "mode" : "transition",
+            "transition" : "idle"
+          }
+        }
+      },
+      "swoosh" : {
+        "default" : "idle",
+        "states" : {
+          "idle" : {
+          },
+          "fire" : {
+            "frames" : 3,
+            "cycle" : 0.1,
+            "mode" : "transition",
+            "transition" : "idle"
+          },
+          "fire2" : {
+            "frames" : 3,
+            "cycle" : 0.1,
+            "mode" : "transition",
+            "transition" : "idle"
+          }
+        }
+      }
+    },
+
+    "parts" : {
+      "butt" : {
+        "properties" : {
+          "centered" : true,
+          "image" : "<partImage><paletteSwaps>",
+          "offset" : [0, 0], // x offset is set dynamically
+          "transformationGroups" : ["weapon"]
+        }
+      },
+      "middle" : {
+        "properties" : {
+          "centered" : true,
+          "image" : "<partImage><paletteSwaps>",
+          "offset" : [0, 0], // x offset is set dynamically
+          "transformationGroups" : ["weapon"]
+        }
+      },
+      "barrel" : {
+        "properties" : {
+          "centered" : true,
+          "image" : "<partImage><paletteSwaps>",
+          "offset" : [0, 0], // x offset is set dynamically
+          "transformationGroups" : ["weapon"]
+        }
+      },
+
+      "buttbright" : {
+        "properties" : {
+          "zLevel" : 1,
+          "fullbright" : true,
+          "centered" : true,
+          "image" : "<partImage><paletteSwaps>",
+          "offset" : [0, 0], // x offset is set dynamically
+          "transformationGroups" : ["weapon"]
+        }
+      },
+      "middlebright" : {
+        "properties" : {
+          "zLevel" : 1,
+          "fullbright" : true,
+          "centered" : true,
+          "image" : "<partImage><paletteSwaps>",
+          "offset" : [0, 0], // x offset is set dynamically
+          "transformationGroups" : ["weapon"]
+        }
+      },
+      "barrelbright" : {
+        "properties" : {
+          "zLevel" : 1,
+          "fullbright" : true,
+          "centered" : true,
+          "image" : "<partImage><paletteSwaps>",
+          "offset" : [0, 0], // x offset is set dynamically
+          "transformationGroups" : ["weapon"]
+        }
+      },
+      "stone" : {
+        "properties" : {
+          "zLevel" : 0,
+          "centered" : true,
+          "fullbright" : true,
+          "image" : "<partImage>",
+          "offset" : [0.0, 0.0],
+          "focalPoint" : [0.0, 0.0],
+          "transformationGroups" : ["weapon"]
+        }
+      },
+      "muzzleFlash" : {
+        "properties" : {
+          "zLevel" : -1,
+          "centered" : true,
+          "offset" : [0.5, -0.1875],
+          "fullbright" : true,
+          "transformationGroups" : ["muzzle"]
+        },
+
+        "partStates" : {
+          "firing" : {
+            "fire" : {
+              "properties" : {
+                "image" : "<partImage>:<variant>.<frame>"
+              }
+            }
+          }
+        }
+      },
+      "altMuzzleFlash" : {
+        "properties" : {
+          "zLevel" : -1,
+          "centered" : true,
+          "offset" : [0.5, -0.1875],
+          "fullbright" : true,
+          "transformationGroups" : ["muzzle"]
+        },
+
+        "partStates" : {
+          "firing" : {
+            "fire" : {
+              "properties" : {
+                "image" : "<partImage>:<variant>.<frame>"
+              }
+            }
+          }
+        }
+      },
+      "flashMuzzleFlash" : {
+        "properties" : {
+          "zLevel" : -1,
+          "centered" : true,
+          "offset" : [0.5, -0.1875],
+          "fullbright" : true,
+          "transformationGroups" : ["muzzle","flash"]
+        },
+
+        "partStates" : {
+          "flash" : {
+            "on" : {
+              "properties" : {
+                "image" : "<partImage>:<variant>.<frame>"
+              }
+            }
+          }
+        }
+      },
+      "swoosh" : {
+        "properties" : {
+          "zLevel" : -1,
+          "centered" : true,
+          "transformationGroups" : ["swoosh"],
+          "rotationCenter" : [0, 0]
+        },
+
+        "partStates" : {
+          "swoosh" : {
+            "idle" : {
+              "properties" : {
+                "image" : ""
+              }
+            },
+            "fire" : {
+              "properties" : {
+                "image" : "/items/active/weapons/melee/shortsword/swoosh/energyswoosh.png:<frame>",
+                "offset" : [0.25, 0.125],
+                "damageArea" : [ [-2.25, 1.125], [0.25, 1.125], [1.625, 0.75], [2.5, 0], [2.5, -0.5], [2.125, -0.875], [1, -1.375], [-2.25, -1.375] ]
+              }
+            },
+            "fire2" : {
+              "properties" : {
+                "image" : "/items/active/weapons/melee/shortsword/swoosh2/energyswoosh.png:<frame>",
+                "offset" : [0.25, 0.125],
+                "damageArea" : [[-3, 1], [3, 1], [3, -1], [-3, -1]]
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+
+  "rotationGroups" : {
+    "weapon" : {
+      "angularVelocity" : 0
+    }
+  },
+
+  "transformationGroups" : {
+    "weapon" : {},
+    "muzzle" : {},
+    "flash" : {},
+    "swoosh" : {}
+  },
+
+  "particleEmitters" : {
+    "muzzleFlash" : {
+      "transformationGroups" : ["muzzle"],
+      "offsetRegion" : [0, 0, 0, 0],
+      "particles" : [ ]
+    },
+    "altMuzzleFlash" : {
+      "transformationGroups" : ["muzzle"],
+      "offsetRegion" : [0, 0, 0, 0],
+      "particles" : [ ]
+    },
+    "shadowgvcharge" : {
+      "active" : false,
+      "transformationGroups" : ["weapon"],
+      "emissionRate" : 10,
+      "offsetRegion" : [-0.5, 1.0, 0.5, 2.5],
+      "particles" : []
+    },
+    "psychicgvcharge" : {
+      "active" : false,
+      "transformationGroups" : ["weapon"],
+      "emissionRate" : 10,
+      "offsetRegion" : [-0.5, 1.0, 0.5, 2.5],
+      "particles" : []
+    },
+    "moongvswoosh" : {
+      "active" : false,
+      "transformationGroups" : ["swoosh"],
+      "emissionRate" : 1,
+      "burstCount" : 1,
+      "particles" : []
+    }
+  },
+
+  "lights" : {
+    "muzzleFlash" : {
+      "active" : false,
+      "position" : [0, 0],
+      "color" : [90, 50, 120]
+    },
+    "altMuzzleFlash" : {
+      "active" : false,
+      "position" : [0, 0],
+      "color" : [90, 50, 120]
+    }
+  },
+
+  "sounds" : {
+    "fire" : [ ],
+    "fire2" : [ ]
+  }
+}

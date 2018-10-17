@@ -9,6 +9,7 @@
   "timeToLive" : 0.1,
   "power" : 50,
   "speed" : 0,
+  "piercing" : true,
   "damagePoly" : [[ 0, -0.25 ],[ 256, -0.25 ],[ 256, 0.25 ],[ 0, 0.25 ]],
   "supportsProcessing" : true,
   "statusEffects" : [ ],

@@ -1,0 +1,17 @@
+{
+  "name" : "oranfoodheal",
+  "effectConfig" : {
+    "healAmount" : 300,
+    "emissionRate" : 1
+  },
+  "defaultDuration" : 60,
+
+  "scripts" : [
+    "heal.lua"
+  ],
+
+  "animationConfig" : "heal.animation",
+
+  "label" : "Healing",
+  "icon" : "/interface/statuses/heal.png"
+}

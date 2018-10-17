@@ -1,20 +1,15 @@
 {
   "itemName" : "payapaberrym",
   "rarity" : "Common",
+  "price" : 40,
+  "category" : "food",
+  "eventCategory" : "eventCrop",
   "inventoryIcon" : "payapaberrym.png",
   "description" : "The gigantic fruit of the Payapa tree.",
   "shortdescription" : "Payapa Berry",
-  "handPosition" : [0, -2],
-  "effects" : [ [
-    {
-        "effect" : "foodheal50",
-        "duration" : 30
-    },
-    {
-        "effect" : "wellfed",
-        "duration" : 60
-    }
-  ] ],
+  "foodValue" : 10,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
   "blockingEffects" : [
     "wellfed"
   ],

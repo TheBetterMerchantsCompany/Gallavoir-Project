@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ironbar", "count" : 6 },
+    { "item" : "tungstenbar", "count" : 6 },
+    { "item" : "climbingrope", "count" : 4 },
+    { "item" : "empathite", "count" : 1 }
+  ],
+  "output" : { "item" : "dazzlinggleamT2", "count" : 1 },
+  "groups" : [ "craftinganvil", "weapons", "all" ]
+}

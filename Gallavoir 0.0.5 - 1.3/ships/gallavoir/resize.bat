@@ -1,0 +1,1 @@
+C:\Users\Nick\Desktop\imagick\convert.exe "%~f1" -background "#ff0000" -splice 0x10 "%~f1"

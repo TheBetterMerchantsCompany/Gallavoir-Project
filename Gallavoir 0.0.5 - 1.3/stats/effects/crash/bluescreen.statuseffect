@@ -1,0 +1,15 @@
+{
+  "name" : "bluescreen",
+  "effectConfig" : {},
+  "defaultDuration" : 0.5,
+
+  "scripts" : [
+    "crash.lua"
+  ],
+
+  "animationConfig" : "crash.animation",
+
+  "label" : "BSOD",
+  "icon" : "/interface/statuses/crash.png"
+}
+

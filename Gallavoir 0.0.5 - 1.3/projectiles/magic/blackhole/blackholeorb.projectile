@@ -1,0 +1,60 @@
+{
+  "projectileName" : "blackholeorb",
+  "physics" : "laser",
+  "image" : "blackholeorb.png",
+  "animationCycle" : 2,
+  "lightColor" : [16, 16, 16],
+  "windupFrames" : 4,
+  "winddownFrames" : 3,
+  "frameNumber" : 17,
+  "periodicActions" : [
+    {
+      "time" : 0.01,
+      "action" : "projectile",
+      "type" : "hgravityexplosion",
+      "config" : {
+        "speed" : 0,
+        "persistentAudio" : "",
+        "knockback" : -50,
+        "timeToLive" : 0.01,
+        "power" : 0
+      }
+    },
+    {
+      "time" : 0.01,
+      "action" : "explosion",
+      "foregroundRadius" : 3,
+      "backgroundRadius" : 3,
+      "explosiveDamageAmount" : 2,
+      "delaySteps" : 2,
+      "harvestLevel" : 10
+    }
+  ],
+  "actionOnReap" : [
+    {
+      "action" : "sound",
+      "options" : [ "/sfx/gun/lightningcoil1.ogg", "/sfx/gun/lightningcoil2.ogg", "/sfx/gun/lightningcoil3.ogg" ]
+    }
+  ],
+  "persistentAudio" : "/sfx/npc/boss/crystalboss_beam.ogg",
+  
+  "speed" : 0,
+  "power" : 0,
+  "baseDamage" : 0,
+  "damageKind" : "noDamage",
+  "damageType" : "noDamage",
+
+  "orientationLocked" : true,
+  "fullbright" : true,
+
+  "piercing" : true,
+  "bounces" : -1,
+
+  "scripts" : [ "/projectiles/activeitems/staff/staffprojectile.lua" ],
+
+  "timeToLive" : 20,
+  "controlMovement" : {
+    "maxSpeed" : 20,
+    "controlForce" : 16
+  }
+}

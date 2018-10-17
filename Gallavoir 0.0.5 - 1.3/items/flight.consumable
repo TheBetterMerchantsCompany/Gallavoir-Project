@@ -1,0 +1,15 @@
+{
+  "itemName" : "flight",
+  "rarity" : "Common",
+  "price" : 190,
+  "category" : "preparedFood",
+  "inventoryIcon" : "flight.png",
+  "description" : "The essence of pure flight.",
+  "shortdescription" : "Flight",
+  "effects" : [ [
+    {
+        "effect" : "flying",
+        "duration" : 15
+    }
+  ] ]
+}

@@ -29,9 +29,8 @@
   },
   "animationCustom" : {
     "sounds" : {
-      "fireStart" : [ "/sfx/gun/erchiuseyebeam_stop.ogg" ],
-      "fireLoop" : [ "/sfx/objects/plasmadisc.ogg" ],
-      "fireEnd" : [ "/sfx/gun/erchiuseyebeam_start.ogg" ],
+      "charge" : [ "" ],
+      "fire" : [ "/sfx/gun/electricrailgun1.ogg" ],
       "beamImpact" : [],
       "altFire" : [ "/sfx/gun/elemental_lance.ogg" ]
     },
@@ -59,13 +58,13 @@
 
   "elementalType" : "starelectric",
 
-   "primaryAbility" : {
-    "scripts" : ["/items/active/weapons/ranged/beamfire.lua"],
-    "class" : "BeamFire",
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/abilities/heavybeam/heavybeam.lua"],
+    "class" : "HeavyBeam",
 
-    "fireTime" : 0.4,
+    "fireTime" : 2,
     "baseDps" : 10.5,
-    "energyUsage" : 40.5,
+    "energyUsage" : 40,
 
     "damageConfig" : {
       "statusEffects" : [ ],
@@ -73,12 +72,23 @@
       "knockback" : 0
     },
 
-    "beamLength" : 40,
+    "beamLength" : 52,
 
     "chain" : {
       "startOffset" : [0, 0],
       "segmentImage" : "/items/active/weapons/ranged/starlauncher/beam.png",
       "endSegmentImage" : "/items/active/weapons/ranged/starlauncher/beamend.png",
+      "segmentSize" : 0.48,
+      "overdrawLength" : 0.2,
+      "taper" : 0,
+      "renderLayer" : "Projectile-1",
+      "fullbright" : true
+    },
+    
+    "chainWeak" : {
+      "startOffset" : [0, 0],
+      "segmentImage" : "/items/active/weapons/ranged/starlauncher/beamweak.png",
+      "endSegmentImage" : "/items/active/weapons/ranged/starlauncher/beamweakend.png",
       "segmentSize" : 0.48,
       "overdrawLength" : 0.2,
       "taper" : 0,
@@ -96,7 +106,8 @@
         "allowFlip" : true
       },
       "fire" : {
-        "duration" : 0,
+        "duration" : 0.11,
+        "cooldown" : 0.03,
         "armRotation" : 0,
         "weaponRotation" : 0,
         "twoHanded" : true,
@@ -162,7 +173,7 @@
           "allowFlip" : false
         }
       }
-    },
+  },
 
   "builder" : "/items/active/weapons/ranged/buildpoweredweapon.lua"
 }

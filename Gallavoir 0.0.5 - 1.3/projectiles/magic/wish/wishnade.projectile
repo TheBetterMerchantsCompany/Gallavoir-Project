@@ -1,0 +1,25 @@
+{
+  "projectileName" : "wishnade",
+  "physics" : "grenade",
+  "bounces" : 0,
+  "damageKindImage" : "icon.png",
+  "timeToLive" : 4,
+  "pointLight" : true,
+  "lightColor" : [96, 24, 84],
+  "fullbright" : true,
+  "image" : "wishnade.png",
+  "animationCycle" : 0.4,
+  "frameNumber" : 1,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/magic/wish/explosion/wishnadeexplosion.config"
+    }
+  ],
+  "power" : 0,
+  "speed" : 40,
+  "damageType" : "NoDamage",
+  "damageTeam" : {
+    "type" : "indiscriminate"
+  }
+}

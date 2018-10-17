@@ -1,0 +1,74 @@
+[
+  {
+    "op" : "add",
+    "path" : "/effectConfigTypes/fireResistance",
+    "value" : {
+      "label" : "Fire Resist",
+      "dimension" : "%",
+      "isPercentage" : true
+    }
+  },
+
+  {
+    "op" : "add",
+    "path" : "/effectNames/oranberryheal",
+    "value" : {
+      "path" : "/stats/effects/heal/oranberryheal.statuseffect",
+      "effectConfigTypes" : [
+        "healAmount"
+      ]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/effectNames/oranfoodheal",
+    "value" : {
+      "path" : "/stats/effects/heal/oranfoodheal.statuseffect",
+      "effectConfigTypes" : [
+        "healAmount"
+      ]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/effectNames/oranfoodmaxheal",
+    "value" : {
+      "path" : "/stats/effects/heal/oranfoodmaxheal.statuseffect",
+      "effectConfigTypes" : [
+        "healAmount"
+      ]
+    }
+  },
+
+
+  {
+    "op" : "add",
+    "path" : "/effectNames/extremeheatimmunity",
+    "value" : {
+      "path" : "/stats/effects/protecc/extremeheatimmunity.statuseffect",
+      "customLabels" : [
+        "^green;+ Biome Heat Immunity^reset;"
+      ]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/effectNames/extremecoldimmunity",
+    "value" : {
+      "path" : "/stats/effects/protecc/extremecoldimmunity.statuseffect",
+      "customLabels" : [
+        "^green;+ Biome Cold Immunity^reset;"
+      ]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/effectNames/fireresistanceocca",
+    "value" : {
+      "path" : "/stats/effects/protecc/fireresistanceocca.statuseffect",
+      "effectConfigTypes" : [
+        "fireResistance"
+      ]
+    }
+  }
+]

@@ -1,20 +1,15 @@
 {
   "itemName" : "shucaberrym",
   "rarity" : "Common",
+  "price" : 40,
+  "category" : "food",
+  "eventCategory" : "eventCrop",
   "inventoryIcon" : "shucaberrym.png",
   "description" : "The very soft fruit of the Shuca tree.",
   "shortdescription" : "Shuca Berry",
-  "handPosition" : [0, -2],
-  "effects" : [ [
-    {
-        "effect" : "foodheal50",
-        "duration" : 30
-    },
-    {
-        "effect" : "wellfed",
-        "duration" : 60
-    }
-  ] ],
+  "foodValue" : 10,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
   "blockingEffects" : [
     "wellfed"
   ],

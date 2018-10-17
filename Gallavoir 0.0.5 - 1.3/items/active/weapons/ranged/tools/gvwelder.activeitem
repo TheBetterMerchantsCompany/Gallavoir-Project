@@ -1,0 +1,113 @@
+{
+  "itemName" : "gvwelder",
+  "price" : 480,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "A large welder that packs a kick.",
+  "shortdescription" : "GVC-HWI-32",
+  "tooltipKind" : "gun",
+  "category" : "Welding Machine",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","ranged","machinepistol","tool"],
+  "level" : 6,
+
+  "inventoryIcon" : "welder.png",
+
+  "animation" : "tool.animation",
+  "animationParts" : {
+    "butt" : "",
+    "middle" : "welder.png",
+    "barrel" : "",
+
+    "buttbright" : "",
+    "middlebright" : "",
+    "barrelbright" : "",
+    
+    "muzzleFlash" : "/items/active/weapons/ranged/tool/muzzleflash.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fireStart" : [ "/sfx/gun/aegisaltpistol_start.ogg" ],
+      "fireLoop" : [ "/sfx/gun/aegisaltpistol_loop2.ogg" ],
+      "fireEnd" : [],
+      "beamImpact" : []
+    }
+  },
+
+  "learnBlueprintsOnPickup" : [ "gvwelder" ],
+  
+  "palette" : "/items/active/weapons/tiered.weaponcolors",
+  "colorIndex" : 11,
+
+  "baseOffset" : [0.25, 0.0],
+  "muzzleOffset" : [0.5, 0.3125],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+  "animationScripts" : ["/items/active/effects/chain.lua"],
+  
+  "elementalType" : "toolgv",
+  
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/beamfire.lua"],
+    "class" : "BeamFire",
+
+    "fireTime" : 0.1,
+    "baseDps" : 6.75,
+    "energyUsage" : 21,
+
+    "damageConfig" : {
+      "statusEffects" : [ "electrified" ],
+      "damageSourceKind" : "electric",
+      "knockback" : 2
+    },
+
+    "beamLength" : 10,
+
+    "chain" : {
+      "startOffset" : [0, 0],
+      "segmentImage" : "/items/active/weapons/ranged/tools/beam.png",
+      "endSegmentImage" : "/items/active/weapons/ranged/tools/beamend.png",
+      "segmentSize" : 0.48,
+      "overdrawLength" : 0.2,
+      "taper" : 0,
+      "waveform" : {
+        "frequency" : 1.0,
+        "amplitude" : 0.0625,
+        "movement" : 20.0
+      },
+      "renderLayer" : "Projectile-1",
+      "fullbright" : true
+    },
+    
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : false,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : false,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "cooldown" : {
+        "duration" : 0.05,
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : false,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      }
+    }
+  },
+  
+  "builder" : "/items/active/weapons/ranged/buildpoweredweapon.lua"
+}

@@ -1,0 +1,19 @@
+{
+  "input" : [
+    { "item" : "refinedaegisalt", "count" : 3 },
+    { "item" : "smallbattery", "count" : 1 },
+    { "item" : "empathitesmall", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "gvnailgun",
+    "count" : 1,
+    "parameters" : 
+      {
+      "shortdescription" : "GVC-HNA-85",
+      "rarity" : "Rare",
+      "level" : 5,
+      "colorIndex" : 10
+      }
+  },
+  "groups" : [ "craftingaccelerator", "weapons", "all" ]
+}

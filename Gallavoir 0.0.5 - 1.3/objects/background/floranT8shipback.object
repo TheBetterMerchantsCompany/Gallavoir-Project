@@ -1,0 +1,34 @@
+{
+  "objectName" : "floranT8shipback",
+  "colonyTags" : [],
+  "rarity" : "Common",
+
+  "category" : "Background Object",
+  "price" : 125,
+  "description" : "Floran T8 Ship",
+  "shortdescription" : "Floran T8 Ship",
+  "scannable" : false,
+  "printable" : false,
+  "race" : "generic",
+  
+  "objectType" : "teleporter",
+  
+  "interactive" : true,
+  "interactAction" : "OpenTeleportDialog",
+  "interactData" : "/interface/warping/shipteleporter.config",
+
+  "inventoryIcon" : "/ships/floran/floranT8.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "/ships/floran/floranT8.png", "fullbright" : true }, { "image" : "/ships/floran/floranT8lit.png" } ],
+      "imagePosition" : [-800, -256],
+
+      "renderLayer" : "BackgroundTile-10",
+
+      "spaces" : [ ],
+      "anchors" : [ ],
+      "metaBoundBox" : [-34, -34, 34, 34],
+      "interactiveBoundBox" : [-1, -1, 1, 1]
+    }
+  ]
+}

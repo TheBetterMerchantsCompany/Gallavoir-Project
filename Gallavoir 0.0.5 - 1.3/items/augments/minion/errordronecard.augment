@@ -1,0 +1,19 @@
+{
+  "itemName" : "errordronecard",
+  "price" : 0,
+  "rarity" : "Essential",
+  "tooltipKind" : "petcollar",
+  "category" : "droneCard",
+  "inventoryIcon" : "blankdronecard.png",
+  "description" : "A card that causes your drone to crash.",
+  "shortdescription" : "Crashed Drone Card",
+
+  "card" : {
+    "name" : "crash",
+    "displayName" : "Logic Bomb",
+    "displayIcon" : "/items/augments/minion/blankdronecard.png",
+    "effects" : [ "bluescreen" ]
+  },
+
+  "scripts" : [ "/items/augments/card.lua" ]
+}

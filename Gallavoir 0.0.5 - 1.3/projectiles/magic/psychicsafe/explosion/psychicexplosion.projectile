@@ -1,0 +1,15 @@
+{
+  "projectileName" : "psychicexplosion",
+  "image" : "psychicexplosion.png",
+  "animationCycle" : 0.2,
+  "frameNumber" : 8,
+  "speed" : 0,
+  "statusEffects" : [ ],
+  "damagePoly" : [ [-24, 0], [-16, -16], [0, -24], [16, -16], [24, 0], [16, 16], [0, 24], [-16, 16] ],
+  "animationLoops" : false,
+  "piercing" : true,
+  "bounces" : -1,
+  "flippable" : true,
+  "damageKind" : "default",
+  "knockback" : 0
+}

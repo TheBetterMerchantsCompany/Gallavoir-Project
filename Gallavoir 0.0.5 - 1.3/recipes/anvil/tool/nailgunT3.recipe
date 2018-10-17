@@ -1,0 +1,19 @@
+{
+  "input" : [
+    { "item" : "titaniumbar", "count" : 3 },
+    { "item" : "copperbar", "count" : 2 },
+    { "item" : "empathitesmall", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "gvnailgun",
+    "count" : 1,
+    "parameters" : 
+      {
+      "shortdescription" : "GVC-HNA-83",
+      "rarity" : "Uncommon",
+      "level" : 3,
+      "colorIndex" : 4
+      }
+  },
+  "groups" : [ "craftinganvil2", "weapons", "all" ]
+}

@@ -44,7 +44,7 @@
   "interactAction" : "ScriptPane",
   "interactData" : "/interface/scripted/weaponconfigurator/weaponconfiguratorui.config",
 
-  "elementalType" : "physical",
+  "elementalType" : "physicalgv",
   
   "projectileTypes"                : ["gvlaser", "gvplasma", "gvmelta", "gvlaser",     "gvplasma",    "gvmelta"],
   "projectileTypesName"            : ["Laser",   "Pulse",    "Plasma",  "Laser Salvo", "Pulse Salvo", "Plasma Salvo"],
@@ -56,15 +56,15 @@
   "projectileTypesBurstCount"      : [ 1,         1,          1,         6,             6,             6],
   "projectileTypesBurstTime"       : [ 1.0,       1.0,        1.0,       0.08,          0.08,          0.08],
   
-  "altAbilities" : ["burstshot","flashlight"],
-  "altAbilitiesName" : ["Burst Shot","Flashlight"],
+  "altAbilities" : ["burstshot","flashlight","supershotgun"],
+  "altAbilitiesName" : ["Burst Shot","Flashlight","Charge Shot"],
   
   "primaryAbility" : {
-    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "scripts" : ["/items/active/weapons/ranged/decorative/gunfire.lua"],
     "class" : "GunFire",
 
     "fireTime" : 1.0,
-    "baseDps" : 10.5,
+    "baseDps" : 10,
     "energyUsage" : 31.5,
     "inaccuracy" : 0.13,
 

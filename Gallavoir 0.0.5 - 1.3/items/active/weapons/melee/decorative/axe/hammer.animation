@@ -154,7 +154,7 @@
   },
 
   "particleEmitters" : {
-    "physicalswoosh" : {
+    "physicalgvswoosh" : {
       "active" : false,
       "transformationGroups" : ["swoosh"],
       "emissionRate" : 50,

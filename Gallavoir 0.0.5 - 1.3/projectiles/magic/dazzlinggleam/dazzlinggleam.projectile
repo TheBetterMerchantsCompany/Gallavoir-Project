@@ -1,0 +1,33 @@
+{
+  "projectileName" : "dazzlinggleam",
+  "physics" : "grenade",
+  "bounces" : -1,
+  "damageKindImage" : "icon.png",
+  "timeToLive" : 4,
+  "pointLight" : true,
+  "lightColor" : [96, 96, 96],
+  "fullbright" : true,
+  "image" : "dazzlinggleam.png",
+  "animationCycle" : 0.4,
+  "frameNumber" : 3,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/magic/dazzlinggleam/explosion/dazzlinggleamexplosion.config"
+    }
+  ],
+  "power" : 50,
+  "speed" : 8,
+  "damageType" : "NoDamage",
+  "damageKind" : "default",
+
+  "movementSettings" : {
+    "gravityMultiplier" : 0.0,
+    "liquidFriction" : 0.0,
+    "bounceFactor" : 1.2
+  },
+
+  "scripts" : [ "dazzlinggleam.lua" ],
+  "controlForce" : 64,
+  "maxSpeed" : 128
+}

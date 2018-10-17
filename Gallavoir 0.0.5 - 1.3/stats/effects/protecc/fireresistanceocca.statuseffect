@@ -1,0 +1,16 @@
+{
+  "name" : "fireresistanceocca",
+  "effectConfig" : {
+    "stat" : "fireResistance",
+    "base" : true,
+    "fireResistance" : 0.25
+  },
+  "defaultDuration" : 90,
+
+  "scripts" : [
+    "protecc.lua"
+  ],
+
+  "label" : "Fire Protection",
+  "icon" : "/interface/statuses/fireblock.png"
+}

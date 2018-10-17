@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "leppaberrym", "count" : 1 }
+  ],
+  "output" : { "item" : "leppatreeseed", "count" : 1 },
+  "groups" : [ "craftingfarm", "farming", "all" ]
+}

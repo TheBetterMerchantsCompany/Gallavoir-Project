@@ -1,0 +1,4 @@
+SAIL > RALTS
+
+adds terraria bullets and the shark skins to the moddable gun mod list
+

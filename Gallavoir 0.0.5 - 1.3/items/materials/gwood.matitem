@@ -1,0 +1,17 @@
+{
+  "itemName" : "gwood",
+  "rarity" : "Common",
+  "inventoryIcon" : "gwood.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Wood that has been prepared for building and crafting.",
+  "shortdescription" : "Timber",
+  "apexDescription" : "Some crafted planks of wood.",
+  "avianDescription" : "Wood that's been crafted into planks.",
+  "glitchDescription" : "Satisfied. These are well crafted wood planks.",
+  "floranDescription" : "Sssplintery wood plankss.",
+  "humanDescription" : "Some simple planks made from wood.",
+  "hylotlDescription" : "Basic wood planks.",
+  "novakidDescription" : "Just some basic lookin' wood planks.",
+  "materialId" : 19924,
+  "learnBlueprintsOnPickup" : [ "gwood" ]
+}

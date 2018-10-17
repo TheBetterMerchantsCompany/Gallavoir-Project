@@ -5,6 +5,8 @@
     "value": [
     [0, {
       "fill" : [
+        {"item" : "orantreeseed"},
+        {"item" : "leppatreeseed"},
         {"item" : "empathitesmall"},
         {"pool" : "starterTreasure"}
       ]

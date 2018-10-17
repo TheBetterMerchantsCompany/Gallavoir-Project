@@ -1,0 +1,91 @@
+{
+  "itemName" : "stagefright",
+  "price" : 1440,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "The power to light up the night.",
+  "shortdescription" : "Stage Fright",
+  "tooltipKind" : "gun",
+  "category" : "Spotlight",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","ranged","staff","spell"],
+  "level" : 6,
+
+  "inventoryIcon" : "stagefright.png:default.off",
+  "animation" : "stagefright.animation",
+  "animationParts" : {
+    "middle" : "stagefright.png",
+    "muzzleFlash" : ""
+  },
+
+  "animationCustom" : {
+    "lights" : {
+      "flashlightSpread" : {
+        "active" : false,
+        "position" : [0, 0],
+        "transformationGroups" : ["muzzle"],
+        "color" : [160, 160, 160]
+      },
+      "flashlight" : {
+        "active" : false,
+        "position" : [0, 0],
+        "transformationGroups" : ["muzzle"],
+        "color" : [220, 220, 220],
+        "pointLight" : true,
+        "pointAngle" : 0.00,
+        "pointBeam" : 4
+      },
+      "flashlightBeam" : {
+        "active" : false,
+        "position" : [0, 0],
+        "transformationGroups" : ["muzzle"],
+        "color" : [255, 255, 255],
+        "pointLight" : true,
+        "pointAngle" : 0.00,
+        "pointBeam" : 6
+      }
+    },
+    "sounds" : {
+      "flashlight" : [ "/sfx/objects/floodlights_on.ogg" ]
+    }
+  },
+
+  "baseOffset" : [1.125, -1],
+  "muzzleOffset" : [2.5, 0.0],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "lightgv",
+
+  "primaryAbilityType" : "attackflash",
+  "primaryAbility" : {
+    "beamLength" : 24,
+    "beamWidth" : 2,
+
+    "fireTime" : 0.25,
+    "energyUsage" : 40,
+    "baseDps" : 10.5,
+
+    "damageConfig" : {
+      "baseDamage" : 2.625,
+      "timeout" : 0.25,
+      "knockback" : 0,
+      "statusEffects" : [ {"effect": "stun", "duration" : 0.5} ],
+      "damageSourceKind" : "default"
+    },
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+        
+        "frontArmFrame" : "run.3",
+        "allowRotate" : true,
+        "allowFlip" : true
+      }
+    }
+  },
+
+  "builder" : "/items/active/weapons/ranged/buildpoweredweapon.lua"
+}

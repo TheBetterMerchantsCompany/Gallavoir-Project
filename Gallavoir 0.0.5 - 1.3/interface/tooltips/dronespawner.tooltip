@@ -1,0 +1,124 @@
+{
+  "background" : {
+    "type" : "background",
+    "fileHeader" : "/interface/tooltips/header.png",
+    "fileBody" : "/interface/tooltips/bodydronespawner.png",
+    "fileFooter" : "/interface/tooltips/footerdronespawner.png"
+  },
+  "moneyIcon" : {
+    "type" : "image",
+    "position" : [97, 23],
+    "file" : "/interface/money.png"
+  },
+  "priceLabel" : {
+    "type" : "label",
+    "position" : [110, 23],
+    "hAnchor" : "left",
+    "value" : "0"
+  },
+  "rarityLabel" : {
+    "type" : "label",
+    "position" : [7, 23],
+    "hAnchor" : "left",
+    "centered" : true,
+    "wrapWidth" : 126
+  },
+  
+  "descriptionLabel" : {
+    "type" : "label",
+    "position" : [11, 160],
+    "hAnchor" : "left",
+    "vAnchor" : "top",
+    "wrapWidth" : 123
+  },
+  
+  "objectImage" : {
+    "type" : "image",
+    "position" : [68, 192],
+    "file" : "",
+    "centered" : true,
+    "maxSize" : [70, 54],
+    "minSize" : [70, 54]
+  },
+  
+  
+  "atkTitleLabel" : {
+    "type" : "label",
+    "position" : [11, 120],
+    "hAnchor" : "left",
+    "value" : "Attacks:"
+  },
+  "atkLabel" : {
+    "type" : "label",
+    "position" : [130, 128],
+    "hAnchor" : "right",
+    "vAnchor" : "top",
+    "wrapWidth" : 126,
+    "value" : ""
+  },
+  
+  "statsTitleLabel" : {
+    "type" : "label",
+    "position" : [11, 100],
+    "hAnchor" : "left",
+    "value" : "Stats:"
+  },
+  "statsLabel" : {
+    "type" : "label",
+    "position" : [130, 108],
+    "hAnchor" : "right",
+    "vAnchor" : "top",
+    "wrapWidth" : 126,
+    "value" : ""
+  },
+  
+  "cntTitleLabel" : {
+    "type" : "label",
+    "position" : [11, 80],
+    "hAnchor" : "left",
+    "value" : "Max Drones:"
+  },
+  "cntLabel" : {
+    "type" : "label",
+    "position" : [130, 80],
+    "hAnchor" : "right",
+    "wrapWidth" : 126,
+    "value" : ""
+  },
+  
+  "collarIconImage" : {
+    "type" : "image",
+    "position" : [6, 60],
+    "zlevel" : 3,
+    "file" : ""
+  },
+  "noCollarLabel" : {
+    "type" : "label",
+    "position" : [33, 64],
+    "color" : "gray",
+    "value" : "NO COLLAR WORN"
+  },
+  "collarNameLabel" : {
+    "type" : "label",
+    "position" : [33, 64],
+    "value" : ""
+  },
+  
+  "cardIconImage" : {
+    "type" : "image",
+    "position" : [6, 38],
+    "zlevel" : 3,
+    "file" : ""
+  },
+  "noCardLabel" : {
+    "type" : "label",
+    "position" : [33, 42],
+    "color" : "gray",
+    "value" : "NO CARD INSTALLED"
+  },
+  "cardNameLabel" : {
+    "type" : "label",
+    "position" : [33, 42],
+    "value" : ""
+  }
+}

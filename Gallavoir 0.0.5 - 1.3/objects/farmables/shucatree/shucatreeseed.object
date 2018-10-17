@@ -1,0 +1,61 @@
+{
+  "objectName" : "shucatreeseed",
+  "colonyTags" : ["nature"],
+  "rarity" : "Common",
+  "category" : "seed",
+  "description" : "An odd-looking tree that bears soft fruit after blooming.",
+  "shortdescription" : "Shuca Tree Seed",
+  "objectType" : "farmable",
+  "printable" : false,
+  "price" : 40,
+
+  "apexDescription" : "A perfect compliment to bananas on bread.",
+  "avianDescription" : "Too soft for my beak.",
+  "floranDescription" : "Fruit is sssquissshy like newbown Coocoon-kin firssst hunt.",
+  "glitchDescription" : "Observation. My sensors indicate a wide array of microorganisms performing nitrogen fixation just below this plant.",
+  "humanDescription" : "It looks weird and the fruit are soft, but I've heard they make a good peanut butter alternative!",
+  "hylotlDescription" : "Its fruit are very soft and sweet. Good for cheap food.",
+  "novakidDescription" : "Tastes like home to me.",
+  "gallavoirDescription" : "The Shuca berry is a common snack amongst our people. It also pairs very well with any number of berry jams in a sandwich.",
+
+  "tooltipKind" : "seed",
+  "inventoryIcon" : "shucatreeseedicon.png",
+  "largeImage" : "shucatreeseed.png:default.3.0",
+
+  "orientations" : [
+    {
+      "dualImage" : "shucatreeseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaces" : [ [-1, 0], [-1, 1], [-1, 2], [-1, 3], [0, 0], [0, 1], [0, 2], [0, 3], [1, 0], [1, 1], [1, 2], [1, 3] ],
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  "stages" : [
+    {
+      "duration" : [490, 630]
+    },
+    {
+      "duration" : [350, 450]
+    },
+    {
+      "duration" : [280, 360]
+    },
+    {
+      "duration" : [210, 270]
+    },
+    {
+      "duration" : [175, 225]
+    },
+    {
+      "duration" : [175, 225]
+    },
+    {
+      "harvestPool" : "shucatreeHarvest",
+      "resetToStage" : 3
+    }
+  ]
+}

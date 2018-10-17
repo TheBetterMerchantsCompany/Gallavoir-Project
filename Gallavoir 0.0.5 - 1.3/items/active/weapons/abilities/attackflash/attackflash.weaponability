@@ -1,0 +1,65 @@
+{
+  "animationCustom" : {
+    "lights" : {
+      "flashlightSpread" : {
+        "active" : false,
+        "position" : [0, 0],
+        "transformationGroups" : ["muzzle","flash"],
+        "color" : [120, 120, 100]
+      },
+      "flashlight" : {
+        "active" : false,
+        "position" : [0, 0],
+        "transformationGroups" : ["muzzle","flash"],
+        "color" : [240, 240, 200],
+        "pointLight" : true,
+        "pointAngle" : 0.00,
+        "pointBeam" : 2.5
+      },
+      "flashlightBeam" : {
+        "active" : false,
+        "position" : [0, 0],
+        "transformationGroups" : ["muzzle","flash"],
+        "color" : [255, 255, 255],
+        "pointLight" : true,
+        "pointAngle" : 0.00,
+        "pointBeam" : 5
+      }
+    },
+    "sounds" : {
+      "flashlight" : [ "/sfx/tools/flashlight_toggle.ogg" ]
+    }
+  },
+
+  "ability" : {
+    "name" : "Blinding Flashlight",
+    "type" : "attackflash",
+    "scripts" : ["/items/active/weapons/abilities/attackflash/attackflash.lua"],
+    "class" : "Attackflash",
+
+    "active" : false,
+
+    "beamLength" : 24,
+    "beamWidth" : 2,
+
+    "fireTime" : 0.5,
+    "energyUsage" : 5,
+
+    "damageConfig" : {
+      "baseDamage" : 0,
+      "knockback" : 0,
+      "statusEffects" : [ {"effect": "stun", "duration" : 1.5} ],
+      "damageSourceKind" : "nodamage"
+    },
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : false,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      }
+    }
+  }
+}

@@ -42,7 +42,7 @@
   "interactAction" : "ScriptPane",
   "interactData" : "/interface/scripted/weaponconfigurator/weaponconfiguratorui.config",
 
-  "elementalType" : "physical",
+  "elementalType" : "physicalgv",
   
   "projectileTypes"                : ["gvlaser", "gvplasma", "gvmelta", "gvlaser",        "gvplasma",       "gvmelta"],
   "projectileTypesName"            : ["Laser",   "Pulse",    "Plasma",  "Charging Laser", "Charging Pulse", "Charging Plasma"],
@@ -61,7 +61,7 @@
     "class" : "GunFire",
 
     "fireTime" : 0.11,
-    "baseDps" : 7.5,
+    "baseDps" : 6.75,
     "energyUsage" : 21,
     "inaccuracy" : 0.04,
 

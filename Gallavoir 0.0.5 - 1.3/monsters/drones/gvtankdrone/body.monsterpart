@@ -1,0 +1,9 @@
+{
+  "name" : "gvtankdrone",
+  "category" : "gvtankdrone",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "gvtankdrone.png"
+  }
+}

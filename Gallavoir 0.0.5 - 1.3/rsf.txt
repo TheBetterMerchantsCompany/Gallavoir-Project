@@ -1,0 +1,9 @@
+﻿So, this works on my assumption that recipes work on some sort of a map that uses output item as a key (which is a safe assumption considering how the whole system behaves).
+
+[Easy] root.recipesInGroup. Basically, something that lists off all recipes that are in a group. Probably already exists internally if i had to guess.
+
+[Easy] New field: id. Automatically falls back on item id for compat. Allows for multiple recipes for an item with different blueprints and output parameters. Can be done in an hour if your system is oop enough.
+
+[Moderate] Output as an array (that also allows for a single descriptor for compat). Needs above one to work, or some weird system that crafts id or outputs top item (which isn't quite safe considering how much lua loves arrays). Also needs something to output for the crafting wndow description (top item/nothing?)
+
+[Hard] Item tags for crafting. Now, this, depending on your system, can be the easiest or the hardest to implement. Using nothing but lua, it's just player.itemsWithTag + player.consumeItem, but i understand that your system might be much harder to implement this in.

@@ -1,0 +1,241 @@
+﻿Orbital Target Finder: /spawnitem npcfloranassaultrifle 1 '{"level":6, "shortdescription":"Orbital Target Finder", "rarity":"legendary", "elementalType":"fire", "animationCustom":{"animatedParts":{"parts":{"middle":{"properties":{"image":"/items/active/weapons/ranged/sniperrifle/middle/11.png?replace;808080=CFCF45;606060=6C55D4;404040=221A51;e35f5d=d8e9fa;b22042=8E0000;871132=FF6565", "offset":[0.4,1.0], "fullbright":false, "centered":false}}, "butt":{"properties":{"image":"/items/active/weapons/ranged/grenadelauncher/butt/15.png?replace;808080=CFCF45;606060=6C55D4;404040=221A51;e35f5d=24B73A;b22042=8E0000;871132=FC852C", "offset":[1.8,0.8], "fullbright":false, "centered":false}}, "barrel":{"properties":{"firePosition":[-0.1,1.375], "image":"/items/active/weapons/ranged/assaultrifle/barrel/8.png?replace;808080=A696E7;606060=6C55D4;404040=221A51;e35f5d=8E0000;b22042=FC852C;871132=6887a6", "offset":[2.0,0.9], "fullbright":false, "centered":false}}, "muzzleFlash":{"partStates":{"firing":{"fire":{"properties":{"image":""}}}}}}}, "particleEmitters":{"muzzleFlash":{"offsetRegion":[0,1.25,0,1.25], "particles":[{"particle":"defaultblue"}, {"particle":"dimflames"}]}, "altMuzzleFlash":{"offsetRegion":[0,1.25,0,1.25], "particles":[{"particle":"defaultblue"}]}}, "sounds":{"fire":["/sfx/gun/ar5.ogg"], "altFire":["/sfx/projectiles/spit1.ogg"]}}, "inventoryIcon":[{"image":"/items/active/weapons/ranged/sniperrifle/middle/11.png?replace;808080=CFCF45;606060=6C55D4;404040=221A51;e35f5d=d8e9fa;b22042=8E0000;871132=FF6565", "position":[0.0,0.0]}, {"image":"/items/active/weapons/ranged/grenadelauncher/butt/15.png?replace;808080=CFCF45;606060=6C55D4;404040=221A51;e35f5d=24B73A;b22042=8E0000;871132=FC852C", "position":[8.0,-1.0]}, {"image":"/items/active/weapons/ranged/assaultrifle/barrel/8.png?replace;808080=A696E7;606060=6C55D4;404040=221A51;e35f5d=8E0000;b22042=FC852C;871132=6887a6", "position":[10.0,0.0]}], "muzzleOffset":[3.1,0.3], "baseOffset":[0,0], "primaryAbility":{"stances":{"idle":{"armRotation":0, "weaponRotation":0, "twoHanded":true, "allowRotate":true, "allowFlip":true, "weaponOffset":[-1,-2]}, "fire":{"duration":0, "armRotation":3, "weaponRotation":-6, "twoHanded":true, "allowRotate":false, "allowFlip":false, "weaponOffset":[-1,-2]}, "cooldown":{"duration":0.1, "armRotation":3, "weaponRotation":-6, "twoHanded":true, "allowRotate":false, "allowFlip":false, "weaponOffset":[-1,-2]}}, "baseDps":0.0, "energyUsage":40, "fireTime":1.5, "inaccuracy":0.0, "fireType":"auto", "projectileCount":1, "projectileType":["piercingbullet"], "projectileParameters":{"periodicActions":[], "processing":"?hueshift=15", "statusEffects":[], "bounces":0, "speed":80, "timeToLive":0.8, "power":0.0, "knockback":0, "actionOnReap":[{"action":"sound","options":["/sfx/interface/nav_select.ogg"], "time":0.1, "repeat":false}, {"time":0.0, "angle":90, "action":"projectile", "offset":[0,7], "type":"energyfist", "piercing":true, "config":{"damageTeam":{"type":"friendly"}, "damageKind":"noDamage", "periodicActions":[], "piercing":true, "speed":120, "processing":"?0", "timeToLive":0.5, "power":0.0, "knockback":0, "actionOnReap":[{"time":0.0, "offset":[-3,12], "angle":-90, "action":"projectile", "type":"fireguidedrocket", "config":{"statusEffects":[], "speed":100, "timeToLive":1.6, "power":20.0, "knockback":0}}, {"time":0.0, "offset":[3,6], "angle":-90, "action":"projectile", "type":"fireguidedrocket", "config":{"statusEffects":[], "speed":100, "timeToLive":1.6, "power":20.0, "knockback":0}}, {"time":0.0, "angle":-90, "action":"projectile", "type":"fireguidedrocket", "config":{"statusEffects":[], "speed":100, "timeToLive":1.6, "power":20.0, "knockback":0}}]}}, {"time":0.0, "angle":0, "action":"projectile", "type":"targetexplosion", "config":{"statusEffects":[], "processing":"?hueshift=60", "periodicActions":[], "piercing":true, "damageTeam":{"type":"enemy"}, "damageKind":"noDamage", "speed":0, "timeToLive":0.8, "power":0.0, "knockback":0, "actionOnReap":[]}}]}}, "altAbilityType":"explosiveshot", "altAbility":{"firePositionPart":"barrel", "fireTime":2.0, "baseDps":0.0, "energyUsage":20, "projectileType":"kluexzone", "inaccuracy":0.0, "projectileCount":1, "projectileParameters":{"periodicActions":[{"action":"sound","options":["/sfx/gun/erchiuseyebeam_start.ogg"], "time":0.1, "repeat":false}], "processing":"?hueshift=90", "speed":0, "timeToLive":10.0, "power":0, "knockback":10, "bounces":0, "actionOnReap":[]}}}'
+
+
+
+{
+	"level": 6,
+	"shortdescription": "Orbital Target Finder",
+	"rarity": "legendary",
+	"elementalType": "fire",
+	"animationCustom": {
+		"animatedParts": {
+			"parts": {
+				"middle": {
+					"properties": {
+						"image": "/items/active/weapons/ranged/sniperrifle/middle/11.png?replace;808080=CFCF45;606060=6C55D4;404040=221A51;e35f5d=d8e9fa;b22042=8E0000;871132=FF6565",
+						"offset": [0.4, 1.0],
+						"fullbright": false,
+						"centered": false
+					}
+				},
+				"butt": {
+					"properties": {
+						"image": "/items/active/weapons/ranged/grenadelauncher/butt/15.png?replace;808080=CFCF45;606060=6C55D4;404040=221A51;e35f5d=24B73A;b22042=8E0000;871132=FC852C",
+						"offset": [1.8, 0.8],
+						"fullbright": false,
+						"centered": false
+					}
+				},
+				"barrel": {
+					"properties": {
+						"firePosition": [-0.1, 1.375],
+						"image": "/items/active/weapons/ranged/assaultrifle/barrel/8.png?replace;808080=A696E7;606060=6C55D4;404040=221A51;e35f5d=8E0000;b22042=FC852C;871132=6887a6",
+						"offset": [2.0, 0.9],
+						"fullbright": false,
+						"centered": false
+					}
+				},
+				"muzzleFlash": {
+					"partStates": {
+						"firing": {
+							"fire": {
+								"properties": {
+									"image": ""
+								}
+							}
+						}
+					}
+				}
+			}
+		},
+		"particleEmitters": {
+			"muzzleFlash": {
+				"offsetRegion": [0, 1.25, 0, 1.25],
+				"particles": [{
+					"particle": "defaultblue"
+				}, {
+					"particle": "dimflames"
+				}]
+			},
+			"altMuzzleFlash": {
+				"offsetRegion": [0, 1.25, 0, 1.25],
+				"particles": [{
+					"particle": "defaultblue"
+				}]
+			}
+		},
+		"sounds": {
+			"fire": ["/sfx/gun/ar5.ogg"],
+			"altFire": ["/sfx/projectiles/spit1.ogg"]
+		}
+	},
+	"inventoryIcon": [{
+		"image": "/items/active/weapons/ranged/sniperrifle/middle/11.png?replace;808080=CFCF45;606060=6C55D4;404040=221A51;e35f5d=d8e9fa;b22042=8E0000;871132=FF6565",
+		"position": [0.0, 0.0]
+	}, {
+		"image": "/items/active/weapons/ranged/grenadelauncher/butt/15.png?replace;808080=CFCF45;606060=6C55D4;404040=221A51;e35f5d=24B73A;b22042=8E0000;871132=FC852C",
+		"position": [8.0, -1.0]
+	}, {
+		"image": "/items/active/weapons/ranged/assaultrifle/barrel/8.png?replace;808080=A696E7;606060=6C55D4;404040=221A51;e35f5d=8E0000;b22042=FC852C;871132=6887a6",
+		"position": [10.0, 0.0]
+	}],
+	"muzzleOffset": [3.1, 0.3],
+	"baseOffset": [0, 0],
+	"primaryAbility": {
+		"stances": {
+			"idle": {
+				"armRotation": 0,
+				"weaponRotation": 0,
+				"twoHanded": true,
+				"allowRotate": true,
+				"allowFlip": true,
+				"weaponOffset": [-1, -2]
+			},
+			"fire": {
+				"duration": 0,
+				"armRotation": 3,
+				"weaponRotation": -6,
+				"twoHanded": true,
+				"allowRotate": false,
+				"allowFlip": false,
+				"weaponOffset": [-1, -2]
+			},
+			"cooldown": {
+				"duration": 0.1,
+				"armRotation": 3,
+				"weaponRotation": -6,
+				"twoHanded": true,
+				"allowRotate": false,
+				"allowFlip": false,
+				"weaponOffset": [-1, -2]
+			}
+		},
+		"baseDps": 0.0,
+		"energyUsage": 40,
+		"fireTime": 1.5,
+		"inaccuracy": 0.0,
+		"fireType": "auto",
+		"projectileCount": 1,
+		"projectileType": ["piercingbullet"],
+		"projectileParameters": {
+			"periodicActions": [],
+			"processing": "?hueshift=15",
+			"statusEffects": [],
+			"bounces": 0,
+			"speed": 80,
+			"timeToLive": 0.8,
+			"power": 0.0,
+			"knockback": 0,
+			"actionOnReap": [{
+				"action": "sound",
+				"options": ["/sfx/interface/nav_select.ogg"],
+				"time": 0.1,
+				"repeat": false
+			}, {
+				"time": 0.0,
+				"angle": 90,
+				"action": "projectile",
+				"offset": [0, 7],
+				"type": "energyfist",
+				"piercing": true,
+				"config": {
+					"damageTeam": {
+						"type": "friendly"
+					},
+					"damageKind": "noDamage",
+					"periodicActions": [],
+					"piercing": true,
+					"speed": 120,
+					"processing": "?0",
+					"timeToLive": 0.5,
+					"power": 0.0,
+					"knockback": 0,
+					"actionOnReap": [{
+						"time": 0.0,
+						"offset": [-3, 12],
+						"angle": -90,
+						"action": "projectile",
+						"type": "fireguidedrocket",
+						"config": {
+							"statusEffects": [],
+							"speed": 100,
+							"timeToLive": 1.6,
+							"power": 20.0,
+							"knockback": 0
+						}
+					}, {
+						"time": 0.0,
+						"offset": [3, 6],
+						"angle": -90,
+						"action": "projectile",
+						"type": "fireguidedrocket",
+						"config": {
+							"statusEffects": [],
+							"speed": 100,
+							"timeToLive": 1.6,
+							"power": 20.0,
+							"knockback": 0
+						}
+					}, {
+						"time": 0.0,
+						"angle": -90,
+						"action": "projectile",
+						"type": "fireguidedrocket",
+						"config": {
+							"statusEffects": [],
+							"speed": 100,
+							"timeToLive": 1.6,
+							"power": 20.0,
+							"knockback": 0
+						}
+					}]
+				}
+			}, {
+				"time": 0.0,
+				"angle": 0,
+				"action": "projectile",
+				"type": "targetexplosion",
+				"config": {
+					"statusEffects": [],
+					"processing": "?hueshift=60",
+					"periodicActions": [],
+					"piercing": true,
+					"damageTeam": {
+						"type": "enemy"
+					},
+					"damageKind": "noDamage",
+					"speed": 0,
+					"timeToLive": 0.8,
+					"power": 0.0,
+					"knockback": 0,
+					"actionOnReap": []
+				}
+			}]
+		}
+	},
+	"altAbilityType": "explosiveshot",
+	"altAbility": {
+		"firePositionPart": "barrel",
+		"fireTime": 2.0,
+		"baseDps": 0.0,
+		"energyUsage": 20,
+		"projectileType": "kluexzone",
+		"inaccuracy": 0.0,
+		"projectileCount": 1,
+		"projectileParameters": {
+			"periodicActions": [{
+				"action": "sound",
+				"options": ["/sfx/gun/erchiuseyebeam_start.ogg"],
+				"time": 0.1,
+				"repeat": false
+			}],
+			"processing": "?hueshift=90",
+			"speed": 0,
+			"timeToLive": 10.0,
+			"power": 0,
+			"knockback": 10,
+			"bounces": 0,
+			"actionOnReap": []
+		}
+	}
+}

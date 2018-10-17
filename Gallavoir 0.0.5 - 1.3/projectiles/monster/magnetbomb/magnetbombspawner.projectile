@@ -1,0 +1,81 @@
+{
+  "projectileName" : "magnetbombspawner",
+  "image" : "/assetmissing.png",
+  
+  "actionOnReap" : [
+    {
+      "action" : "projectile",
+      "type" : "magnetbomb",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 0.25,
+      "angleAdjust" : 0,
+      "offset" : [1.4, 0]
+    },
+    {
+      "action" : "projectile",
+      "type" : "magnetbomb",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 0.25,
+      "angleAdjust" : 180,
+      "offset" : [-1.4, 0]
+    },
+    
+    {
+      "action" : "projectile",
+      "type" : "magnetbomb",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 0.25,
+      "angleAdjust" : 90,
+      "offset" : [0, 1.4]
+    },
+    {
+      "action" : "projectile",
+      "type" : "magnetbomb",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 0.25,
+      "angleAdjust" : 270,
+      "offset" : [0, -1.4]
+    },
+    
+    {
+      "action" : "projectile",
+      "type" : "magnetbomb",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 0.25,
+      "angleAdjust" : 45,
+      "offset" : [1, 1]
+    },
+    {
+      "action" : "projectile",
+      "type" : "magnetbomb",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 0.25,
+      "angleAdjust" : 315,
+      "offset" : [1, -1]
+    },
+    
+    {
+      "action" : "projectile",
+      "type" : "magnetbomb",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 0.25,
+      "angleAdjust" : 135,
+      "offset" : [-1, 1]
+    },
+    {
+      "action" : "projectile",
+      "type" : "magnetbomb",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 0.25,
+      "angleAdjust" : 225,
+      "offset" : [-1, -1]
+    }
+  ],
+  "power" : 10.0,
+  "speed" : 0,
+  "piercing" : true,
+  "bounces" : -1,
+  "timeToLive" : 0,
+  "damageType" : "NoDamage",
+  "damageKind" : "default"
+}

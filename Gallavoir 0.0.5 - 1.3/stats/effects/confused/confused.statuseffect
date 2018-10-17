@@ -1,0 +1,16 @@
+{
+  "name" : "confused",
+  "blockingStat" : "confusionImmunity",
+
+  "effectConfig" : {
+    "chanceToFail" : 0.8
+  },
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "confused.lua"
+  ],
+
+  "label" : "Confused",
+  "icon" : "/interface/statuses/brain.png"
+}

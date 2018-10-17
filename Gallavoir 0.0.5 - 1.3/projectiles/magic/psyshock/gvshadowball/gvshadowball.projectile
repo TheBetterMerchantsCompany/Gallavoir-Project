@@ -1,0 +1,17 @@
+{
+  "projectileName" : "gvshadowball",
+  "physics" : "laser",
+  "bounces" : 0,
+  "timeToLive" : 1.8,
+  "image" : "gvshadowball.png",
+  "damageKindImage" : "icon.png",
+  "damagePoly" : [ [-16, 0], [-12, -12], [0, -16], [12, -12], [16, 0], [12, 12], [0, 16], [-12, 12] ],
+  "windupFrames" : 4,
+  "winddownFrames" : 3,
+  "frameNumber" : 17,
+  "speed" : 1,
+  "animationCycle" : 1.8,
+  "lightColor" : [45, 25, 60],
+  "power" : 50,
+  "damageKind" : "slash"
+}

@@ -6,5 +6,5 @@
     "item" : "raltsaichip",
     "count" : 1
   },
-  "groups" : [ "mod", "aichip" ]
+  "groups" : [ "mod", "aichip", "grinder" ]
 }

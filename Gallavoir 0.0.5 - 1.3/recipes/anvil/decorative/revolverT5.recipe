@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "refinedviolium", "count" : 3 },
+    { "item" : "smallbattery", "count" : 1 },
+    { "item" : "revolverT4", "count" : 1 }
+  ],
+  "output" : { "item" : "revolverT5", "count" : 1 },
+  "groups" : [ "craftingseparator", "weapons", "all" ]
+}

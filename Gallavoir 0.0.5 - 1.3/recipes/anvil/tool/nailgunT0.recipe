@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "gvnailgun", "count" : 1 }
+  ],
+  "output" : { "item" : "empathitesmall", "count" : 1 },
+  "groups" : [ "craftinganvil", "weapons", "all" ]
+}

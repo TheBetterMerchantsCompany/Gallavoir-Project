@@ -1,0 +1,54 @@
+{
+  "itemName" : "spearT2",
+  "price" : 960,
+  "level" : 2,
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "This long hilt houses a metallic blade.",
+  "shortdescription" : "Chance mk.II",
+  "tooltipKind" : "sword",
+  "category" : "spear",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","spear","modifiableWeapon"],
+
+  "inventoryIcon" : "spearT2.png",
+
+  "animation" : "spear.animation",
+  "animationParts" : {
+    "handle" : "spearT2.png",
+    "handleFullbright" : "",
+    "blade" : ""
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : [ "/sfx/melee/laser_weapon_swing1.ogg", "/sfx/melee/laser_weapon_swing2.ogg", "/sfx/melee/laser_weapon_swing3.ogg" ]
+    }
+  },
+
+  "learnBlueprintsOnPickup" : [ "spearT3" ],
+  
+  "palette" : "/items/active/weapons/tiered.weaponcolors",
+  "colorIndex" : 3,
+
+  "scripts" : ["/items/active/weapons/melee/energymeleeweapon.lua", "/items/active/weapons/ranged/decorative/weaponconfigurator.lua"],
+
+  "interactAction" : "ScriptPane",
+  "interactData" : "/interface/scripted/weaponconfigurator/weaponconfiguratorui.config",
+
+  "altAbilities" : ["spearspin", "flurry"],
+  "altAbilitiesName" : ["Spear Spin", "Flurry"],
+
+  "elementalType" : "physicalgv",
+
+  "aimOffset" : -1.0,
+
+  "primaryAbilityType" : "spearstab",
+  "primaryAbility" : {
+    "fireTime" : 0.95,
+    "baseDps" : 10
+  },
+
+  "altAbilityType" : "spearspin",
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

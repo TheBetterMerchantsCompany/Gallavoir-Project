@@ -1,16 +1,27 @@
 {
   "itemName" : "occaextract",
-  "rarity" : "Common",
+  "rarity" : "Uncommon",
+  "price" : 100,
+  "category" : "medicine",
   "inventoryIcon" : "occaextract.png",
   "description" : "A concentrate of the Occa berry, which makes you quite resistant to flames.",
   "shortdescription" : "Concentrated Occa Extract",
-  "handPosition" : [8, 0],
   "effects" : [ [
       {
-        "effect" : "occafireresist",
+        "effect" : "fireblock",
+        "duration" : 300
+      },
+      {
+        "effect" : "fireresistanceocca",
+        "duration" : 300
+      },
+      {
+        "effect" : "extremeheatimmunity",
         "duration" : 300
       }
     ] ],
+  "tooltipKind" : "stim",
+  "builder" : "/items/buildscripts/buildfood.lua",
   "emote" : "",
   "emitters" : [ "stimuse" ]
 }

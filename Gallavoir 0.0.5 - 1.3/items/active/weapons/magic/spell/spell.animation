@@ -46,7 +46,7 @@
           }
         }
       },
-        "swoosh" : {
+      "swoosh" : {
         "default" : "idle",
         "states" : {
           "idle" : {

@@ -1,0 +1,19 @@
+[
+  {
+    "op": "add",
+    "path": "/rules/IsRail/entries/-",
+    "value": {
+      "type": "EqualsId",
+      "id": 19927
+    }
+  },
+  {
+    "op": "add",
+    "path": "/rules/NotRail/entries/-",
+    "value": {
+      "type": "EqualsId",
+      "id": 19927,
+      "inverse": true
+    }
+  }
+]

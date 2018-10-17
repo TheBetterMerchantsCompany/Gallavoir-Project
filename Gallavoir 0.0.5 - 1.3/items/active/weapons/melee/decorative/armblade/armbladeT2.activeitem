@@ -29,7 +29,7 @@
   "interactAction" : "ScriptPane",
   "interactData" : "/interface/scripted/weaponconfigurator/weaponconfiguratorui.config",
 
-  "elementalType" : "physical",
+  "elementalType" : "physicalgv",
 
   "primaryAbility" : {
     "scripts" : ["/items/active/weapons/melee/meleecombo.lua"],
@@ -50,7 +50,7 @@
     "edgeTriggerGrace" : 0.25,
 
     "fireTime" : 0.625,
-    "baseDps" : 7.5,
+    "baseDps" : 7,
 
     "damageConfig" : {
       "damageSourceKind" : "shortsword",

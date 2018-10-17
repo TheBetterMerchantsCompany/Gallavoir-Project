@@ -17,11 +17,11 @@
   
   "category" : "light",
   "price" : 200,
-  "lightColor" : [248, 218, 244],
+  "lightColor" : [248, 240, 244],
 
   "flickerPeriod" : 0.5,
   "flickerMinIntensity" : 1.0,
-  "flickerMaxIntensity" : 1.10,
+  "flickerMaxIntensity" : 1.0,
   "flickerPeriodVariance" : 0,
   "flickerIntensityVariance" : 0,
 

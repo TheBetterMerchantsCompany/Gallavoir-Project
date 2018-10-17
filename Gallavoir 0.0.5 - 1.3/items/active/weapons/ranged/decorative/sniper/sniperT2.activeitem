@@ -1,0 +1,112 @@
+{
+  "itemName" : "sniperT2",
+  "price" : 960,
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "Powerfully strong to cover long distances.",
+  "shortdescription" : "Echo mk.II",
+  "tooltipKind" : "gun",
+  "category" : "sniperRifle",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","ranged","sniperrifle","modifiableWeapon"],
+  "level" : 2,
+
+  "inventoryIcon" : "sniperT2.png",
+
+  "animation" : "/items/active/weapons/ranged/decorative/sniper/sniper.animation",
+  "animationParts" : {
+    "butt" : "",
+    "middle" : "sniperT2.png",
+    "barrel" : "",
+
+    "buttbright" : "",
+    "middlebright" : "sniperT2lit.png",
+    "barrelbright" : "",
+    
+    "muzzleFlash" : "/items/active/weapons/ranged/decorative/muzzleflashsniper.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : ["/sfx/tools/pickaxe_ore2.ogg"]
+    }
+  },
+
+  "learnBlueprintsOnPickup" : [ "sniperT3" ],
+  
+  "palette" : "/items/active/weapons/tiered.weaponcolors",
+  "colorIndex" : 3,
+
+  "baseOffset" : [0.875, 0.250],
+  "muzzleOffset" : [1.500, 0.250],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua", "/items/active/weapons/ranged/decorative/weaponconfigurator.lua"],
+
+  "interactAction" : "ScriptPane",
+  "interactData" : "/interface/scripted/weaponconfigurator/weaponconfiguratorui.config",
+
+  "elementalType" : "physicalgv",
+  
+  "projectileTypes"                : ["gvlaser", "gvplasma", "gvmelta", "gvlaser",      "gvplasma",     "gvmelta"],
+  "projectileTypesName"            : ["Laser",   "Pulse",    "Plasma",  "Battle Laser", "Battle Pulse", "Battle Plasma"],
+  
+  "projectileTypesFireTime"        : [ 2.0,       2.0,        2.0,       0.5,            0.5,            0.5],
+  "projectileTypesProjectileCount" : [ 1,         1,          1,         1,              1,              1],
+  "projectileTypesInaccuracy"      : [ 0.0,       0.0,        0.0,       0.0,            0.02,           0.0],
+  "projectileTypesFireType"        : ["auto",    "auto",     "auto",    "auto",         "auto",         "auto"],
+  "projectileTypesBurstCount"      : [ 1,         1,          1,         1,              1,              1],
+  "projectileTypesBurstTime"       : [ 2.0,       2.0,        2.0,       0.5,            0.5,            0.5],
+  
+  "altAbilities" : ["burstshot","flashlight","supercharge"],
+  "altAbilitiesName" : ["Burst Shot","Flashlight","Charge Shot"],
+  
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/decorative/gunfire.lua"],
+    "class" : "GunFire",
+
+    "fireTime" : 2.0,
+    "baseDps" : 8,
+    "energyUsage" : 25.5,
+    "inaccuracy" : 0.0,
+
+    "projectileCount" : 1,
+    "fireType" : "auto",
+
+    "projectileType" : "gvlaser",
+    "projectileParameters" : {
+      "damageKind" : "shotgunbullet",
+      "knockback" : 30
+    },
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 7,
+        "weaponRotation" : 7,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "cooldown" : {
+        "duration" : 0.15,
+        "armRotation" : 7,
+        "weaponRotation" : 7,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      }
+    }
+  },
+  
+  "altAbilityType" : "flashlight",
+  
+  "builder" : "/items/active/weapons/ranged/buildpoweredweapon.lua"
+}

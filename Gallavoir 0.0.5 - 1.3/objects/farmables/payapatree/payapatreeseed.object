@@ -1,0 +1,61 @@
+{
+  "objectName" : "payapatreeseed",
+  "colonyTags" : ["nature"],
+  "rarity" : "Common",
+  "category" : "seed",
+  "description" : "An odd-looking tree that bears large fruit after blooming.",
+  "shortdescription" : "Payapa Tree Seed",
+  "objectType" : "farmable",
+  "printable" : false,
+  "price" : 40,
+
+  "apexDescription" : "What does this plant grow?",
+  "avianDescription" : "Its fruit remind me of canteens. How strange...",
+  "floranDescription" : "Floran like the ssscent of thisss plant.",
+  "glitchDescription" : "Interest. My sensors indicate a large concentration of a unique chemical compound within this plant.",
+  "humanDescription" : "Such a weird-looking plant. Wonder what it grows...",
+  "hylotlDescription" : "This plant does not appeal to me.",
+  "novakidDescription" : "I reckon I could fashion a canteen from the fruits of this thing.",
+  "gallavoirDescription" : "This Payapa berry tree offers a versatile fruit that has been adapted to suit many purposes.",
+
+  "tooltipKind" : "seed",
+  "inventoryIcon" : "payapatreeseedicon.png",
+  "largeImage" : "payapatreeseed.png:default.3.0",
+
+  "orientations" : [
+    {
+      "dualImage" : "payapatreeseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaces" : [ [-1, 0], [-1, 1], [-1, 2], [0, 0], [0, 1], [0, 2], [1, 0], [1, 1], [1, 2] ],
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  "stages" : [
+    {
+      "duration" : [490, 630]
+    },
+    {
+      "duration" : [350, 450]
+    },
+    {
+      "duration" : [280, 360]
+    },
+    {
+      "duration" : [210, 270]
+    },
+    {
+      "duration" : [175, 225]
+    },
+    {
+      "duration" : [175, 225]
+    },
+    {
+      "harvestPool" : "payapatreeHarvest",
+      "resetToStage" : 3
+    }
+  ]
+}
